@@ -1,0 +1,726 @@
+REDESIGN THE TYPOGRAPHY AND COLOR SYSTEM OF RETINOAI
+
+IMPORTANT:
+This is a VISUAL-ONLY change.
+
+Do NOT change:
+- routes
+- functionality
+- page structure
+- components
+- mock data
+- application logic
+- navigation
+- existing workflows
+
+Only change the typography, colors, borders, backgrounds, buttons, status colors and visual hierarchy.
+
+==================================================
+DESIGN GOAL
+==================================================
+
+RetinoAI must look like a HIGH-END SWISS MEDICAL / BIOTECH TECHNOLOGY COMPANY.
+
+The visual language should combine:
+
+Swiss International Typographic Style
++
+Modern European medical technology
++
+Scientific precision
++
+Premium editorial design
+
+The result should feel:
+
+precise
+calm
+clinical
+intelligent
+minimal
+premium
+trustworthy
+
+It should NOT look like a typical blue healthcare SaaS dashboard.
+
+==================================================
+TYPOGRAPHY — IMPORTANT
+==================================================
+
+Replace the current typography completely.
+
+Use:
+
+PRIMARY FONT:
+"Inter"
+
+Fallback:
+system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif
+
+Use Inter consistently across the entire application.
+
+Typography hierarchy:
+
+DISPLAY / HERO:
+Inter
+font-weight: 600
+large
+tight letter spacing
+
+PAGE TITLES:
+Inter
+font-weight: 600
+not excessively bold
+
+SECTION HEADINGS:
+Inter
+font-weight: 600
+
+BODY:
+Inter
+font-weight: 400
+
+LABELS:
+Inter
+font-weight: 500
+slightly increased letter spacing
+
+METADATA:
+Inter
+font-weight: 400
+smaller size
+muted gray
+
+Do NOT use:
+- decorative fonts
+- serif fonts
+- futuristic fonts
+- overly bold typography
+- random font families
+
+==================================================
+TYPOGRAPHIC SCALE
+==================================================
+
+Create a consistent scale.
+
+Hero:
+48–64px desktop
+
+Page title:
+32–40px
+
+Section title:
+20–24px
+
+Card heading:
+16–18px
+
+Body:
+14–16px
+
+Small:
+12–13px
+
+Metadata:
+11–12px
+
+Do not randomly change font sizes between pages.
+
+Mobile should scale appropriately.
+
+==================================================
+SWISS TYPOGRAPHIC RULES
+==================================================
+
+Use typography as the primary visual element.
+
+Prefer:
+
+large type
+strong alignment
+short labels
+clear hierarchy
+large whitespace
+
+Example:
+
+START RETINAL SCREENING
+
+rather than:
+
+"Start Your Retinal Screening Journey"
+
+Use concise editorial language.
+
+Use uppercase labels sparingly for:
+
+PATIENT
+SCREENING
+AI FINDINGS
+IMAGE QUALITY
+DOCTOR REVIEW
+FOLLOW-UP
+
+Do not uppercase entire paragraphs.
+
+==================================================
+COLOR SYSTEM — EXACT SYSTEM
+==================================================
+
+Replace the current color palette with this controlled system.
+
+PRIMARY BACKGROUND:
+
+#F7F7F5
+
+Use this as the main application background.
+
+PRIMARY SURFACE:
+
+#FFFFFF
+
+Use for important content surfaces.
+
+PRIMARY TEXT:
+
+#111111
+
+Use for titles and primary information.
+
+SECONDARY TEXT:
+
+#5F6368
+
+Use for descriptions and supporting information.
+
+MUTED TEXT:
+
+#8A8F93
+
+Use for metadata.
+
+BORDER:
+
+#D9D9D6
+
+Use thin borders throughout the interface.
+
+STRONG BORDER:
+
+#B8B8B3
+
+Use sparingly for important separators.
+
+==================================================
+PRIMARY SWISS RED
+==================================================
+
+Use:
+
+#E30613
+
+This is the primary accent.
+
+IMPORTANT:
+
+DO NOT make the entire interface red.
+
+Red should be used strategically for:
+
+- primary CTA
+- high-priority findings
+- critical alerts
+- selected states
+- important indicators
+- small branding accents
+
+Red should feel intentional.
+
+==================================================
+DARK SYSTEM COLOR
+==================================================
+
+Use:
+
+#111111
+
+for:
+
+- primary navigation
+- major headings
+- primary buttons where appropriate
+- important UI controls
+
+==================================================
+SECONDARY SCIENTIFIC ACCENT
+==================================================
+
+Use a restrained cool gray-blue:
+
+#66727A
+
+Use for:
+
+- secondary information
+- clinical metadata
+- inactive states
+- scientific indicators
+
+Do NOT turn the interface into a blue dashboard.
+
+==================================================
+STATUS COLORS
+==================================================
+
+SUCCESS:
+
+#287D3C
+
+WARNING:
+
+#B26A00
+
+HIGH PRIORITY:
+
+#E30613
+
+NEUTRAL:
+
+#6B7075
+
+Keep status colors muted and professional.
+
+Avoid bright neon status colors.
+
+==================================================
+COLOR USAGE RATIO
+==================================================
+
+Follow approximately:
+
+70% white / off-white
+20% black / gray
+7% muted scientific gray-blue
+3% Swiss red
+
+The interface should be predominantly neutral.
+
+Red should be an accent, NOT the background.
+
+==================================================
+SIDEBAR COLORS
+==================================================
+
+Use:
+
+Background:
+#111111
+
+Text:
+#F7F7F5
+
+Inactive text:
+#A7A7A2
+
+Active indicator:
+#E30613
+
+Do NOT create colorful navigation cards.
+
+Navigation should feel like a precise editorial index.
+
+==================================================
+BUTTONS
+==================================================
+
+PRIMARY BUTTON:
+
+Background:
+#111111
+
+Text:
+#FFFFFF
+
+Hover:
+slightly lighter charcoal
+
+SECONDARY BUTTON:
+
+Background:
+transparent
+
+Border:
+#B8B8B3
+
+Text:
+#111111
+
+IMPORTANT ACTION / HIGH PRIORITY:
+
+Background:
+#E30613
+
+Text:
+#FFFFFF
+
+Buttons should be rectangular or subtly rounded.
+
+Avoid pill-shaped buttons unless specifically necessary.
+
+==================================================
+INPUT FIELDS
+==================================================
+
+Background:
+
+#FFFFFF
+
+Border:
+
+#B8B8B3
+
+Text:
+
+#111111
+
+Placeholder:
+
+#8A8F93
+
+Focus:
+
+#111111
+
+or
+
+#E30613
+
+depending on context.
+
+Use clean thin borders.
+
+Avoid heavy shadows around inputs.
+
+==================================================
+CARDS
+==================================================
+
+Do NOT use excessive floating cards.
+
+Use:
+
+background #FFFFFF
+border #D9D9D6
+minimal/no shadow
+
+Cards should feel like structured information surfaces.
+
+Prefer separators and grid alignment over shadows.
+
+==================================================
+DASHBOARD
+==================================================
+
+The dashboard should use large typography.
+
+Example:
+
+TOTAL PATIENTS
+1,248
+
+TODAY'S SCREENINGS
+34
+
+HIGH PRIORITY
+07
+
+PENDING REVIEW
+12
+
+FOLLOW-UPS
+18
+
+Do NOT use five brightly colored cards.
+
+Use:
+
+white surface
+thin border
+black typography
+small red indicators only where meaningful
+
+==================================================
+PATIENT TABLE
+==================================================
+
+Table header:
+
+small
+uppercase
+muted
+
+Rows:
+
+white
+
+Borders:
+
+#D9D9D6
+
+Hover:
+
+#F1F1EF
+
+High priority:
+
+small red indicator
+
+Do not make entire rows red.
+
+==================================================
+UPLOAD PAGE
+==================================================
+
+Use the Swiss visual language strongly here.
+
+Background:
+
+#F7F7F5
+
+Upload area:
+
+white
+
+Border:
+
+1px dashed #B8B8B3
+
+Hover:
+
+border becomes #111111
+
+Active:
+
+border becomes #E30613
+
+Typography:
+
+UPLOAD EXISTING FUNDUS PHOTOGRAPH
+
+Large black heading.
+
+Supporting text in muted gray.
+
+No giant colorful upload illustrations.
+
+==================================================
+AI RESULTS
+==================================================
+
+Use:
+
+BLACK
+WHITE
+GRAY
+SWISS RED
+
+for the core result hierarchy.
+
+Example:
+
+MODERATE NPDR
+
+Large black typography.
+
+HIGH PRIORITY
+
+Use Swiss red.
+
+Confidence:
+
+91%
+
+Use black/gray.
+
+Do not make each result a different color.
+
+==================================================
+EXPLAINABLE AI
+==================================================
+
+Keep the interface monochrome and scientific.
+
+Image viewer:
+
+white/black interface.
+
+Controls:
+
+Original
+Heatmap
+Lesion Map
+Comparison
+
+Use thin borders.
+
+Use red only for important lesion/highlight indicators.
+
+==================================================
+DOCTOR REVIEW
+==================================================
+
+Use strong typography:
+
+CLINICAL REVIEW
+
+DOCTOR DECISION
+
+MONITOR
+REFER
+REVIEWED
+
+Make:
+
+REFER
+
+the red action.
+
+MONITOR
+
+neutral/black.
+
+REVIEWED
+
+green.
+
+==================================================
+MEDICAL INFORMATION HIERARCHY
+==================================================
+
+Use color only when it communicates meaning.
+
+Do not decorate information with random colors.
+
+For example:
+
+Normal:
+neutral
+
+Low priority:
+gray
+
+Moderate:
+dark gray
+
+High priority:
+Swiss red
+
+Critical:
+Swiss red + strong indicator
+
+==================================================
+BACKGROUND
+==================================================
+
+Do not use large decorative gradients.
+
+Do not use abstract colorful blobs.
+
+Do not use excessive glassmorphism.
+
+Keep the background calm:
+
+#F7F7F5
+
+Use white content surfaces.
+
+==================================================
+BORDERS
+==================================================
+
+Use borders heavily enough to establish structure but subtly.
+
+Primary:
+
+#D9D9D6
+
+1px
+
+Avoid thick borders.
+
+Avoid excessive shadows.
+
+==================================================
+FINAL VISUAL CHECK
+==================================================
+
+After applying the redesign, inspect EVERY PAGE:
+
+Login
+Dashboard
+Patients
+Patient Registration
+Patient Profile
+New Screening
+Image Quality
+AI Analysis
+AI Results
+Explainable AI
+Comparison
+Doctor Review
+Reports
+Follow-ups
+Settings
+
+Every page must use the SAME:
+
+font
+color palette
+spacing
+border system
+button system
+heading hierarchy
+status system
+
+There must be NO leftover old colors or fonts.
+
+==================================================
+FINAL TARGET
+==================================================
+
+The final UI should look like:
+
+A Swiss medical technology / biotech company created RetinoAI.
+
+Visual references in terms of DESIGN PRINCIPLES:
+
+Swiss International Typographic Style
+European medical technology
+Scientific publishing
+Premium clinical software
+
+NOT:
+
+generic SaaS
+generic hospital website
+AI startup template
+neon AI dashboard
+colorful healthcare template
+
+PRIORITY:
+
+TYPOGRAPHY
+GRID
+WHITESPACE
+PRECISION
+CONTRAST
+RESTRAINT
+
+The UI should communicate:
+
+"Precision healthcare technology."
+
+NOT:
+
+"AI marketing website."
