@@ -1,0 +1,668 @@
+I want to completely redesign ONLY the VISUAL UI of the existing RetinoAI frontend.
+
+IMPORTANT:
+DO NOT change the application architecture.
+DO NOT change routes.
+DO NOT remove pages.
+DO NOT change the existing user flows.
+DO NOT change the mock data.
+DO NOT add backend functionality.
+DO NOT add AI functionality.
+DO NOT change the existing RetinoAI functionality.
+
+This task is ONLY a visual/UI redesign.
+
+==================================================
+DESIGN DIRECTION
+==================================================
+
+Transform the entire RetinoAI interface into a PREMIUM SWISS-STYLE MEDICAL / BIOTECH INTERFACE.
+
+Use the principles of:
+
+Swiss International Typographic Style
++
+Modern Swiss biotech / medical design
++
+Minimal editorial design
++
+High-end scientific interface
+
+The final interface should feel like a sophisticated Swiss medical technology company.
+
+Think:
+
+precision
+clarity
+clinical confidence
+scientific
+minimal
+structured
+editorial
+premium
+functional
+
+It should NOT look like a generic SaaS dashboard.
+
+==================================================
+SWISS DESIGN PRINCIPLES
+==================================================
+
+Use:
+
+- strong grid system
+- strict alignment
+- generous whitespace
+- asymmetric layouts where appropriate
+- clear hierarchy
+- typography-led design
+- restrained color palette
+- thin borders
+- minimal shadows
+- precise spacing
+- clean geometric shapes
+- strong visual rhythm
+- editorial-style section layouts
+
+Avoid:
+
+- excessive rounded cards
+- excessive shadows
+- glassmorphism
+- neon gradients
+- excessive blue
+- generic SaaS styling
+- floating blobs
+- decorative illustrations everywhere
+- unnecessary icons
+- excessive badges
+- excessive pills
+- cluttered dashboards
+
+The UI should feel intentional and engineered.
+
+==================================================
+COLOR SYSTEM
+==================================================
+
+Use a restrained Swiss-inspired palette.
+
+Primary:
+
+Near-black / charcoal
+White
+Warm off-white / very light gray
+
+Accent:
+
+Swiss-inspired deep red used VERY selectively.
+
+Use red only for:
+
+- important alerts
+- high-priority findings
+- critical actions
+- selected states
+- small visual accents
+
+Do NOT make the entire website red.
+
+Secondary scientific accent:
+
+Muted cool gray / subtle blue-gray.
+
+The overall interface should remain mostly monochrome with carefully controlled accent colors.
+
+==================================================
+TYPOGRAPHY
+==================================================
+
+Typography is extremely important.
+
+Use a clean Swiss-style sans-serif.
+
+Prefer:
+
+Inter
+Helvetica Neue
+Arial
+or another clean grotesk sans-serif.
+
+Create strong typographic hierarchy.
+
+Large page titles.
+
+Small uppercase section labels.
+
+Compact metadata.
+
+Use:
+
+BIG HEADLINE
+
+small supporting text
+
+clear body text
+
+Avoid overly decorative fonts.
+
+Use font weight intentionally.
+
+==================================================
+LAYOUT GRID
+==================================================
+
+Create a consistent grid across the entire application.
+
+Use:
+
+12-column desktop grid where appropriate.
+
+Maintain consistent:
+
+left margins
+right margins
+section spacing
+vertical rhythm
+card padding
+header heights
+
+Everything should align.
+
+Do not randomly position elements.
+
+The interface should feel like it was designed on a precise Swiss grid.
+
+==================================================
+SIDEBAR
+==================================================
+
+Redesign the sidebar.
+
+Keep it minimal.
+
+RetinoAI wordmark at the top.
+
+Navigation should be typographic and clean.
+
+Use small icons only where useful.
+
+Navigation:
+
+Dashboard
+Patients
+New Screening
+Reports
+Follow-ups
+Settings
+
+Use subtle active-state indicators.
+
+Avoid large colored navigation pills.
+
+==================================================
+TOP NAVIGATION
+==================================================
+
+Make the top bar extremely clean.
+
+Use:
+
+Search
+Notifications
+Connection status
+User profile
+
+Use thin borders.
+
+Avoid floating cards.
+
+Connection status should be small and understated.
+
+Example:
+
+● ONLINE
+
+==================================================
+DASHBOARD
+==================================================
+
+Redesign the dashboard using Swiss editorial composition.
+
+Instead of many colorful cards, create strong information blocks.
+
+Example structure:
+
+GOOD MORNING, DR. SHARMA
+
+Today's screening overview
+
+Then:
+
+TOTAL PATIENTS
+1,248
+
+TODAY'S SCREENINGS
+34
+
+HIGH PRIORITY
+07
+
+PENDING REVIEW
+12
+
+FOLLOW-UPS
+18
+
+Use typography and spacing instead of heavy cards.
+
+Use thin separators.
+
+Create a strong "Recent Screenings" section.
+
+Make the table look like a professional medical data table.
+
+Use subtle row dividers.
+
+Avoid colorful table rows.
+
+==================================================
+PATIENTS PAGE
+==================================================
+
+Create a clean clinical patient database interface.
+
+Header:
+
+PATIENTS
+
+Small supporting description.
+
+Search and filters should be compact.
+
+Patient table should be highly structured.
+
+Columns:
+
+PATIENT ID
+PATIENT
+AGE
+EYE
+DIABETES
+LAST SCREENING
+RISK
+FOLLOW-UP
+
+Use typography rather than excessive badges.
+
+High priority can use restrained red.
+
+Low priority should remain neutral.
+
+==================================================
+PATIENT REGISTRATION
+==================================================
+
+Make the registration flow feel like a Swiss medical intake form.
+
+Use large section numbers:
+
+01
+BASIC DETAILS
+
+02
+DIABETES HISTORY
+
+03
+EYE HISTORY
+
+04
+SYMPTOMS
+
+05
+CLINICAL INFORMATION
+
+06
+CONSENT
+
+Use a clean horizontal or vertical progress system.
+
+Forms should have:
+
+clear labels
+thin borders
+large readable fields
+consistent spacing
+
+Avoid colorful form components.
+
+==================================================
+SCREENING UPLOAD PAGE
+==================================================
+
+This should be one of the strongest pages.
+
+Make the upload interface extremely clean.
+
+Large editorial heading:
+
+START RETINAL SCREENING
+
+Then:
+
+PATIENT
+DR-2026-000124
+ANITA RAO
+
+Create two clear sections:
+
+01 / FUNDUS PHOTOGRAPH
+
+RIGHT EYE
+LEFT EYE
+BOTH EYES
+
+Create a large minimal upload area.
+
+Use a thin border and subtle hover state.
+
+Do NOT use huge colorful upload illustrations.
+
+Show:
+
+JPG / JPEG / PNG
+
+Then:
+
+02 / AVAILABLE REPORTS
+
+PDF / IMAGE / DOCUMENT
+
+Use minimal document rows.
+
+Make the page feel like a Swiss scientific workstation.
+
+==================================================
+IMAGE QUALITY
+==================================================
+
+Use a scientific diagnostic interface.
+
+Large fundus image.
+
+Beside it:
+
+IMAGE QUALITY
+92 / 100
+
+Then structured checks:
+
+RETINA VISIBILITY ........ PASS
+BRIGHTNESS ............... PASS
+BLUR ..................... PASS
+FIELD OF VIEW ............ PASS
+CENTERING ................ PASS
+ARTIFACTS ................ PASS
+
+Use precise alignment.
+
+==================================================
+AI RESULTS
+==================================================
+
+This page should feel like a high-end medical imaging workstation.
+
+Use a strong hierarchy:
+
+AI SCREENING RESULTS
+
+Patient information
+
+Then:
+
+RIGHT EYE
+MODERATE NPDR
+
+LEFT EYE
+MILD NPDR
+
+Use typography and whitespace.
+
+High-priority information can use the restrained red accent.
+
+Do not make the results look like colorful dashboard widgets.
+
+==================================================
+EXPLAINABLE AI
+==================================================
+
+Make this section visually sophisticated.
+
+Large fundus image viewer.
+
+Controls:
+
+ORIGINAL
+HEATMAP
+LESION MAP
+COMPARISON
+
+Use thin controls.
+
+Create a scientific annotation legend.
+
+Microaneurysm
+Hemorrhage
+Exudate
+
+Create a section:
+
+WHY WAS THIS IMAGE FLAGGED?
+
+Use concise explanatory blocks.
+
+This should feel closer to a scientific imaging workstation than a SaaS dashboard.
+
+==================================================
+PREVIOUS VS CURRENT
+==================================================
+
+Use a clean split-screen comparison.
+
+PREVIOUS
+2025
+
+CURRENT
+2026
+
+Use a precise image comparison layout.
+
+Include:
+
+DETECTED CHANGES
+
+New microaneurysm indicators
+Increased hemorrhage indicators
+No significant change in optic disc appearance
+
+Use minimal visual treatment.
+
+==================================================
+DOCTOR REVIEW
+==================================================
+
+Create a serious clinical review interface.
+
+Header:
+
+CLINICAL REVIEW
+
+Show:
+
+AI FINDINGS
+IMAGE
+EXPLAINABILITY
+PREVIOUS SCREENING
+REPORT
+
+Then:
+
+DOCTOR DECISION
+
+MONITOR
+REFER
+REVIEWED
+
+Use clear but restrained controls.
+
+Clinical notes should look like a medical record field.
+
+==================================================
+REPORTS
+==================================================
+
+Create a document-management interface.
+
+Use rows rather than oversized cards.
+
+Columns:
+
+DOCUMENT
+PATIENT
+TYPE
+DATE
+STATUS
+ACTION
+
+Keep it clean.
+
+==================================================
+FOLLOW-UPS
+==================================================
+
+Use a structured clinical task layout.
+
+Sections:
+
+DUE TODAY
+THIS WEEK
+UPCOMING
+OVERDUE
+
+Use subtle red only for overdue/high-priority items.
+
+==================================================
+PATIENT PROFILE
+==================================================
+
+Make the profile feel like a medical record.
+
+Use:
+
+PATIENT OVERVIEW
+
+Basic information
+Diabetes history
+Eye history
+
+Then:
+
+SCREENING HISTORY
+
+Create a vertical timeline.
+
+Keep it highly structured.
+
+==================================================
+SETTINGS
+==================================================
+
+Minimal Swiss-style settings layout.
+
+Use section dividers.
+
+Profile
+Notifications
+Privacy
+Display
+System
+
+==================================================
+RESPONSIVE DESIGN
+==================================================
+
+Preserve the Swiss grid philosophy on:
+
+Desktop
+Tablet
+Mobile
+
+On mobile:
+
+collapse sidebar
+preserve typography hierarchy
+maintain whitespace
+avoid horizontal overflow
+
+==================================================
+COMPONENT DESIGN
+==================================================
+
+Redesign existing reusable components consistently:
+
+Buttons
+Inputs
+Tables
+Cards
+Tabs
+Badges
+Upload zones
+Modals
+Navigation
+Progress indicators
+Image viewers
+Timeline
+Empty states
+
+Do NOT create a different visual style for every page.
+
+Everything must belong to one unified Swiss design system.
+
+==================================================
+IMPORTANT
+==================================================
+
+DO NOT:
+
+change routes
+change functionality
+remove existing pages
+add backend
+add database
+add AI models
+add hardware
+rewrite application logic unnecessarily
+
+ONLY redesign the visual interface.
+
+After completing the redesign, verify that all existing navigation and interactions still work.
+
+The final result should feel like:
+
+"A Swiss medical technology company designed this."
+
+Not:
+
+"An AI generated SaaS dashboard."
+
+Use restraint.
+
+Precision over decoration.
+
+Typography over graphics.
+
+Grid over clutter.
+
+Whitespace over excessive cards.
+
+Clinical clarity over visual noise.
