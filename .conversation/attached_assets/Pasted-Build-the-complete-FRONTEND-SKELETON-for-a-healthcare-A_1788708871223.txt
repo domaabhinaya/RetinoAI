@@ -1,0 +1,1193 @@
+Build the complete FRONTEND SKELETON for a healthcare AI web application called "RetinoAI".
+
+IMPORTANT:
+Do NOT build the backend, database, real AI models, hardware integration, or real medical diagnosis yet.
+
+The purpose of this task is to create a clean, professional, fully navigable frontend foundation that we will enhance later with Motion Primitives and additional functionality.
+
+==================================================
+PROJECT
+==================================================
+
+Application name:
+
+RETINOAI
+
+Main title:
+
+AI-Assisted Diabetic Retinopathy Screening
+
+Secondary title:
+
+with Secondary Retinal & Optic-Disc Abnormality Screening
+
+Tagline:
+
+"Capture → Check → Detect → Explain → Track → Refer"
+
+Safety principle:
+
+"AI assists. Doctors decide."
+
+This is an internal SIH 2026 hackathon prototype.
+
+CURRENT PROTOTYPE SCOPE:
+
+The prototype is SOFTWARE-FIRST and UPLOAD-FIRST.
+
+Patients or healthcare workers can upload existing fundus/retinal photographs and available reports from a clinic or hospital.
+
+We are NOT currently building the physical fundus imaging hardware.
+
+Future hardware integration should only be represented as a planned/future feature.
+
+==================================================
+TECHNOLOGY
+==================================================
+
+Use:
+
+- React
+- TypeScript
+- Tailwind CSS
+- React Router
+- shadcn/ui
+- Lucide React icons
+
+Use a clean component-based architecture.
+
+Make the project easy to extend later.
+
+Do NOT introduce unnecessary backend technologies.
+
+Do NOT add authentication/database/API complexity yet.
+
+Use realistic fictional mock data only.
+
+==================================================
+DESIGN SYSTEM
+==================================================
+
+Create a premium healthcare technology interface.
+
+The design should feel:
+
+- professional
+- trustworthy
+- modern
+- clean
+- intelligent
+- clinical
+- accessible
+- suitable for doctors
+- suitable for a rural healthcare screening system
+- suitable for an SIH hackathon demonstration
+
+Visual direction:
+
+- primarily light interface
+- white/off-white surfaces
+- sophisticated blue and teal healthcare accents
+- subtle gradients
+- clean typography
+- generous spacing
+- medium rounded corners
+- subtle shadows
+- clear visual hierarchy
+
+Avoid:
+
+- generic hospital website design
+- overly colorful UI
+- gaming-style UI
+- cryptocurrency-style dashboards
+- excessive glassmorphism
+- excessive neon
+- excessive rounded cards
+- unnecessary animations
+
+IMPORTANT:
+
+Do not add heavy animation yet.
+
+We will add Motion Primitives later.
+
+For now, focus on structure, layout, navigation, reusable components and responsive design.
+
+==================================================
+APPLICATION LAYOUT
+==================================================
+
+Create a main application shell.
+
+Desktop layout:
+
+--------------------------------------------------
+| Sidebar |              Top Navigation          |
+|         |--------------------------------------|
+|         |                                      |
+|         |              Main Content            |
+|         |                                      |
+|         |                                      |
+--------------------------------------------------
+
+Sidebar:
+
+RetinoAI logo
+Retinal/eye-inspired simple icon
+
+Navigation:
+
+Dashboard
+Patients
+New Screening
+Reports
+Follow-ups
+Settings
+
+At the bottom:
+
+Help
+User profile
+
+Top navigation:
+
+Search
+Notifications
+Connection status
+User profile
+
+Show:
+
+"Online"
+
+The connection status will later support the offline-first workflow.
+
+Make the sidebar responsive.
+
+On mobile, convert it into a drawer/menu.
+
+==================================================
+ROUTES
+==================================================
+
+Create these routes:
+
+/login
+
+/dashboard
+
+/patients
+
+/patients/new
+
+/patients/:id
+
+/screening/new
+
+/screening/:id
+
+/reports
+
+/follow-ups
+
+/settings
+
+Create a working React Router setup.
+
+Every navigation item must work.
+
+Do not leave broken links.
+
+==================================================
+1. LOGIN PAGE
+==================================================
+
+Create a professional healthcare login screen.
+
+Left side:
+
+RetinoAI branding.
+
+Show:
+
+RETINOAI
+
+"AI-assisted retinal screening for earlier detection and smarter follow-up."
+
+Right side:
+
+Login form.
+
+Fields:
+
+Email
+Password
+
+Buttons:
+
+Sign In
+Demo Mode
+
+Additional:
+
+Remember me
+Forgot password?
+
+For now, authentication should be mock/frontend only.
+
+Clicking Demo Mode should take the user to /dashboard.
+
+==================================================
+2. DASHBOARD
+==================================================
+
+Create a complete doctor dashboard.
+
+Header:
+
+"Good morning, Dr. Sharma"
+
+Subtitle:
+
+"Here is today's retinal screening overview."
+
+Top statistics:
+
+Total Patients
+Today's Screenings
+High Priority
+Pending Reviews
+Follow-ups Due
+
+Use fictional values such as:
+
+1,248
+34
+7
+12
+18
+
+Create quick actions:
+
++ Register Patient
+
++ Start Screening
+
+View Follow-ups
+
+Create:
+
+"Recent Screenings"
+
+table with:
+
+Patient ID
+Patient
+Age
+Eye
+AI Finding
+Priority
+Status
+Date
+
+Use fictional patient data.
+
+Example:
+
+DR-2026-000124
+Anita Rao
+52
+Both
+Moderate NPDR
+High
+Pending Review
+
+DR-2026-000125
+Ravi Kumar
+61
+Right
+No DR
+Low
+Reviewed
+
+Create:
+
+"Follow-ups Due"
+
+section.
+
+Create:
+
+"Screening Activity"
+
+section with a simple frontend chart placeholder.
+
+Do not install a chart library unless necessary.
+
+==================================================
+3. PATIENTS PAGE
+==================================================
+
+Create patient management UI.
+
+Header:
+
+"Patients"
+
+Subtitle:
+
+"Manage patient profiles and screening history."
+
+Primary button:
+
+"+ Register Patient"
+
+Create:
+
+Search patients
+
+Filters:
+
+All
+High Risk
+Diabetes
+Pending Review
+Follow-up Due
+
+Patient table:
+
+Patient ID
+Name
+Age
+Gender
+Diabetes
+Last Screening
+Risk
+Next Follow-up
+Action
+
+Clicking a patient should navigate to:
+
+/patients/:id
+
+Create realistic fictional patients.
+
+==================================================
+4. PATIENT REGISTRATION PAGE
+==================================================
+
+Create a polished multi-step registration wizard.
+
+Progress indicator:
+
+1 Basic Details
+2 Diabetes History
+3 Eye History
+4 Symptoms
+5 Clinical Information
+6 Consent
+
+STEP 1:
+
+Full Name
+Date of Birth
+Age
+Gender
+Mobile
+Address
+Village
+District
+
+STEP 2:
+
+Diabetes Status
+Diabetes Type
+Year Diagnosed
+Duration
+HbA1c
+Blood Glucose
+Current Treatment
+
+STEP 3:
+
+Previous Eye Examination
+Previous Diabetic Retinopathy
+Previous Eye Surgery
+Known Eye Conditions
+Previous Injections/Treatment
+Previous Screening Date
+
+STEP 4:
+
+Symptoms:
+
+Blurred Vision
+Sudden Vision Loss
+Floaters
+Flashes
+Night Vision Difficulty
+Eye Pain
+Headache
+Distorted Vision
+No Symptoms
+Other
+
+STEP 5:
+
+Blood Pressure
+Family History
+Previous Screening Date
+Clinical Notes
+
+STEP 6:
+
+Consent:
+
+Retinal photography consent
+AI-assisted screening consent
+Data storage consent
+
+Show:
+
+"AI does not replace a qualified medical professional."
+
+Buttons:
+
+Back
+Continue
+Create Patient
+
+After completion, show a success state:
+
+"Patient Created"
+
+Example Patient ID:
+
+DR-2026-000124
+
+Buttons:
+
+Start Screening
+View Patient
+
+For this stage, form submission can use frontend state/mock behavior.
+
+==================================================
+5. PATIENT PROFILE
+==================================================
+
+Create:
+
+/patients/:id
+
+Patient profile layout.
+
+Header:
+
+Patient name
+Patient ID
+
+Actions:
+
+Start Screening
+Edit Patient
+
+Create tabs:
+
+Overview
+Screenings
+Images
+Reports
+AI Findings
+Follow-ups
+
+Overview should contain:
+
+Basic information
+Diabetes information
+Eye history
+Current risk
+Last screening
+
+Create a screening history timeline.
+
+Example:
+
+2025
+Previous screening
+
+2026
+Current screening
+
+Use fictional information.
+
+==================================================
+6. NEW SCREENING PAGE
+==================================================
+
+THIS IS THE MOST IMPORTANT PAGE IN THE SKELETON.
+
+Route:
+
+/screening/new
+
+Header:
+
+"Start Retinal Screening"
+
+Show selected patient information.
+
+Create a large upload-first interface.
+
+SECTION:
+
+"Upload Existing Fundus Photograph"
+
+Allow selection:
+
+Right Eye
+Left Eye
+Both Eyes
+
+Create a large drag-and-drop upload zone.
+
+Supported formats:
+
+JPG
+JPEG
+PNG
+
+Show:
+
+Upload image
+
+Create a file preview area.
+
+Each uploaded image should display:
+
+thumbnail
+filename
+eye side
+file size
+remove button
+
+Also create:
+
+"Upload Available Reports"
+
+Supported:
+
+PDF
+JPG
+JPEG
+PNG
+
+Show uploaded report cards.
+
+Important informational message:
+
+"Existing clinical photographs and reports can be uploaded directly."
+
+Another message:
+
+"AI image screening requires a retinal image. Uploaded reports are treated as supporting clinical information."
+
+Create buttons:
+
+Cancel
+
+Continue to Image Quality Check
+
+The button should navigate to the next screening stage.
+
+==================================================
+7. IMAGE QUALITY CHECK SCREEN
+==================================================
+
+Route:
+
+/screening/:id
+
+Create the structure for:
+
+"Image Quality Check"
+
+Show uploaded fundus image.
+
+Create a quality assessment card.
+
+Display:
+
+Image Quality
+92 / 100
+
+Checks:
+
+Retina visibility
+Brightness
+Blur
+Field of View
+Centering
+Artifacts
+
+Use:
+
+Passed
+Warning
+Failed
+
+states.
+
+Create:
+
+"Good image quality"
+
+and:
+
+"Upload Better Image"
+
+button.
+
+Also create a state for poor quality:
+
+"Image quality is insufficient for reliable screening."
+
+Button:
+
+Upload Better Image
+
+For now this can use mock quality results.
+
+==================================================
+8. AI ANALYSIS STATE
+==================================================
+
+Within the screening flow, create a dedicated AI analysis/loading state.
+
+Title:
+
+"Analyzing Retinal Image"
+
+Stages:
+
+Image quality assessment
+Retinal region detection
+DR screening
+Lesion analysis
+Secondary abnormality screening
+Explainability generation
+
+Use simple progress UI.
+
+Do not make this futuristic.
+
+Keep it clinical and professional.
+
+After completion, provide a button:
+
+"View Screening Results"
+
+==================================================
+9. SCREENING RESULTS PAGE
+==================================================
+
+Create a detailed results dashboard.
+
+Header:
+
+"AI Screening Results"
+
+Patient information.
+
+Show:
+
+Right Eye
+Moderate NPDR
+
+Left Eye
+Mild NPDR
+
+Create:
+
+"Overall Screening Priority"
+
+HIGH PRIORITY
+
+Create separate cards:
+
+Diabetic Retinopathy
+Lesion Findings
+Secondary Retinal Findings
+Confidence
+Image Quality
+
+Example findings:
+
+Microaneurysms detected
+Hemorrhage indicators detected
+Exudate indicators detected
+
+Secondary screening examples:
+
+Possible optic-disc edema
+Glaucoma-related optic-disc changes
+Hypertensive retinal changes
+
+Use careful wording such as:
+
+"Possible finding"
+
+"AI screening indicator"
+
+"Requires clinician review"
+
+Do NOT display unsupported definitive diagnoses.
+
+==================================================
+10. EXPLAINABLE AI SECTION
+==================================================
+
+Create a large retinal image viewer placeholder.
+
+Tabs/buttons:
+
+Original
+AI Heatmap
+Lesion Map
+Comparison
+
+Create a professional image viewer component.
+
+Use a placeholder retinal image from a local/public asset only if available.
+
+If no suitable image exists, create a clearly labeled placeholder area.
+
+Create legend:
+
+Microaneurysm
+Hemorrhage
+Exudate
+
+Create:
+
+"Why did the AI flag this image?"
+
+Show:
+
+Retinal lesion patterns
+Abnormality locations
+Confidence
+Image quality
+Previous screening comparison
+
+Label this as prototype/demo output.
+
+==================================================
+11. CONFIDENCE SECTION
+==================================================
+
+Create:
+
+"AI Confidence & Review Status"
+
+Show:
+
+DR Classification
+91%
+
+Lesion Detection
+87%
+
+Secondary Screening
+78%
+
+Also create a human-review state:
+
+"AI confidence is below the review threshold."
+
+"Human review recommended."
+
+==================================================
+12. PREVIOUS VS CURRENT COMPARISON
+==================================================
+
+Create a comparison component.
+
+Display:
+
+Previous Screening
+Current Screening
+
+Show two image panels.
+
+Controls:
+
+Previous
+Current
+Difference
+
+Create a "Detected Changes" section.
+
+Example:
+
+New microaneurysm indicators
+Increased hemorrhage indicators
+No significant change in optic disc appearance
+
+Create a simple screening timeline:
+
+2025 → 2026
+
+==================================================
+13. DOCTOR REVIEW
+==================================================
+
+Create a doctor review section.
+
+Title:
+
+"Clinical Review"
+
+Show:
+
+Original image
+AI findings
+Explainability
+Previous comparison
+Uploaded report
+Patient history
+
+Doctor decision options:
+
+Reviewed
+Monitor
+Refer
+
+Create:
+
+Clinical Notes
+
+Follow-up Date
+
+Referral Destination
+
+Button:
+
+"Save Clinical Decision"
+
+Show success state after saving.
+
+Important:
+
+The AI result is advisory only.
+
+The doctor makes the final clinical decision.
+
+==================================================
+14. REPORTS PAGE
+==================================================
+
+Create:
+
+/reports
+
+Header:
+
+"Reports & Documents"
+
+Categories:
+
+Fundus Images
+Medical Reports
+Screening Reports
+Doctor Reviews
+
+Show document cards.
+
+Each card:
+
+filename
+type
+date
+patient
+status
+
+Actions:
+
+View
+Download
+Delete
+
+Use mock data.
+
+==================================================
+15. FOLLOW-UP PAGE
+==================================================
+
+Create:
+
+/follow-ups
+
+Sections:
+
+Due Today
+Due This Week
+Upcoming
+Overdue
+
+Each follow-up:
+
+Patient
+Reason
+Priority
+Due Date
+Doctor
+Status
+
+Add filters.
+
+==================================================
+16. SETTINGS PAGE
+==================================================
+
+Create:
+
+/settings
+
+Sections:
+
+Profile
+Notifications
+Privacy
+Display
+System
+
+Include a connection status:
+
+Online
+
+And an informational section:
+
+"Offline-first support is planned for rural healthcare environments."
+
+==================================================
+17. FUTURE HARDWARE SECTION
+==================================================
+
+Do NOT build hardware functionality.
+
+Only create a small informational placeholder/card under Settings or a dedicated future section.
+
+Title:
+
+"Future Capture Device"
+
+Description:
+
+"Future versions of RetinoAI can integrate a low-cost smartphone-compatible fundus imaging attachment."
+
+Flow:
+
+Fundus Attachment
+↓
+Smartphone Camera
+↓
+Fundus Image
+↓
+RetinoAI Upload API
+↓
+AI Screening
+↓
+Doctor Dashboard
+
+Clearly label:
+
+"Future Development"
+
+Do NOT imply that the hardware currently exists.
+
+==================================================
+18. OFFLINE-FIRST UI
+==================================================
+
+Add a small connection indicator in the top navigation.
+
+States:
+
+Online
+Offline
+Syncing
+
+For now, frontend state/mock behavior is enough.
+
+When offline:
+
+"Working offline. Records will sync when connection is restored."
+
+Do not implement actual synchronization yet.
+
+==================================================
+19. REUSABLE COMPONENTS
+==================================================
+
+Create reusable components where appropriate:
+
+AppShell
+Sidebar
+Topbar
+PageHeader
+StatCard
+PatientTable
+PatientCard
+UploadZone
+FileCard
+FundusImageViewer
+StatusBadge
+PriorityBadge
+SeverityBadge
+ConfidenceCard
+Timeline
+Tabs
+Modal
+EmptyState
+LoadingState
+Button
+FormField
+
+Keep components modular.
+
+==================================================
+20. DATA STRUCTURE
+==================================================
+
+Create mock TypeScript data/types for:
+
+Patient
+Screening
+FundusImage
+MedicalReport
+AIResult
+LesionFinding
+DoctorReview
+FollowUp
+
+Keep the types clean because they will later be connected to a backend.
+
+==================================================
+21. RESPONSIVE DESIGN
+==================================================
+
+The entire frontend must work on:
+
+Desktop
+Tablet
+Mobile
+
+Desktop:
+
+Sidebar + content.
+
+Tablet:
+
+Collapsible sidebar.
+
+Mobile:
+
+Mobile navigation/drawer.
+
+The upload page must be mobile friendly.
+
+Fundus images must preserve aspect ratio.
+
+==================================================
+22. ACCESSIBILITY
+==================================================
+
+Implement:
+
+Accessible labels
+Keyboard navigation
+Visible focus states
+Good contrast
+ARIA labels where appropriate
+Large touch targets
+Responsive layout
+
+Do not rely only on color to communicate status.
+
+==================================================
+23. PLACEHOLDERS
+==================================================
+
+Where real functionality does not exist yet, create polished placeholders.
+
+Examples:
+
+AI processing:
+"Prototype AI processing"
+
+Database:
+"Demo data"
+
+Hardware:
+"Future Development"
+
+Do NOT create fake claims that real AI analysis or medical diagnosis is occurring.
+
+==================================================
+24. WHAT NOT TO DO
+==================================================
+
+Do NOT:
+
+- build a backend
+- create a database
+- connect external AI APIs
+- implement real authentication
+- build physical hardware
+- claim clinical validation
+- claim medical diagnosis
+- add unnecessary libraries
+- add excessive animations
+- overcomplicate the architecture
+
+==================================================
+25. FINAL REQUIREMENT
+==================================================
+
+When finished, I should be able to:
+
+1. Open the application
+2. Login using Demo Mode
+3. See Dashboard
+4. Navigate to Patients
+5. Register a patient
+6. Open the patient profile
+7. Start a screening
+8. Upload a fundus image
+9. Upload a report
+10. Continue through the screening flow
+11. See the AI analysis screen
+12. See the screening results
+13. View explainability placeholders
+14. View previous/current comparison
+15. Open Doctor Review
+16. Save a mock clinical decision
+17. View Reports
+18. View Follow-ups
+19. Open Settings
+
+All navigation must work.
+
+All pages must have a consistent RetinoAI design.
+
+Use fictional demo data.
+
+The most important goal is:
+
+CREATE A CLEAN, COMPLETE, PROFESSIONAL FRONTEND SKELETON.
+
+Do not spend the token/time budget implementing advanced functionality yet.
+
+We will take this project into the next development stage later and add Motion Primitives, advanced interactions, real file handling, backend APIs, AI models and database functionality.

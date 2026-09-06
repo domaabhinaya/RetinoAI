@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "RetinoAI"
+description = "A frontend-only healthcare screening workspace for upload-first retinal image review, explainable AI demo states, patient management, reports, follow-ups, and clinician decisions."
+version = "1.0.0"
+id = "artifacts/retinoai"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24803
+
+[services.development]
+run = "pnpm --filter @workspace/retinoai run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/retinoai", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/retinoai/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24803"
+BASE_PATH = "/"
