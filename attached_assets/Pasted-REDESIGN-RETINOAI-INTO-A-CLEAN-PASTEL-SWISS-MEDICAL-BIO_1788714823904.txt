@@ -1,0 +1,875 @@
+REDESIGN RETINOAI INTO A CLEAN PASTEL SWISS MEDICAL / BIOTECH UI
+
+IMPORTANT:
+This is a VISUAL-ONLY redesign.
+
+DO NOT change:
+- routes
+- functionality
+- application logic
+- page structure
+- mock data
+- navigation
+- existing workflows
+- components unless styling requires it
+
+Do not add backend, AI models, database, hardware, or new features.
+
+==================================================
+DESIGN GOAL
+==================================================
+
+Transform the entire RetinoAI interface into a:
+
+CLEAN
+PASTEL
+SWISS-INSPIRED
+MEDICAL / BIOTECH
+PREMIUM
+MINIMAL
+
+design.
+
+The visual identity should combine:
+
+Swiss International Typographic Style
++
+Modern medical technology
++
+Soft pastel colors
++
+Scientific precision
+
+The website should feel calm, trustworthy, intelligent and premium.
+
+Think:
+
+"Swiss medical technology, softened with a modern pastel palette."
+
+NOT:
+
+- generic hospital website
+- generic SaaS dashboard
+- childish pastel UI
+- overly colorful application
+- neon AI interface
+- glassmorphism-heavy design
+
+==================================================
+COLOR SYSTEM
+==================================================
+
+Use a carefully controlled pastel palette.
+
+MAIN BACKGROUND:
+
+#F6F8F7
+
+Very light warm/greenish neutral.
+
+SURFACE:
+
+#FFFFFF
+
+Use for primary content areas.
+
+SOFT SAGE:
+
+#DCEBE4
+
+Use for secondary backgrounds and subtle highlighted sections.
+
+PASTEL BLUE:
+
+#DDEAF4
+
+Use for information sections and calm UI states.
+
+PASTEL LAVENDER:
+
+#E9E4F2
+
+Use sparingly for secondary AI-related elements.
+
+PASTEL PEACH:
+
+#F5E4DA
+
+Use sparingly for warnings or contextual information.
+
+SOFT PINK:
+
+#F3DFE2
+
+Use very selectively for important alerts.
+
+PRIMARY TEXT:
+
+#24302D
+
+Dark charcoal with a slight green undertone.
+
+SECONDARY TEXT:
+
+#68736F
+
+MUTED TEXT:
+
+#929B98
+
+BORDER:
+
+#DCE2DF
+
+STRONG BORDER:
+
+#C8D1CC
+
+==================================================
+PRIMARY ACCENT
+==================================================
+
+Instead of harsh Swiss red, use a soft muted medical coral:
+
+#C96F73
+
+Use it very selectively for:
+
+- high priority
+- important alerts
+- primary emphasis
+- selected states
+- important indicators
+
+Do NOT make the application red.
+
+==================================================
+SUCCESS
+==================================================
+
+Use:
+
+#6E9B82
+
+for successful/positive states.
+
+==================================================
+WARNING
+==================================================
+
+Use:
+
+#C89A62
+
+for warnings.
+
+==================================================
+AI ACCENT
+==================================================
+
+Use:
+
+#7897A8
+
+for AI-related secondary accents.
+
+Keep it muted.
+
+==================================================
+COLOR RATIO
+==================================================
+
+Follow approximately:
+
+65% white / very light neutral
+15% sage
+10% pastel blue
+5% lavender / peach
+5% accent colors
+
+The interface must remain predominantly light and clean.
+
+Pastel colors should SUPPORT information hierarchy, not decorate every element.
+
+==================================================
+TYPOGRAPHY
+==================================================
+
+Use:
+
+INTER
+
+as the primary font.
+
+Fallback:
+
+system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif
+
+Typography should follow Swiss principles:
+
+- clean
+- precise
+- highly readable
+- strong hierarchy
+- generous spacing
+- minimal decoration
+
+Use:
+
+Hero:
+48–60px
+
+Page title:
+32–40px
+
+Section heading:
+20–24px
+
+Card heading:
+16–18px
+
+Body:
+14–16px
+
+Metadata:
+12–13px
+
+Use font weights:
+
+400 body
+500 labels
+600 headings
+
+Avoid extremely heavy 800/900 typography.
+
+==================================================
+SWISS GRID
+==================================================
+
+Maintain a strong grid system.
+
+Everything should align precisely.
+
+Use:
+
+- consistent left margins
+- consistent spacing
+- clear columns
+- generous whitespace
+- structured sections
+- thin separators
+
+Avoid placing elements randomly just to fill space.
+
+==================================================
+SIDEBAR
+==================================================
+
+Do NOT use a dark sidebar.
+
+Use:
+
+Background:
+#FFFFFF
+
+Border-right:
+#DCE2DF
+
+RetinoAI logo at the top.
+
+Navigation should be minimal.
+
+Dashboard
+Patients
+New Screening
+Reports
+Follow-ups
+Settings
+
+Active navigation:
+
+Use a soft pastel sage background:
+
+#DCEBE4
+
+with primary text:
+
+#24302D
+
+Add a very small muted coral indicator if needed.
+
+Do NOT use giant colored navigation pills.
+
+==================================================
+TOP NAVIGATION
+==================================================
+
+Use:
+
+white background
+thin bottom border
+minimal controls
+
+Search
+Notifications
+Connection status
+Profile
+
+Connection indicator:
+
+● ONLINE
+
+Use muted sage.
+
+==================================================
+DASHBOARD
+==================================================
+
+Create a calm editorial dashboard.
+
+Header:
+
+GOOD MORNING, DR. SHARMA
+
+Today's screening overview
+
+Use large typography.
+
+Statistics should NOT look like colorful SaaS cards.
+
+Use white surfaces with subtle pastel accents.
+
+Example:
+
+TOTAL PATIENTS
+1,248
+
+TODAY'S SCREENINGS
+34
+
+HIGH PRIORITY
+07
+
+PENDING REVIEW
+12
+
+FOLLOW-UPS
+18
+
+Each statistic can have a tiny pastel background or accent line.
+
+Use sage for positive/general information.
+
+Use muted coral for high priority.
+
+Use pastel blue for screening activity.
+
+==================================================
+PATIENTS
+==================================================
+
+Use a clean medical database layout.
+
+Header:
+
+PATIENTS
+
+Search and filters.
+
+Use white table surface.
+
+Borders:
+
+#DCE2DF
+
+Hover:
+
+#F1F5F3
+
+High priority:
+
+small muted coral indicator.
+
+Do not color entire rows.
+
+==================================================
+PATIENT REGISTRATION
+==================================================
+
+Make the form feel like a premium medical intake system.
+
+Use:
+
+01
+BASIC DETAILS
+
+02
+DIABETES HISTORY
+
+03
+EYE HISTORY
+
+04
+SYMPTOMS
+
+05
+CLINICAL INFORMATION
+
+06
+CONSENT
+
+Progress indicator should use soft sage.
+
+Active step can use muted coral or dark text.
+
+Forms:
+
+white background
+thin pastel-gray borders
+soft focus states
+clean labels
+
+Avoid oversized rounded inputs.
+
+==================================================
+SCREENING UPLOAD
+==================================================
+
+This should be one of the most beautiful pages.
+
+Background:
+
+#F6F8F7
+
+Heading:
+
+START RETINAL SCREENING
+
+Patient information should appear as a clean clinical header.
+
+Create:
+
+01 / FUNDUS PHOTOGRAPH
+
+RIGHT EYE
+LEFT EYE
+BOTH EYES
+
+Upload zone:
+
+white background
+
+dashed border:
+
+#C8D1CC
+
+Hover:
+
+soft sage
+
+Active:
+
+soft blue
+
+Do not use giant colorful upload graphics.
+
+Show supported formats:
+
+JPG / JPEG / PNG
+
+Reports section:
+
+02 / AVAILABLE REPORTS
+
+Use clean document rows with small pastel icons.
+
+==================================================
+IMAGE QUALITY
+==================================================
+
+Create a calm scientific interface.
+
+Fundus image should be the visual focus.
+
+Beside it:
+
+IMAGE QUALITY
+
+92 / 100
+
+Use a soft sage quality indicator.
+
+Checks:
+
+RETINA VISIBILITY     PASS
+BRIGHTNESS             PASS
+BLUR                   PASS
+FIELD OF VIEW         PASS
+CENTERING              PASS
+ARTIFACTS              PASS
+
+Use small pastel indicators.
+
+==================================================
+AI ANALYSIS
+==================================================
+
+Create a sophisticated but calm processing state.
+
+Title:
+
+ANALYZING RETINAL IMAGE
+
+Stages:
+
+Image quality assessment
+Retinal region detection
+DR screening
+Lesion analysis
+Secondary abnormality screening
+Explainability generation
+
+Use a subtle animated progress indicator later.
+
+Do NOT use futuristic glowing effects.
+
+==================================================
+AI RESULTS
+==================================================
+
+Use a mostly white interface.
+
+Heading:
+
+AI SCREENING RESULTS
+
+Right Eye:
+
+MODERATE NPDR
+
+Left Eye:
+
+MILD NPDR
+
+Use dark typography.
+
+Use pastel backgrounds to differentiate sections.
+
+High priority:
+
+muted coral #C96F73
+
+Normal/positive:
+
+sage #DCEBE4
+
+AI information:
+
+pastel blue #DDEAF4
+
+==================================================
+EXPLAINABLE AI
+==================================================
+
+Make the retinal image the hero element.
+
+Use:
+
+ORIGINAL
+HEATMAP
+LESION MAP
+COMPARISON
+
+Controls should be simple.
+
+Use pastel blue/gray controls.
+
+For lesion indicators, use subtle overlays.
+
+Create:
+
+WHY WAS THIS IMAGE FLAGGED?
+
+Use clean explanatory blocks.
+
+Avoid excessive cards.
+
+==================================================
+PREVIOUS VS CURRENT
+==================================================
+
+Create a clean two-column comparison.
+
+PREVIOUS
+2025
+
+CURRENT
+2026
+
+Use white image containers.
+
+Use a soft sage comparison background.
+
+Detected changes should be presented as structured clinical information.
+
+==================================================
+DOCTOR REVIEW
+==================================================
+
+Make this feel like a professional clinical workstation.
+
+Header:
+
+CLINICAL REVIEW
+
+Show:
+
+AI FINDINGS
+IMAGE
+EXPLAINABILITY
+PREVIOUS SCREENING
+REPORT
+
+Doctor decision:
+
+MONITOR
+REFER
+REVIEWED
+
+Use:
+
+Monitor → neutral/sage
+Reviewed → sage
+Refer → muted coral
+
+Avoid bright colors.
+
+==================================================
+REPORTS
+==================================================
+
+Use a clean document-management table.
+
+White background.
+
+Soft gray borders.
+
+Pastel icons only where helpful.
+
+Do not turn every document into a large colorful card.
+
+==================================================
+FOLLOW-UPS
+==================================================
+
+Sections:
+
+DUE TODAY
+THIS WEEK
+UPCOMING
+OVERDUE
+
+Use:
+
+sage → upcoming/completed
+pastel blue → informational
+muted coral → overdue/high priority
+
+==================================================
+PATIENT PROFILE
+==================================================
+
+Create a clean medical-record appearance.
+
+PATIENT OVERVIEW
+
+Basic information
+Diabetes history
+Eye history
+
+SCREENING HISTORY
+
+Use a vertical timeline.
+
+Use small pastel timeline indicators.
+
+==================================================
+CARDS
+==================================================
+
+Cards should be:
+
+white
+subtly bordered
+very lightly rounded
+minimal shadow
+
+Do NOT use:
+
+huge rounded rectangles
+heavy shadows
+glassmorphism
+gradient cards
+
+Use whitespace and borders to create hierarchy.
+
+==================================================
+BUTTONS
+==================================================
+
+PRIMARY:
+
+Dark charcoal background:
+
+#24302D
+
+White text.
+
+SECONDARY:
+
+White background
+border #C8D1CC
+dark text
+
+IMPORTANT:
+
+Muted coral #C96F73
+white text
+
+SUCCESS:
+
+Sage #6E9B82
+white text
+
+Avoid pill-shaped buttons except where semantically appropriate.
+
+==================================================
+INPUTS
+==================================================
+
+Background:
+
+#FFFFFF
+
+Border:
+
+#C8D1CC
+
+Focus:
+
+#7897A8
+
+Text:
+
+#24302D
+
+Placeholder:
+
+#929B98
+
+Use subtle transitions.
+
+==================================================
+SHADOWS
+==================================================
+
+Use shadows extremely sparingly.
+
+Prefer:
+
+borders
+whitespace
+background contrast
+
+over heavy shadows.
+
+==================================================
+CORNER RADIUS
+==================================================
+
+Use subtle rounding.
+
+Preferred:
+
+6–10px
+
+Avoid:
+
+20–30px cards
+pill-shaped everything
+bubble-style UI
+
+==================================================
+ICONS
+==================================================
+
+Use Lucide icons.
+
+Icons should be:
+
+small
+simple
+consistent
+functional
+
+Use pastel backgrounds only when useful.
+
+Do not use icons as decoration everywhere.
+
+==================================================
+OVERALL FEEL
+==================================================
+
+The final UI should feel like:
+
+Swiss medical technology
++
+modern biotech
++
+soft pastel clinical interface
+
+Think:
+
+precise Swiss layout
+
+soft healthcare palette
+
+editorial typography
+
+scientific interface
+
+premium medical software
+
+The UI should feel calm enough for a doctor to use for hours.
+
+==================================================
+FINAL RULE
+==================================================
+
+Do not change functionality.
+
+Do not change routes.
+
+Do not add features.
+
+Do not add backend.
+
+Do not add AI.
+
+Do not add hardware.
+
+ONLY transform the visual design.
+
+Every page must use the SAME:
+
+font
+color system
+spacing system
+border system
+button system
+typography hierarchy
+pastel palette
+
+Remove any leftover old colors.
+
+The final application should look like ONE coherent premium Swiss pastel medical/biotech product.
