@@ -1,0 +1,740 @@
+I want to change the EXISTING RETINOAI WEBSITE into a highly interactive, editorial, Swiss-inspired digital experience.
+
+IMPORTANT:
+
+The reference images I provided are ONLY references for:
+
+- interaction style
+- scrolling behavior
+- sliding transitions
+- page composition
+- typography
+- layout
+- movement
+- visual rhythm
+
+DO NOT copy or insert the actual images, people, posters, photography, or artwork from the references.
+
+Do NOT change the RetinoAI content or functionality.
+
+==================================================
+CORE DESIGN DIRECTION
+==================================================
+
+RetinoAI should no longer feel like a conventional SaaS/admin dashboard.
+
+It should feel like a premium:
+
+SWISS EDITORIAL
++
+MEDICAL TECHNOLOGY
++
+BIOTECH
++
+INTERACTIVE DIGITAL EXPERIENCE
+
+website.
+
+Think of a high-end Swiss design studio creating a medical AI product.
+
+The experience should feel:
+
+precise
+minimal
+editorial
+experimental
+calm
+scientific
+premium
+interactive
+
+==================================================
+IMPORTANT — INTERACTION STYLE
+==================================================
+
+The MAIN CHANGE I want is the interaction and movement.
+
+Use smooth:
+
+- sliding transitions
+- horizontal panel movement
+- vertical reveals
+- scroll-triggered animations
+- staggered text reveals
+- image transitions
+- section transitions
+- masked reveals
+- clip-path animations
+- scale transitions
+- subtle parallax
+- sticky sections
+
+The movement should feel intentional and editorial.
+
+Do NOT use generic:
+
+fade-in
+fade-out
+bounce
+zoom
+spinner-heavy
+SaaS card animations.
+
+Animations should feel like the WEBSITE itself is moving as one composition.
+
+==================================================
+SCROLL EXPERIENCE
+==================================================
+
+Create a strong scroll-based experience.
+
+When the user scrolls:
+
+sections should transition smoothly.
+
+Large typography can slide into position.
+
+Content blocks can move horizontally.
+
+Panels can reveal themselves from behind other panels.
+
+Numbers can animate into view.
+
+Images can reveal using masks.
+
+Thin lines can extend as sections appear.
+
+Do NOT make the page feel like a collection of independent cards.
+
+It should feel like a continuous visual narrative.
+
+==================================================
+PAGE TRANSITIONS
+==================================================
+
+When navigating between major pages:
+
+Dashboard
+Patients
+New Screening
+Patient Profile
+AI Results
+Doctor Review
+
+use smooth page transitions.
+
+Example:
+
+Current page slides out slightly to the left.
+
+New page enters from the right.
+
+Use approximately:
+
+300–600ms
+
+with smooth easing.
+
+Do NOT make transitions slow or annoying.
+
+==================================================
+EDITORIAL PANEL SYSTEM
+==================================================
+
+Use large visual panels.
+
+For example:
+
+┌────────────────────────────────────────────┐
+│                                            │
+│  START                                     │
+│  RETINAL                                   │
+│  SCREENING                                 │
+│                                            │
+│                          01                │
+│                          CAPTURE            │
+│                                            │
+└────────────────────────────────────────────┘
+
+As the user scrolls:
+
+the next panel should begin entering.
+
+==================================================
+HORIZONTAL SLIDING
+==================================================
+
+Use horizontal sliding where appropriate.
+
+For example, on the screening workflow:
+
+01 CAPTURE
+→
+02 CHECK
+→
+03 DETECT
+→
+04 EXPLAIN
+→
+05 TRACK
+→
+06 REFER
+
+These stages can visually move horizontally as the user progresses.
+
+Do NOT force the entire website into horizontal scrolling.
+
+Use horizontal movement selectively for:
+
+- screening workflow
+- AI analysis stages
+- comparison views
+- timelines
+- selected editorial sections
+
+==================================================
+LARGE TYPOGRAPHY
+==================================================
+
+Use oversized typography as a design element.
+
+Examples:
+
+START
+RETINAL
+SCREENING
+
+AI
+SCREENING
+RESULTS
+
+PATIENT
+HISTORY
+
+CLINICAL
+REVIEW
+
+Use typography that occupies significant visual space.
+
+Some headings should be:
+
+80–120px on large desktop screens
+
+and scale responsively on smaller screens.
+
+Use:
+
+Inter
+
+with strong weights.
+
+==================================================
+ASYMMETRIC COMPOSITION
+==================================================
+
+Do not center everything.
+
+Use:
+
+large heading on left
+small metadata on right
+
+large number on edge
+content in center
+
+image panel on one side
+text panel on another
+
+This should follow a Swiss editorial grid.
+
+==================================================
+STICKY SECTIONS
+==================================================
+
+Use sticky positioning for selected areas.
+
+Example:
+
+During the screening page:
+
+LEFT:
+large section title / number
+
+RIGHT:
+upload interface
+
+As the user scrolls, the left section remains visible while the right content changes.
+
+Similarly:
+
+AI RESULTS
+
+LEFT:
+patient/result information
+
+RIGHT:
+fundus image / explainability viewer
+
+The experience should feel like a high-end editorial website.
+
+==================================================
+PASTEL VISUAL LANGUAGE
+==================================================
+
+Keep the clean pastel palette.
+
+Main:
+
+#F7F7F2
+#FFFFFF
+
+Pastel:
+
+#DDE9DF
+#DFEAF1
+#F1DFE2
+#F3E5D8
+#E8E3EF
+
+Dark:
+
+#181A19
+
+Accent:
+
+#D96B72
+
+Use pastel colors as large background panels rather than tiny UI decorations.
+
+Example:
+
+A whole section can have a soft sage background.
+
+The next section can transition into pale blue.
+
+Another section can use soft pink.
+
+Keep it restrained.
+
+==================================================
+GEOMETRIC MOTION
+==================================================
+
+Introduce subtle geometric graphic elements.
+
+Examples:
+
+thin lines
+grid systems
+circles
+partial circles
+rectangles
+small squares
+
+These elements can:
+
+slide
+expand
+rotate slightly
+reveal
+move with scrolling
+
+Use them as visual structure.
+
+Do NOT turn the website into a decorative animation showcase.
+
+==================================================
+DASHBOARD
+==================================================
+
+Even though this is a doctor dashboard, make it editorial.
+
+Instead of:
+
+five colorful cards sitting in a row
+
+use a composition such as:
+
+large:
+
+1,248
+
+TOTAL PATIENTS
+
+then smaller statistics entering from different positions.
+
+Recent screenings should reveal as the user scrolls.
+
+Quick actions can slide into position.
+
+==================================================
+PATIENTS
+==================================================
+
+Make the patient list feel like an editorial data archive.
+
+Large heading:
+
+PATIENTS
+
+Then a structured table.
+
+Rows should reveal subtly as the page loads.
+
+Selecting a patient should transition into the patient profile smoothly.
+
+==================================================
+PATIENT REGISTRATION
+==================================================
+
+Turn the multi-step registration into a visual sequence.
+
+Example:
+
+01
+BASIC DETAILS
+
+↓
+
+02
+DIABETES HISTORY
+
+↓
+
+03
+EYE HISTORY
+
+↓
+
+04
+SYMPTOMS
+
+↓
+
+05
+CLINICAL INFORMATION
+
+↓
+
+06
+CONSENT
+
+When moving between steps:
+
+current form slides away
+
+next form slides into place.
+
+Use smooth directional movement.
+
+==================================================
+SCREENING UPLOAD
+==================================================
+
+This should be one of the most interactive screens.
+
+Large heading:
+
+START
+RETINAL
+SCREENING
+
+Then:
+
+01
+CAPTURE
+
+Upload existing fundus photograph.
+
+The upload area should react when the user drags an image over it.
+
+After upload:
+
+the image should smoothly reveal into the interface.
+
+Then reports appear as a second section.
+
+The experience should communicate:
+
+CAPTURE
+CHECK
+DETECT
+EXPLAIN
+TRACK
+REFER
+
+==================================================
+AI ANALYSIS
+==================================================
+
+Make the AI analysis state visually interesting but professional.
+
+Use a sequence:
+
+01 IMAGE QUALITY
+02 RETINAL DETECTION
+03 DR SCREENING
+04 LESION ANALYSIS
+05 SECONDARY SCREENING
+06 EXPLANATION
+
+Each stage should transition smoothly.
+
+Use sliding text and progress indicators.
+
+No cheesy futuristic AI effects.
+
+==================================================
+AI RESULTS
+==================================================
+
+Make the results page feel like a scientific editorial report.
+
+Large:
+
+AI
+SCREENING
+RESULTS
+
+Then result panels slide/reveal into position.
+
+Example:
+
+RIGHT EYE
+MODERATE NPDR
+
+LEFT EYE
+MILD NPDR
+
+Then:
+
+HIGH PRIORITY
+
+Then:
+
+LESION FINDINGS
+
+Then:
+
+SECONDARY FINDINGS
+
+Then:
+
+EXPLAINABLE AI
+
+Each section should have a clear visual transition.
+
+==================================================
+EXPLAINABLE AI
+==================================================
+
+Create an interactive image viewer.
+
+Controls:
+
+ORIGINAL
+HEATMAP
+LESION MAP
+COMPARISON
+
+When switching:
+
+do not instantly replace the image.
+
+Use:
+
+crossfade
+mask reveal
+slide
+or smooth image transition.
+
+For comparison:
+
+use a draggable before/after slider.
+
+==================================================
+PREVIOUS VS CURRENT
+==================================================
+
+Create a beautiful interactive comparison.
+
+Previous image:
+
+2025
+
+Current image:
+
+2026
+
+Use a draggable comparison slider.
+
+Add subtle movement when switching between:
+
+Previous
+Current
+Difference
+
+==================================================
+DOCTOR REVIEW
+==================================================
+
+Make the clinical review feel like the final stage of the visual journey.
+
+Show:
+
+AI FINDINGS
+↓
+EXPLAINABILITY
+↓
+COMPARISON
+↓
+DOCTOR REVIEW
+
+Doctor decision:
+
+MONITOR
+REFER
+REVIEWED
+
+Use a smooth transition into the final decision state.
+
+==================================================
+MICRO-INTERACTIONS
+==================================================
+
+Add subtle interactions to:
+
+buttons
+links
+navigation
+upload zones
+tabs
+tables
+cards
+image viewers
+status indicators
+
+Examples:
+
+arrow moves slightly on hover
+
+underline expands
+
+border transitions
+
+text shifts subtly
+
+image reveals
+
+Use restraint.
+
+==================================================
+MOTION LIBRARY
+==================================================
+
+Use Motion / Framer Motion compatible techniques.
+
+Structure animations so that they can later be replaced or enhanced with Motion Primitives.
+
+Do NOT add a huge animation dependency stack.
+
+==================================================
+PERFORMANCE
+==================================================
+
+Animations must remain smooth.
+
+Prefer:
+
+transform
+opacity
+clip-path
+
+over expensive layout animations.
+
+Do not animate huge numbers of DOM elements simultaneously.
+
+Respect:
+
+prefers-reduced-motion.
+
+==================================================
+MOBILE
+==================================================
+
+The interactive experience must still work on mobile.
+
+Do not force desktop horizontal scrolling onto mobile.
+
+Convert complex horizontal interactions into vertical sequences when necessary.
+
+Keep the same visual storytelling.
+
+==================================================
+VERY IMPORTANT
+==================================================
+
+DO NOT add the reference images.
+
+DO NOT copy the reference artwork.
+
+DO NOT add random photography.
+
+DO NOT change RetinoAI's medical functionality.
+
+DO NOT add backend.
+
+DO NOT add AI.
+
+DO NOT add hardware.
+
+DO NOT change routes.
+
+DO NOT remove existing pages.
+
+ONLY transform:
+
+LAYOUT
+TYPOGRAPHY
+VISUAL STYLE
+SCROLL EXPERIENCE
+PAGE TRANSITIONS
+SLIDING EFFECTS
+MICRO-INTERACTIONS
+EDITORIAL COMPOSITION
+
+==================================================
+FINAL EXPERIENCE
+==================================================
+
+When a doctor uses RetinoAI, it should feel like they are moving through a carefully designed digital medical experience:
+
+DASHBOARD
+↓
+PATIENT
+↓
+SCREENING
+↓
+CAPTURE
+↓
+CHECK
+↓
+DETECT
+↓
+EXPLAIN
+↓
+TRACK
+↓
+DOCTOR REVIEW
+↓
+REFER / MONITOR
+
+The website should feel alive through movement while remaining professional and usable.
+
+TARGET:
+
+"Swiss editorial website meets premium medical AI technology."
+
+NOT:
+
+"Animated SaaS dashboard."
