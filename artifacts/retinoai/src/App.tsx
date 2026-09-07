@@ -149,9 +149,18 @@ function Dashboard({patients, screenings}:{patients:Patient[]; screenings:Screen
     {title:'Clinical decision recorded',detail:'Samuel Otieno · Refer',time:'Yesterday',icon:CheckCircle2},
     {title:'New report added',detail:'Amina Wekesa · Clinical notes',time:'15 Jun',icon:FileText},
   ];
+  const workflowStages = [
+    {label:'Capture',detail:'Upload'},
+    {label:'Check',detail:'Quality'},
+    {label:'Detect',detail:'Screen'},
+    {label:'Explain',detail:'Evidence'},
+    {label:'Track',detail:'Compare'},
+    {label:'Refer',detail:'Decide'},
+  ];
   return <AppShell title="Overview"><Reveal className="page-heading"><div><div className="eyebrow">Thursday · 18 June 2026</div><h1 style={{marginTop:8}}>Good morning, Dr. Kamau</h1><p className="subtitle">A focused view of your rural screening work.</p></div><button className="btn btn-primary" data-testid="button-start-screening" onClick={()=>setLocation('/screening/new')}><Plus size={15}/> New screening</button></Reveal>
-    <div className="notice"><ShieldCheck size={16}/><div><strong>Prototype workspace</strong> · All indicators and records below are fictional demo output for SIH 2026. AI assists. Doctors decide.</div></div>
-     <Reveal className="grid grid-4" style={{marginTop:17}}>{[['Active patients',patients.length,'Across 3 communities'],['Needs review','12','4 added today'],['Follow-ups due','5','1 overdue'],['Reviewed this week',reviewed+18,'Clinical decisions saved']].map(([label,value,meta],i)=><div className="card metric" key={String(label)}><div className="eyebrow">{label}</div><div className={cn('metric-value',i===1||i===2?'metric-accent':'')}>{value}</div><div className="metric-meta">{meta}</div></div>)}</Reveal>
+    <Reveal className="notice" delay={.04}><ShieldCheck size={16}/><div><strong>Prototype workspace</strong> · All indicators and records below are fictional demo output for SIH 2026. AI assists. Doctors decide.</div></Reveal>
+    <Reveal className="workflow-track" delay={.1} amount={.3}><div className="workflow-track-header"><div className="eyebrow">Clinical journey</div><span className="tiny muted">Capture → Check → Detect → Explain → Track → Refer</span></div><div className="workflow-stages">{workflowStages.map((stage,index)=><div className="workflow-stage" key={stage.label}><div className="workflow-stage-top"><span className="workflow-index">0{index+1}</span>{index<workflowStages.length-1&&<span className="workflow-connector"/>}</div><div className="workflow-label">{stage.label}</div><div className="workflow-detail">{stage.detail}</div></div>)}</div></Reveal>
+     <Reveal className="dashboard-metrics" style={{marginTop:24}}>{[['Active patients',patients.length,'Across 3 communities'],['Needs review','12','4 added today'],['Follow-ups due','5','1 overdue'],['Reviewed this week',reviewed+18,'Clinical decisions saved']].map(([label,value,meta],i)=><div className={cn('card metric',i===0?'metric-primary':'')} key={String(label)}><div className="eyebrow">{label}</div><div className={cn('metric-value',i===1||i===2?'metric-accent':'')}>{value}</div><div className="metric-meta">{meta}</div></div>)}</Reveal>
      <Reveal className="grid grid-2" style={{marginTop:28}}><div className="card card-pad"><div className="section-row" style={{marginTop:0}}><h2>Recent activity</h2><Link className="link" href="/screening/new" data-testid="link-view-all-activity">Start screening</Link></div>
       {activityItems.map(({title,detail,time,icon:Icon})=><div className="activity-row" key={title}><div className="activity-icon"><Icon size={15}/></div><div className="row-grow"><div className="row-title">{title}</div><div className="row-detail">{detail}</div></div><div className="row-end muted tiny">{time}</div></div>)}
     </div><div className="card card-pad"><div className="section-row" style={{marginTop:0}}><h2>Follow-up pulse</h2><Link className="link" href="/follow-ups" data-testid="link-view-follow-ups">View all</Link></div>

@@ -1245,3 +1245,183 @@ h1 {
     transform: none;
   }
 }
+
+/* Clinical journey and editorial dashboard hierarchy */
+.workflow-track {
+  margin-top: 24px;
+  padding: 19px 20px 17px;
+  background: #ffffff;
+  border: 1px solid #dce2df;
+  border-left: 3px solid #dcebe4;
+  border-radius: 8px;
+}
+
+.workflow-track-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #dce2df;
+}
+
+.workflow-stages {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  padding-top: 17px;
+}
+
+.workflow-stage {
+  min-width: 0;
+  position: relative;
+}
+
+.workflow-stage-top {
+  display: flex;
+  align-items: center;
+  min-height: 18px;
+}
+
+.workflow-index {
+  color: #7897a8;
+  font: 500 11px/1 var(--app-font-sans);
+  letter-spacing: .08em;
+}
+
+.workflow-connector {
+  height: 1px;
+  flex: 1;
+  margin: 0 12px;
+  background: #c8d1cc;
+}
+
+.workflow-label {
+  margin-top: 11px;
+  color: #24302d;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -.02em;
+}
+
+.workflow-detail {
+  margin-top: 4px;
+  color: #929b98;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+.workflow-stage {
+  transition: transform .3s cubic-bezier(.22, 1, .36, 1);
+}
+
+.workflow-stage:hover {
+  transform: translateY(-3px);
+}
+
+.workflow-stage:hover .workflow-index {
+  color: #c96f73;
+}
+
+.dashboard-metrics {
+  display: grid;
+  grid-template-columns: minmax(1.45fr, 2fr) repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.dashboard-metrics .metric {
+  min-height: 138px;
+}
+
+.dashboard-metrics .metric-primary {
+  background: #dcebe4;
+  border-color: #b8d5c4;
+}
+
+.dashboard-metrics .metric-primary .metric-value {
+  font-size: 46px;
+}
+
+.dashboard-metrics .metric-primary .metric-meta {
+  color: #4f7f64;
+}
+
+.dashboard-metrics .metric:nth-child(2) {
+  background: #ffffff;
+}
+
+.dashboard-metrics .metric:nth-child(3) {
+  background: #f5e4da;
+  border-color: #e3c6ae;
+}
+
+.dashboard-metrics .metric:nth-child(4) {
+  background: #e9e4f2;
+  border-color: #d6cee3;
+}
+
+.dashboard-metrics .metric:nth-child(3) .metric-accent {
+  color: #a9535a;
+}
+
+.dashboard-metrics .metric:nth-child(4) .metric-value {
+  color: #5c7890;
+}
+
+.dashboard-metrics + .grid {
+  margin-top: 34px !important;
+}
+
+@media (max-width: 1020px) {
+  .dashboard-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .dashboard-metrics .metric-primary {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 760px) {
+  .workflow-track {
+    padding: 17px 16px;
+  }
+
+  .workflow-track-header {
+    display: block;
+  }
+
+  .workflow-track-header .tiny {
+    display: block;
+    margin-top: 6px;
+  }
+
+  .workflow-stages {
+    display: flex;
+    gap: 22px;
+    overflow-x: auto;
+    padding: 17px 3px 4px;
+    margin-right: -5px;
+    scrollbar-width: thin;
+  }
+
+  .workflow-stage {
+    flex: 0 0 82px;
+  }
+
+  .workflow-connector {
+    display: none;
+  }
+
+  .dashboard-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-metrics .metric-primary {
+    grid-column: auto;
+  }
+
+  .dashboard-metrics .metric-primary .metric-value {
+    font-size: 40px;
+  }
+}

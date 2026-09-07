@@ -1,0 +1,648 @@
+Transform the EXISTING RetinoAI frontend into a premium Swiss International Typographic Style medical/biotech digital experience.
+
+IMPORTANT:
+DO NOT rebuild the application from scratch.
+DO NOT replace the existing architecture.
+DO NOT change existing routes.
+DO NOT remove existing functionality.
+DO NOT change mock data.
+DO NOT add backend functionality.
+DO NOT add database functionality.
+DO NOT add AI functionality.
+DO NOT add hardware functionality.
+
+This is a VISUAL + UX transformation of the existing frontend.
+
+First inspect the existing application and understand the current pages, components, routing, styling, and existing animations.
+
+==================================================
+CORE DESIGN DIRECTION
+==================================================
+
+The website should feel like a high-end Swiss editorial medical/biotech experience.
+
+Use the visual language of:
+
+- Swiss International Typographic Style
+- strict grid systems
+- large typography
+- editorial layouts
+- asymmetric compositions
+- strong alignment
+- generous whitespace
+- thin 1px rules and dividers
+- geometric elements
+- restrained pastel surfaces
+- minimal decoration
+- precise spacing
+- sophisticated typography
+- calm clinical aesthetics
+- premium digital product design
+
+The result must NOT look like a generic SaaS dashboard.
+
+Think:
+EDITORIAL MEDICAL SYSTEM
+rather than
+STANDARD ADMIN DASHBOARD.
+
+==================================================
+COLOR DIRECTION
+==================================================
+
+Keep and refine the existing RetinoAI pastel clinical palette.
+
+Primary background:
+#F6F8F7
+
+White:
+#FFFFFF
+
+Sage:
+#DCEBE4
+
+Pastel Blue:
+#DDEAF4
+
+Lavender:
+#E9E4F2
+
+Peach:
+#F5E4DA
+
+Pink:
+#F3DFE2
+
+Primary text:
+#24302D
+
+Secondary text:
+#68736F
+
+Muted text:
+#929B98
+
+Border:
+#DCE2DF
+
+Strong border:
+#C8D1CC
+
+Coral accent:
+#C96F73
+
+Success:
+#6E9B82
+
+AI accent:
+#7897A8
+
+Use coral VERY selectively.
+
+Do not create neon colors.
+
+Do not introduce unnecessary gradients.
+
+Do not use glassmorphism.
+
+Do not use decorative blobs.
+
+==================================================
+TYPOGRAPHY
+==================================================
+
+Typography should be one of the main visual elements.
+
+Use Inter consistently.
+
+Create a strong editorial hierarchy:
+
+Hero:
+48–64px
+
+Page titles:
+36–48px
+
+Section headings:
+20–28px
+
+Card headings:
+16–18px
+
+Body:
+14–16px
+
+Metadata:
+11–13px
+
+Use:
+- tight tracking on large headings
+- uppercase eyebrow labels
+- generous line-height for body text
+- large numerical typography for important metrics
+
+Do not make every piece of text bold.
+
+==================================================
+LAYOUT
+==================================================
+
+Use a strict 12-column editorial grid on desktop.
+
+Use asymmetric compositions where appropriate.
+
+Do not place everything into identical cards.
+
+Use whitespace and thin borders to separate information.
+
+Cards should be:
+- mostly white
+- thin bordered
+- minimal shadow or no shadow
+- subtle 2–6px radius
+- structurally clean
+
+Avoid the typical:
+"four rounded cards across the screen"
+SaaS pattern.
+
+Instead use editorial information blocks with different visual weights.
+
+==================================================
+MOST IMPORTANT:
+INTERACTION + SLIDING EXPERIENCE
+==================================================
+
+The website should feel ALIVE and INTERACTIVE.
+
+This is NOT simply a static Swiss redesign.
+
+Use the existing Framer Motion setup if available.
+
+Add smooth:
+
+- page transitions
+- section reveals
+- horizontal sliding panels
+- vertical reveals
+- staggered text animations
+- masked text reveals
+- clip-path reveals
+- image reveals
+- subtle parallax
+- sticky sections
+- hover transitions
+- tab transitions
+- modal transitions
+- timeline animations
+- progress animations
+
+Use horizontal movement selectively.
+
+Do NOT make every section horizontally scroll.
+
+Animations should feel:
+- smooth
+- premium
+- restrained
+- intentional
+- fast enough for clinical workflows
+
+Avoid:
+- bouncing UI
+- excessive scaling
+- flashy animations
+- constant movement
+- distracting effects
+
+Respect:
+prefers-reduced-motion
+
+==================================================
+RETINOAI VISUAL NARRATIVE
+==================================================
+
+Use the RetinoAI workflow as a recurring visual language:
+
+CAPTURE
+→ CHECK
+→ DETECT
+→ EXPLAIN
+→ TRACK
+→ REFER
+
+These six stages should visually feel connected.
+
+Use sliding transitions, directional movement, and progressive reveals where appropriate.
+
+The interface should communicate a clear clinical journey:
+
+UPLOAD FUNDUS IMAGE
+→ QUALITY CHECK
+→ DR SCREENING
+→ SECONDARY RETINAL FINDINGS
+→ EXPLAINABLE AI
+→ COMPARISON
+→ DOCTOR REVIEW
+→ MONITOR / REFER
+
+Remember:
+
+AI assists.
+Doctors decide.
+
+This should remain visible where appropriate.
+
+==================================================
+SIDEBAR
+==================================================
+
+Redesign the sidebar to be extremely clean and editorial.
+
+Use:
+- white background
+- thin right border
+- minimal icons
+- strong typography
+- small uppercase section labels where useful
+- subtle sage active state
+- restrained coral active indicator
+
+Navigation should feel like a sophisticated medical workstation.
+
+Do NOT make the sidebar overly decorative.
+
+==================================================
+TOP BAR
+==================================================
+
+Create a clean minimal top navigation.
+
+Use:
+- page context
+- subtle metadata
+- restrained controls
+- thin borders
+
+Avoid oversized dashboard chrome.
+
+==================================================
+DASHBOARD
+==================================================
+
+Transform the dashboard into an editorial clinical overview.
+
+Instead of many identical cards:
+
+Create a hierarchy.
+
+Example:
+
+RETINOAI / SCREENING WORKSPACE
+
+Clinical Screening Overview
+
+Large primary metrics.
+
+Then:
+
+CAPTURE → CHECK → DETECT → EXPLAIN → TRACK → REFER
+
+as a visually connected workflow.
+
+Then:
+
+Recent Activity
+
+as an editorial timeline/list.
+
+Then:
+
+Follow-up Pulse
+
+as a clinical monitoring section.
+
+Make important numbers visually large.
+
+Use asymmetry and whitespace.
+
+==================================================
+PATIENTS
+==================================================
+
+Redesign the patient registry.
+
+Keep it highly usable for doctors.
+
+Use:
+- editorial table
+- strong column hierarchy
+- clean filters
+- subtle row hover
+- patient ID as a visual anchor
+- priority indicators
+- minimal status badges
+
+Do not turn every row into a rounded card.
+
+==================================================
+PATIENT REGISTRATION
+==================================================
+
+Make the 6-step registration wizard feel premium.
+
+Use large step typography.
+
+Create smooth directional transitions between steps.
+
+Use horizontal sliding panels where appropriate.
+
+The experience should feel like a clinical intake system, not a generic form.
+
+Preserve all existing fields and functionality.
+
+==================================================
+SCREENING UPLOAD
+==================================================
+
+This is one of the MOST IMPORTANT screens.
+
+Create a beautiful upload-first clinical workflow.
+
+The user is a:
+DOCTOR / HEALTHCARE WORKER
+
+The patient is the:
+SUBJECT / RECORD
+
+The workflow should clearly communicate:
+
+SELECT PATIENT
+↓
+UPLOAD RIGHT EYE
+↓
+UPLOAD LEFT EYE
+↓
+UPLOAD AVAILABLE REPORT
+↓
+CHECK IMAGE QUALITY
+↓
+START SCREENING
+
+Make the upload zone visually strong but minimal.
+
+Use:
+- drag and drop
+- smooth file appearance
+- image preview
+- eye-side labels
+- metadata
+- progress states
+
+Use subtle motion when files enter/leave.
+
+Do not imply that custom hardware is currently available.
+
+Future hardware can remain informational only.
+
+==================================================
+SCREENING RESULTS
+==================================================
+
+Make this feel like a scientific medical analysis interface.
+
+Use:
+- large result typography
+- clear severity hierarchy
+- lesion findings
+- confidence information
+- explainability
+- image comparison
+- restrained scientific accents
+
+Use animation to progressively reveal analysis results.
+
+Example:
+
+IMAGE
+↓
+QUALITY
+↓
+DR FINDING
+↓
+SECONDARY FINDINGS
+↓
+EXPLANATION
+↓
+DOCTOR REVIEW
+
+Do not make the result page look like a colorful AI demo.
+
+It should look clinically serious.
+
+==================================================
+EXPLAINABLE AI
+==================================================
+
+Make explainability visually compelling.
+
+Use:
+- image overlays
+- lesion regions
+- annotations
+- confidence indicators
+- side-by-side comparison
+
+Use subtle transitions to reveal the AI findings.
+
+The interface should communicate:
+
+"What did the AI detect?"
+"What visual evidence supports it?"
+"How confident is the system?"
+
+Do not imply that an AI heatmap is definitive medical proof.
+
+==================================================
+DOCTOR REVIEW
+==================================================
+
+This should be one of the strongest screens.
+
+Make the doctor decision hierarchy extremely clear.
+
+AI findings
+↓
+Evidence
+↓
+Confidence
+↓
+Doctor review
+↓
+MONITOR / REFER
+
+Use strong typography and clear action states.
+
+Keep:
+
+AI assists. Doctors decide.
+
+==================================================
+FOLLOW-UPS
+==================================================
+
+Create an editorial clinical timeline.
+
+Use:
+- dates
+- patient
+- screening history
+- priority
+- follow-up status
+
+Use scroll-triggered timeline reveals where appropriate.
+
+==================================================
+REPORTS
+==================================================
+
+Create a clean medical document library.
+
+Use:
+- document type
+- patient
+- date
+- status
+- search/filter
+
+Use subtle interactions.
+
+==================================================
+SETTINGS
+==================================================
+
+Keep settings simple and functional.
+
+Use editorial grouping rather than many cards.
+
+Future hardware settings can remain clearly labeled:
+
+FUTURE HARDWARE SUPPORT
+
+Do not imply that hardware exists in the current prototype.
+
+==================================================
+RESPONSIVE DESIGN
+==================================================
+
+Desktop:
+Use the full editorial grid.
+
+Tablet:
+Preserve hierarchy and spacing.
+
+Mobile:
+Do NOT simply shrink the desktop layout.
+
+Create a deliberate vertical editorial experience.
+
+Horizontal interactions should remain usable on touch devices.
+
+==================================================
+MOTION RULES
+==================================================
+
+Use animation to communicate:
+
+hierarchy
+direction
+progress
+state
+continuity
+
+Do NOT animate purely for decoration.
+
+Preferred timing:
+fast UI interactions: ~180–250ms
+page/section transitions: ~300–600ms
+
+Use easing that feels smooth and professional.
+
+Avoid excessive spring/bounce behavior.
+
+Respect prefers-reduced-motion.
+
+==================================================
+IMPORTANT IMPLEMENTATION RULES
+==================================================
+
+Before modifying files:
+
+1. Inspect the existing frontend.
+2. Preserve existing routes.
+3. Preserve existing functionality.
+4. Preserve existing mock data.
+5. Preserve existing upload behavior.
+6. Preserve existing patient workflow.
+7. Preserve existing screening workflow.
+8. Preserve existing doctor workflow.
+
+Reuse existing components where practical.
+
+Do not unnecessarily create a completely new architecture.
+
+Do not remove working functionality just to achieve the new design.
+
+Do not use the inspiration/reference images directly.
+
+Do not add random stock photography.
+
+Do not create fake medical data.
+
+Do not make medical claims beyond the existing prototype.
+
+==================================================
+FINAL GOAL
+==================================================
+
+The final website should feel like:
+
+A premium Swiss editorial medical/biotech interface designed for real clinical screening workflows.
+
+It should be:
+
+MINIMAL
++
+EDITORIAL
++
+INTERACTIVE
++
+CLINICAL
++
+PRECISE
++
+CALM
++
+PREMIUM
+
+Most importantly:
+
+It should feel like RETINOAI.
+
+Not a generic SaaS template.
+Not a generic hospital dashboard.
+Not an AI demo.
+
+Use the existing application as the foundation and elevate its visual language dramatically.
+
+After completing the redesign:
+
+1. Run the application.
+2. Check all routes.
+3. Check responsive layouts.
+4. Check animations.
+5. Fix visual regressions.
+6. Fix console errors.
+7. Do not change functionality.
+
+Report what was changed when finished.
