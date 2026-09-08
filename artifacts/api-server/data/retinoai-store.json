@@ -1,0 +1,3925 @@
+{
+  "patients": [
+    {
+      "id": "P-A78B12",
+      "patientCode": "PID-2026-001",
+      "fullName": "Lakshmi Narayanan",
+      "dateOfBirth": "1968-04-12",
+      "age": "58",
+      "sex": "Female",
+      "mobile": "+91 98450 12345",
+      "phone": "+91 98450 12345",
+      "address": "14 North Car Street",
+      "village": "Kallakurichi",
+      "district": "Viluppuram",
+      "risk": "High",
+      "lastScreening": "2026-09-05",
+      "status": "Awaiting specialist review",
+      "createdAt": "2026-09-05T15:45:53.717Z",
+      "updatedAt": "2026-09-08T15:54:56.447Z"
+    },
+    {
+      "id": "P-C34F90",
+      "patientCode": "PID-2026-002",
+      "fullName": "Rajesh Kumar",
+      "dateOfBirth": "1974-09-22",
+      "age": "52",
+      "sex": "Male",
+      "mobile": "+91 94432 67890",
+      "phone": "+91 94432 67890",
+      "address": "Bypass Road",
+      "village": "Thirukoilur",
+      "district": "Kallakurichi",
+      "risk": "Moderate",
+      "lastScreening": "2026-09-07",
+      "status": "Screening completed",
+      "createdAt": "2026-09-07T15:45:53.717Z",
+      "updatedAt": "2026-09-07T15:45:53.717Z"
+    },
+    {
+      "id": "P-7B5028",
+      "patientCode": "PID-2026-003",
+      "fullName": "fdklfjdlfd",
+      "dateOfBirth": "",
+      "age": "18",
+      "sex": "Male",
+      "mobile": "8765435678",
+      "address": "k,ciekkjlfd,dlkd",
+      "village": "lkfdfjdlf",
+      "district": "fdkfkdjlf",
+      "phone": "8765435678",
+      "risk": "Moderate",
+      "lastScreening": "2026-09-08",
+      "status": "Screening in progress",
+      "createdAt": "2026-09-08T15:53:59.944Z",
+      "updatedAt": "2026-09-08T15:53:59.944Z"
+    },
+    {
+      "id": "P-83C78B",
+      "patientCode": "PID-2026-004",
+      "fullName": "Smt. Meenakshi Sundaram",
+      "dateOfBirth": "1968-04-12",
+      "age": "58",
+      "sex": "Female",
+      "mobile": "+91 94432 10987",
+      "address": "",
+      "village": "Valikandapuram",
+      "district": "Perambalur",
+      "phone": "+91 94432 10987",
+      "risk": "High",
+      "lastScreening": "",
+      "status": "Awaiting specialist review",
+      "createdAt": "2026-09-08T16:03:34.520Z",
+      "updatedAt": "2026-09-08T16:03:34.577Z"
+    },
+    {
+      "id": "P-7AA587",
+      "patientCode": "PID-2026-005",
+      "fullName": "Meenakshi Sundaram",
+      "age": "48",
+      "sex": "Female",
+      "dateOfBirth": "1971-06-15",
+      "mobile": "+91 98765 43210",
+      "phone": "+91 98765 43210",
+      "address": "Rural Screening Camp Sector 4",
+      "village": "Perambalur",
+      "district": "Perambalur",
+      "risk": "Moderate",
+      "status": "Screening imported from dataset",
+      "createdAt": "2026-09-08T16:03:34.630Z",
+      "updatedAt": "2026-09-08T16:03:34.630Z"
+    },
+    {
+      "id": "P-F40418",
+      "patientCode": "PID-2026-006",
+      "fullName": "Smt. Meenakshi Sundaram",
+      "dateOfBirth": "1968-04-12",
+      "age": "58",
+      "sex": "Female",
+      "mobile": "+91 94432 10987",
+      "address": "",
+      "village": "Valikandapuram",
+      "district": "Perambalur",
+      "phone": "+91 94432 10987",
+      "risk": "High",
+      "lastScreening": "",
+      "status": "Awaiting specialist review",
+      "createdAt": "2026-09-08T16:04:27.710Z",
+      "updatedAt": "2026-09-08T16:04:27.768Z"
+    },
+    {
+      "id": "P-24953F",
+      "patientCode": "PID-2026-007",
+      "fullName": "Meenakshi Sundaram",
+      "age": "48",
+      "sex": "Female",
+      "dateOfBirth": "1971-06-15",
+      "mobile": "+91 98765 43210",
+      "phone": "+91 98765 43210",
+      "address": "Rural Screening Camp Sector 4",
+      "village": "Perambalur",
+      "district": "Perambalur",
+      "risk": "Moderate",
+      "status": "Screening imported from dataset",
+      "createdAt": "2026-09-08T16:04:27.847Z",
+      "updatedAt": "2026-09-08T16:04:27.847Z"
+    },
+    {
+      "id": "P-0E3CA6",
+      "patientCode": "PID-2026-008",
+      "fullName": "Smt. Meenakshi Sundaram",
+      "dateOfBirth": "1968-04-12",
+      "age": "58",
+      "sex": "Female",
+      "mobile": "+91 94432 10987",
+      "address": "",
+      "village": "Valikandapuram",
+      "district": "Perambalur",
+      "phone": "+91 94432 10987",
+      "risk": "High",
+      "lastScreening": "",
+      "status": "Awaiting specialist review",
+      "createdAt": "2026-09-08T16:05:21.798Z",
+      "updatedAt": "2026-09-08T16:05:21.882Z"
+    },
+    {
+      "id": "P-B4A71D",
+      "patientCode": "PID-2026-009",
+      "fullName": "Meenakshi Sundaram",
+      "age": "48",
+      "sex": "Female",
+      "dateOfBirth": "1971-06-15",
+      "mobile": "+91 98765 43210",
+      "phone": "+91 98765 43210",
+      "address": "Rural Screening Camp Sector 4",
+      "village": "Perambalur",
+      "district": "Perambalur",
+      "risk": "Moderate",
+      "status": "Screening imported from dataset",
+      "createdAt": "2026-09-08T16:05:21.934Z",
+      "updatedAt": "2026-09-08T16:05:21.934Z"
+    },
+    {
+      "id": "P-D00D8B",
+      "patientCode": "PID-2026-010",
+      "fullName": "Ananya Sen",
+      "age": "61",
+      "sex": "Female",
+      "dateOfBirth": "1971-06-15",
+      "mobile": "+91 98765 43210",
+      "phone": "+91 98765 43210",
+      "address": "Rural Screening Camp Sector 4",
+      "village": "Perambalur",
+      "district": "Perambalur",
+      "risk": "High",
+      "status": "Screening imported from dataset",
+      "createdAt": "2026-09-08T16:08:28.640Z",
+      "updatedAt": "2026-09-08T16:08:28.640Z"
+    },
+    {
+      "id": "P-DB9DD9",
+      "patientCode": "PID-2026-011",
+      "fullName": "Smt. Meenakshi Sundaram",
+      "dateOfBirth": "1968-04-12",
+      "age": "58",
+      "sex": "Female",
+      "mobile": "+91 94432 10987",
+      "address": "",
+      "village": "Valikandapuram",
+      "district": "Perambalur",
+      "phone": "+91 94432 10987",
+      "risk": "High",
+      "lastScreening": "",
+      "status": "Awaiting specialist review",
+      "createdAt": "2026-09-08T16:29:37.204Z",
+      "updatedAt": "2026-09-08T16:29:37.284Z"
+    },
+    {
+      "id": "P-B13202",
+      "patientCode": "PID-2026-012",
+      "fullName": "Meenakshi Sundaram",
+      "age": "48",
+      "sex": "Female",
+      "dateOfBirth": "1971-06-15",
+      "mobile": "+91 98765 43210",
+      "phone": "+91 98765 43210",
+      "address": "Rural Screening Camp Sector 4",
+      "village": "Perambalur",
+      "district": "Perambalur",
+      "risk": "Moderate",
+      "status": "Screening imported from dataset",
+      "createdAt": "2026-09-08T16:29:37.346Z",
+      "updatedAt": "2026-09-08T16:29:37.346Z"
+    },
+    {
+      "id": "P-79C56C",
+      "patientCode": "PID-2026-013",
+      "fullName": "Smt. Meenakshi Sundaram",
+      "dateOfBirth": "1968-04-12",
+      "age": "58",
+      "sex": "Female",
+      "mobile": "+91 94432 10987",
+      "address": "",
+      "village": "Valikandapuram",
+      "district": "Perambalur",
+      "phone": "+91 94432 10987",
+      "risk": "High",
+      "lastScreening": "",
+      "status": "Awaiting specialist review",
+      "createdAt": "2026-09-08T16:37:16.450Z",
+      "updatedAt": "2026-09-08T16:37:16.558Z"
+    },
+    {
+      "id": "P-68A245",
+      "patientCode": "PID-2026-014",
+      "fullName": "Meenakshi Sundaram",
+      "age": "48",
+      "sex": "Female",
+      "dateOfBirth": "1971-06-15",
+      "mobile": "+91 98765 43210",
+      "phone": "+91 98765 43210",
+      "address": "Rural Screening Camp Sector 4",
+      "village": "Perambalur",
+      "district": "Perambalur",
+      "risk": "Moderate",
+      "status": "Screening imported from dataset",
+      "createdAt": "2026-09-08T16:37:16.612Z",
+      "updatedAt": "2026-09-08T16:37:16.612Z"
+    },
+    {
+      "id": "P-3B314A",
+      "patientCode": "PID-2026-015",
+      "fullName": "Ananya Sen",
+      "age": "61",
+      "sex": "Female",
+      "dateOfBirth": "1971-06-15",
+      "mobile": "+91 98765 43210",
+      "phone": "+91 98765 43210",
+      "address": "Rural Screening Camp Sector 4",
+      "village": "Perambalur",
+      "district": "Perambalur",
+      "risk": "High",
+      "status": "Screening imported from dataset",
+      "createdAt": "2026-09-08T16:41:30.666Z",
+      "updatedAt": "2026-09-08T16:41:30.666Z"
+    },
+    {
+      "id": "P-370AB5",
+      "patientCode": "PID-2026-016",
+      "fullName": "Lakshmi Narayanan",
+      "dateOfBirth": "",
+      "age": "58",
+      "sex": "Female",
+      "mobile": "+91 98450 12345",
+      "address": "Rural Primary Health Centre",
+      "village": "Kallakurichi",
+      "district": "Viluppuram",
+      "phone": "+91 98450 12345",
+      "risk": "High",
+      "lastScreening": "2026-09-08",
+      "status": "Screening in progress",
+      "createdAt": "2026-09-08T16:41:44.101Z",
+      "updatedAt": "2026-09-08T16:41:44.101Z"
+    },
+    {
+      "id": "P-C7572D",
+      "patientCode": "PID-2026-017",
+      "fullName": "Smt. Meenakshi Sundaram",
+      "dateOfBirth": "1968-04-12",
+      "age": "58",
+      "sex": "Female",
+      "mobile": "+91 94432 10987",
+      "address": "",
+      "village": "Valikandapuram",
+      "district": "Perambalur",
+      "phone": "+91 94432 10987",
+      "risk": "High",
+      "lastScreening": "",
+      "status": "Awaiting specialist review",
+      "createdAt": "2026-09-08T16:46:00.266Z",
+      "updatedAt": "2026-09-08T16:46:00.342Z"
+    },
+    {
+      "id": "P-7971EB",
+      "patientCode": "PID-2026-018",
+      "fullName": "Meenakshi Sundaram",
+      "age": "48",
+      "sex": "Female",
+      "dateOfBirth": "1971-06-15",
+      "mobile": "+91 98765 43210",
+      "phone": "+91 98765 43210",
+      "address": "Rural Screening Camp Sector 4",
+      "village": "Perambalur",
+      "district": "Perambalur",
+      "risk": "Moderate",
+      "status": "Screening imported from dataset",
+      "createdAt": "2026-09-08T16:46:00.408Z",
+      "updatedAt": "2026-09-08T16:46:00.408Z"
+    }
+  ],
+  "screeningCases": [
+    {
+      "id": "SC-2026-0001",
+      "caseCode": "CASE-0001",
+      "patientId": "P-A78B12",
+      "status": "screening_complete",
+      "screeningDate": "2026-09-05",
+      "createdAt": "2026-09-05T15:45:53.717Z",
+      "updatedAt": "2026-09-08T16:41:52.291Z"
+    },
+    {
+      "id": "SC-2026-0002",
+      "caseCode": "CASE-0002",
+      "patientId": "P-A78B12",
+      "status": "doctor_reviewed",
+      "screeningDate": "2026-09-08",
+      "createdAt": "2026-09-08T15:50:29.818Z",
+      "updatedAt": "2026-09-08T15:50:29.867Z"
+    },
+    {
+      "id": "SC-2026-0001",
+      "caseCode": "CASE-0003",
+      "patientId": "P-7B5028",
+      "status": "in_progress",
+      "screeningDate": "2026-09-08",
+      "createdAt": "2026-09-08T15:53:59.948Z",
+      "updatedAt": "2026-09-08T15:53:59.948Z"
+    },
+    {
+      "id": "SC-2026-0004",
+      "caseCode": "CASE-0004",
+      "patientId": "P-83C78B",
+      "status": "doctor_reviewed",
+      "screeningDate": "2026-09-08",
+      "createdAt": "2026-09-08T16:03:34.540Z",
+      "updatedAt": "2026-09-08T16:03:34.587Z"
+    },
+    {
+      "id": "SC-2026-0005",
+      "caseCode": "CASE-0005",
+      "patientId": "P-7AA587",
+      "status": "screening_complete",
+      "screeningDate": "2026-09-08",
+      "createdAt": "2026-09-08T16:03:34.630Z",
+      "updatedAt": "2026-09-08T16:03:34.630Z"
+    },
+    {
+      "id": "SC-2026-0006",
+      "caseCode": "CASE-0006",
+      "patientId": "P-F40418",
+      "status": "doctor_reviewed",
+      "screeningDate": "2026-09-08",
+      "createdAt": "2026-09-08T16:04:27.737Z",
+      "updatedAt": "2026-09-08T16:04:27.799Z"
+    },
+    {
+      "id": "SC-2026-0007",
+      "caseCode": "CASE-0007",
+      "patientId": "P-24953F",
+      "status": "screening_complete",
+      "screeningDate": "2026-09-08",
+      "createdAt": "2026-09-08T16:04:27.847Z",
+      "updatedAt": "2026-09-08T16:04:27.847Z"
+    },
+    {
+      "id": "SC-2026-0008",
+      "caseCode": "CASE-0008",
+      "patientId": "P-0E3CA6",
+      "status": "doctor_reviewed",
+      "screeningDate": "2026-09-08",
+      "createdAt": "2026-09-08T16:05:21.827Z",
+      "updatedAt": "2026-09-08T16:05:21.903Z"
+    },
+    {
+      "id": "SC-2026-0009",
+      "caseCode": "CASE-0009",
+      "patientId": "P-B4A71D",
+      "status": "screening_complete",
+      "screeningDate": "2026-09-08",
+      "createdAt": "2026-09-08T16:05:21.934Z",
+      "updatedAt": "2026-09-08T16:05:21.934Z"
+    },
+    {
+      "id": "SC-2026-0010",
+      "caseCode": "CASE-0010",
+      "patientId": "P-D00D8B",
+      "status": "screening_complete",
+      "screeningDate": "2026-09-08",
+      "createdAt": "2026-09-08T16:08:28.640Z",
+      "updatedAt": "2026-09-08T16:08:28.640Z"
+    },
+    {
+      "id": "SC-2026-0011",
+      "caseCode": "CASE-0011",
+      "patientId": "P-DB9DD9",
+      "status": "doctor_reviewed",
+      "screeningDate": "2026-09-08",
+      "createdAt": "2026-09-08T16:29:37.231Z",
+      "updatedAt": "2026-09-08T16:29:37.305Z"
+    },
+    {
+      "id": "SC-2026-0012",
+      "caseCode": "CASE-0012",
+      "patientId": "P-B13202",
+      "status": "screening_complete",
+      "screeningDate": "2026-09-08",
+      "createdAt": "2026-09-08T16:29:37.346Z",
+      "updatedAt": "2026-09-08T16:29:37.346Z"
+    },
+    {
+      "id": "SC-2026-0013",
+      "caseCode": "CASE-0013",
+      "patientId": "P-79C56C",
+      "status": "doctor_reviewed",
+      "screeningDate": "2026-09-08",
+      "createdAt": "2026-09-08T16:37:16.472Z",
+      "updatedAt": "2026-09-08T16:37:16.568Z"
+    },
+    {
+      "id": "SC-2026-0014",
+      "caseCode": "CASE-0014",
+      "patientId": "P-68A245",
+      "status": "screening_complete",
+      "screeningDate": "2026-09-08",
+      "createdAt": "2026-09-08T16:37:16.612Z",
+      "updatedAt": "2026-09-08T16:37:16.612Z"
+    },
+    {
+      "id": "SC-2026-0015",
+      "caseCode": "CASE-0015",
+      "patientId": "P-3B314A",
+      "status": "screening_complete",
+      "screeningDate": "2026-09-08",
+      "createdAt": "2026-09-08T16:41:30.666Z",
+      "updatedAt": "2026-09-08T16:41:30.667Z"
+    },
+    {
+      "id": "SC-2026-0001",
+      "caseCode": "CASE-0016",
+      "patientId": "P-370AB5",
+      "status": "in_progress",
+      "screeningDate": "2026-09-08",
+      "createdAt": "2026-09-08T16:41:44.111Z",
+      "updatedAt": "2026-09-08T16:41:44.111Z"
+    },
+    {
+      "id": "SC-2026-0017",
+      "caseCode": "CASE-0017",
+      "patientId": "P-C7572D",
+      "status": "doctor_reviewed",
+      "screeningDate": "2026-09-08",
+      "createdAt": "2026-09-08T16:46:00.298Z",
+      "updatedAt": "2026-09-08T16:46:00.378Z"
+    },
+    {
+      "id": "SC-2026-0018",
+      "caseCode": "CASE-0018",
+      "patientId": "P-7971EB",
+      "status": "screening_complete",
+      "screeningDate": "2026-09-08",
+      "createdAt": "2026-09-08T16:46:00.408Z",
+      "updatedAt": "2026-09-08T16:46:00.408Z"
+    }
+  ],
+  "diabetesHistories": [
+    {
+      "id": "DH-0001",
+      "screeningCaseId": "SC-2026-0001",
+      "status": "Yes",
+      "type": "Type 2",
+      "yearDiagnosed": "2014",
+      "duration": "12 years",
+      "hba1c": "8.9%",
+      "bloodGlucose": "194 mg/dL",
+      "treatment": "Metformin 500mg, Glimepiride 2mg"
+    },
+    {
+      "id": "DH-2861CD",
+      "screeningCaseId": "SC-2026-0002",
+      "status": "Yes",
+      "type": "Type 2",
+      "hba1c": "9.2%",
+      "duration": "12 years"
+    },
+    {
+      "id": "DH-B51126",
+      "screeningCaseId": "SC-2026-0001",
+      "status": "Unknown",
+      "type": "",
+      "yearDiagnosed": "",
+      "duration": "",
+      "hba1c": "",
+      "glucose": "",
+      "treatment": ""
+    },
+    {
+      "id": "DH-15AFF4",
+      "screeningCaseId": "SC-2026-0004",
+      "status": "Yes",
+      "type": "Type 2",
+      "yearDiagnosed": "2012",
+      "duration": "14 years",
+      "hba1c": "9.6%",
+      "bloodGlucose": "210 mg/dL",
+      "treatment": "Insulin & Metformin"
+    },
+    {
+      "id": "DH-FD3E88",
+      "screeningCaseId": "SC-2026-0005",
+      "status": "Yes",
+      "type": "Type 2",
+      "yearDiagnosed": "2015",
+      "duration": "11 years",
+      "hba1c": "7.2%",
+      "bloodGlucose": "145 mg/dL",
+      "treatment": "Metformin 1000mg daily"
+    },
+    {
+      "id": "DH-362E3E",
+      "screeningCaseId": "SC-2026-0006",
+      "status": "Yes",
+      "type": "Type 2",
+      "yearDiagnosed": "2012",
+      "duration": "14 years",
+      "hba1c": "9.6%",
+      "bloodGlucose": "210 mg/dL",
+      "treatment": "Insulin & Metformin"
+    },
+    {
+      "id": "DH-347D99",
+      "screeningCaseId": "SC-2026-0007",
+      "status": "Yes",
+      "type": "Type 2",
+      "yearDiagnosed": "2015",
+      "duration": "11 years",
+      "hba1c": "7.2%",
+      "bloodGlucose": "145 mg/dL",
+      "treatment": "Metformin 1000mg daily"
+    },
+    {
+      "id": "DH-DDC6AD",
+      "screeningCaseId": "SC-2026-0008",
+      "status": "Yes",
+      "type": "Type 2",
+      "yearDiagnosed": "2012",
+      "duration": "14 years",
+      "hba1c": "9.6%",
+      "bloodGlucose": "210 mg/dL",
+      "treatment": "Insulin & Metformin"
+    },
+    {
+      "id": "DH-FFEA51",
+      "screeningCaseId": "SC-2026-0009",
+      "status": "Yes",
+      "type": "Type 2",
+      "yearDiagnosed": "2015",
+      "duration": "11 years",
+      "hba1c": "7.2%",
+      "bloodGlucose": "145 mg/dL",
+      "treatment": "Metformin 1000mg daily"
+    },
+    {
+      "id": "DH-9DDD09",
+      "screeningCaseId": "SC-2026-0010",
+      "status": "Yes",
+      "type": "Type 2",
+      "yearDiagnosed": "2015",
+      "duration": "11 years",
+      "hba1c": "9.1%",
+      "bloodGlucose": "198 mg/dL",
+      "treatment": "Metformin 1000mg daily"
+    },
+    {
+      "id": "DH-DF9722",
+      "screeningCaseId": "SC-2026-0011",
+      "status": "Yes",
+      "type": "Type 2",
+      "yearDiagnosed": "2012",
+      "duration": "14 years",
+      "hba1c": "9.6%",
+      "bloodGlucose": "210 mg/dL",
+      "treatment": "Insulin & Metformin"
+    },
+    {
+      "id": "DH-CBAF7F",
+      "screeningCaseId": "SC-2026-0012",
+      "status": "Yes",
+      "type": "Type 2",
+      "yearDiagnosed": "2015",
+      "duration": "11 years",
+      "hba1c": "7.2%",
+      "bloodGlucose": "145 mg/dL",
+      "treatment": "Metformin 1000mg daily"
+    },
+    {
+      "id": "DH-075CEF",
+      "screeningCaseId": "SC-2026-0013",
+      "status": "Yes",
+      "type": "Type 2",
+      "yearDiagnosed": "2012",
+      "duration": "14 years",
+      "hba1c": "9.6%",
+      "bloodGlucose": "210 mg/dL",
+      "treatment": "Insulin & Metformin"
+    },
+    {
+      "id": "DH-6D11BC",
+      "screeningCaseId": "SC-2026-0014",
+      "status": "Yes",
+      "type": "Type 2",
+      "yearDiagnosed": "2015",
+      "duration": "11 years",
+      "hba1c": "7.2%",
+      "bloodGlucose": "145 mg/dL",
+      "treatment": "Metformin 1000mg daily"
+    },
+    {
+      "id": "DH-6019F6",
+      "screeningCaseId": "SC-2026-0015",
+      "status": "Yes",
+      "type": "Type 2",
+      "yearDiagnosed": "2015",
+      "duration": "11 years",
+      "hba1c": "9.1%",
+      "bloodGlucose": "198 mg/dL",
+      "treatment": "Metformin 1000mg daily"
+    },
+    {
+      "id": "DH-FA2EEE",
+      "screeningCaseId": "SC-2026-0001",
+      "status": "Yes",
+      "type": "Type 2",
+      "yearDiagnosed": "2014",
+      "duration": "12 years",
+      "hba1c": "8.9%",
+      "glucose": "192 mg/dL",
+      "treatment": "Metformin 500mg, Glimepiride"
+    },
+    {
+      "id": "DH-C2FE1A",
+      "screeningCaseId": "SC-2026-0017",
+      "status": "Yes",
+      "type": "Type 2",
+      "yearDiagnosed": "2012",
+      "duration": "14 years",
+      "hba1c": "9.6%",
+      "bloodGlucose": "210 mg/dL",
+      "treatment": "Insulin & Metformin"
+    },
+    {
+      "id": "DH-0A5128",
+      "screeningCaseId": "SC-2026-0018",
+      "status": "Yes",
+      "type": "Type 2",
+      "yearDiagnosed": "2015",
+      "duration": "11 years",
+      "hba1c": "7.2%",
+      "bloodGlucose": "145 mg/dL",
+      "treatment": "Metformin 1000mg daily"
+    }
+  ],
+  "eyeHistories": [
+    {
+      "id": "EH-0001",
+      "screeningCaseId": "SC-2026-0001",
+      "previousEyeExam": "Yes",
+      "previousDR": "Unknown",
+      "knownEyeCondition": "Presbyopia, intermittent blurring",
+      "previousEyeSurgery": "No",
+      "previousTreatment": "None",
+      "previousScreeningDate": "2024-11-10"
+    },
+    {
+      "id": "EH-A9DBCF",
+      "screeningCaseId": "SC-2026-0001",
+      "previousExam": "",
+      "previousDR": "",
+      "knownCondition": "",
+      "previousSurgery": "",
+      "previousTreatment": "",
+      "previousScreeningDate": ""
+    },
+    {
+      "id": "EH-AA791E",
+      "screeningCaseId": "SC-2026-0001",
+      "previousExam": "Yes",
+      "previousDR": "Unknown",
+      "knownCondition": "Microaneurysms in temporal arcade, blot hemorrhages in 2 quadrants, circinate hard exudates near macula.",
+      "previousSurgery": "No",
+      "previousTreatment": "None",
+      "previousScreeningDate": "2024-10-15"
+    }
+  ],
+  "symptomsList": [
+    {
+      "id": "SYM-0001",
+      "screeningCaseId": "SC-2026-0001",
+      "symptoms": [
+        "Blurred vision",
+        "Floaters",
+        "Difficulty seeing at night"
+      ],
+      "notes": "Symptoms worsening over past 3 months in right eye"
+    },
+    {
+      "id": "SYM-7BA7C1",
+      "screeningCaseId": "SC-2026-0001",
+      "symptoms": [
+        "Blurred vision"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "SYM-F1147F",
+      "screeningCaseId": "SC-2026-0004",
+      "symptoms": [
+        "Blurry vision in central field",
+        "Occasional floaters"
+      ]
+    },
+    {
+      "id": "SYM-ACA05D",
+      "screeningCaseId": "SC-2026-0006",
+      "symptoms": [
+        "Blurry vision in central field",
+        "Occasional floaters"
+      ]
+    },
+    {
+      "id": "SYM-3D9569",
+      "screeningCaseId": "SC-2026-0008",
+      "symptoms": [
+        "Blurry vision in central field",
+        "Occasional floaters"
+      ]
+    },
+    {
+      "id": "SYM-CAD52F",
+      "screeningCaseId": "SC-2026-0011",
+      "symptoms": [
+        "Blurry vision in central field",
+        "Occasional floaters"
+      ]
+    },
+    {
+      "id": "SYM-927C4D",
+      "screeningCaseId": "SC-2026-0013",
+      "symptoms": [
+        "Blurry vision in central field",
+        "Occasional floaters"
+      ]
+    },
+    {
+      "id": "SYM-C4DCB8",
+      "screeningCaseId": "SC-2026-0001",
+      "selected": [
+        "Blurred vision",
+        "Floaters",
+        "Difficulty seeing at night"
+      ],
+      "other": ""
+    },
+    {
+      "id": "SYM-0D6CE9",
+      "screeningCaseId": "SC-2026-0017",
+      "symptoms": [
+        "Blurry vision in central field",
+        "Occasional floaters"
+      ]
+    }
+  ],
+  "clinicalInformationList": [
+    {
+      "id": "CI-0001",
+      "screeningCaseId": "SC-2026-0001",
+      "systolicBP": "142",
+      "diastolicBP": "88",
+      "familyHistory": "Mother had diabetes and visual impairment",
+      "notes": "Screened at mobile rural camp. Pupils dilated with Tropicamide 0.5%."
+    },
+    {
+      "id": "CI-B083AD",
+      "screeningCaseId": "SC-2026-0001",
+      "bpSystolic": "",
+      "bpDiastolic": "",
+      "familyHistory": "",
+      "previousScreeningDate": "",
+      "notes": ""
+    },
+    {
+      "id": "CLI-910B7C",
+      "screeningCaseId": "SC-2026-0004",
+      "systolicBP": "145",
+      "diastolicBP": "92",
+      "visualAcuityOD": "6/18",
+      "visualAcuityOS": "6/12",
+      "iopOD": "17",
+      "iopOS": "16"
+    },
+    {
+      "id": "CLI-5173A3",
+      "screeningCaseId": "SC-2026-0006",
+      "systolicBP": "145",
+      "diastolicBP": "92",
+      "visualAcuityOD": "6/18",
+      "visualAcuityOS": "6/12",
+      "iopOD": "17",
+      "iopOS": "16"
+    },
+    {
+      "id": "CLI-AEF98A",
+      "screeningCaseId": "SC-2026-0008",
+      "systolicBP": "145",
+      "diastolicBP": "92",
+      "visualAcuityOD": "6/18",
+      "visualAcuityOS": "6/12",
+      "iopOD": "17",
+      "iopOS": "16"
+    },
+    {
+      "id": "CLI-AE72E3",
+      "screeningCaseId": "SC-2026-0011",
+      "systolicBP": "145",
+      "diastolicBP": "92",
+      "visualAcuityOD": "6/18",
+      "visualAcuityOS": "6/12",
+      "iopOD": "17",
+      "iopOS": "16"
+    },
+    {
+      "id": "CLI-B76C7A",
+      "screeningCaseId": "SC-2026-0013",
+      "systolicBP": "145",
+      "diastolicBP": "92",
+      "visualAcuityOD": "6/18",
+      "visualAcuityOS": "6/12",
+      "iopOD": "17",
+      "iopOS": "16"
+    },
+    {
+      "id": "CLI-89DF0A",
+      "screeningCaseId": "SC-2026-0001",
+      "bpSystolic": "142",
+      "bpDiastolic": "88",
+      "familyHistory": "Maternal history of diabetes",
+      "previousScreeningDate": "2024-10-15",
+      "notes": "Clinical demo case: Moderate NPDR with Macular Exudates"
+    },
+    {
+      "id": "CLI-76EFFA",
+      "screeningCaseId": "SC-2026-0017",
+      "systolicBP": "145",
+      "diastolicBP": "92",
+      "visualAcuityOD": "6/18",
+      "visualAcuityOS": "6/12",
+      "iopOD": "17",
+      "iopOS": "16"
+    }
+  ],
+  "consents": [
+    {
+      "id": "CON-0001",
+      "screeningCaseId": "SC-2026-0001",
+      "retinalPhotography": true,
+      "aiAssistedScreening": true,
+      "dataStorage": true,
+      "consentedAt": "2026-09-05T15:45:53.717Z"
+    },
+    {
+      "id": "CON-377FAC",
+      "screeningCaseId": "SC-2026-0001",
+      "retinalPhotography": true,
+      "aiAssistedScreening": true,
+      "dataStorage": true,
+      "consentedAt": "2026-09-08T15:53:59.948Z"
+    },
+    {
+      "id": "CON-585CA5",
+      "screeningCaseId": "SC-2026-0004",
+      "retinalPhotography": true,
+      "aiAssistedScreening": true,
+      "dataStorage": true
+    },
+    {
+      "id": "CON-57623A",
+      "screeningCaseId": "SC-2026-0005",
+      "retinalPhotography": true,
+      "aiAssistedScreening": true,
+      "dataStorage": true,
+      "consentedAt": "2026-09-08T16:03:34.630Z"
+    },
+    {
+      "id": "CON-111E5D",
+      "screeningCaseId": "SC-2026-0006",
+      "retinalPhotography": true,
+      "aiAssistedScreening": true,
+      "dataStorage": true
+    },
+    {
+      "id": "CON-596433",
+      "screeningCaseId": "SC-2026-0007",
+      "retinalPhotography": true,
+      "aiAssistedScreening": true,
+      "dataStorage": true,
+      "consentedAt": "2026-09-08T16:04:27.847Z"
+    },
+    {
+      "id": "CON-26C026",
+      "screeningCaseId": "SC-2026-0008",
+      "retinalPhotography": true,
+      "aiAssistedScreening": true,
+      "dataStorage": true
+    },
+    {
+      "id": "CON-0A86FB",
+      "screeningCaseId": "SC-2026-0009",
+      "retinalPhotography": true,
+      "aiAssistedScreening": true,
+      "dataStorage": true,
+      "consentedAt": "2026-09-08T16:05:21.934Z"
+    },
+    {
+      "id": "CON-A181A9",
+      "screeningCaseId": "SC-2026-0010",
+      "retinalPhotography": true,
+      "aiAssistedScreening": true,
+      "dataStorage": true,
+      "consentedAt": "2026-09-08T16:08:28.640Z"
+    },
+    {
+      "id": "CON-999AEC",
+      "screeningCaseId": "SC-2026-0011",
+      "retinalPhotography": true,
+      "aiAssistedScreening": true,
+      "dataStorage": true
+    },
+    {
+      "id": "CON-792BCC",
+      "screeningCaseId": "SC-2026-0012",
+      "retinalPhotography": true,
+      "aiAssistedScreening": true,
+      "dataStorage": true,
+      "consentedAt": "2026-09-08T16:29:37.346Z"
+    },
+    {
+      "id": "CON-3178A5",
+      "screeningCaseId": "SC-2026-0013",
+      "retinalPhotography": true,
+      "aiAssistedScreening": true,
+      "dataStorage": true
+    },
+    {
+      "id": "CON-CE7D6B",
+      "screeningCaseId": "SC-2026-0014",
+      "retinalPhotography": true,
+      "aiAssistedScreening": true,
+      "dataStorage": true,
+      "consentedAt": "2026-09-08T16:37:16.612Z"
+    },
+    {
+      "id": "CON-CDE03A",
+      "screeningCaseId": "SC-2026-0015",
+      "retinalPhotography": true,
+      "aiAssistedScreening": true,
+      "dataStorage": true,
+      "consentedAt": "2026-09-08T16:41:30.666Z"
+    },
+    {
+      "id": "CON-67651B",
+      "screeningCaseId": "SC-2026-0001",
+      "photography": true,
+      "aiAcknowledgement": true,
+      "dataStorage": true
+    },
+    {
+      "id": "CON-DDCEA6",
+      "screeningCaseId": "SC-2026-0017",
+      "retinalPhotography": true,
+      "aiAssistedScreening": true,
+      "dataStorage": true
+    },
+    {
+      "id": "CON-4C6D12",
+      "screeningCaseId": "SC-2026-0018",
+      "retinalPhotography": true,
+      "aiAssistedScreening": true,
+      "dataStorage": true,
+      "consentedAt": "2026-09-08T16:46:00.408Z"
+    }
+  ],
+  "retinalImages": [
+    {
+      "id": "IMG-0001-OD",
+      "screeningCaseId": "SC-2026-0001",
+      "patientId": "P-A78B12",
+      "eyeSide": "OD",
+      "fileName": "fundus_OD_macula_centered.jpg",
+      "fileType": "image/jpeg",
+      "uploadedAt": "2026-09-05T15:45:53.717Z"
+    },
+    {
+      "id": "IMG-0001-OS",
+      "screeningCaseId": "SC-2026-0001",
+      "patientId": "P-A78B12",
+      "eyeSide": "OS",
+      "fileName": "fundus_OS_macula_centered.jpg",
+      "fileType": "image/jpeg",
+      "uploadedAt": "2026-09-05T15:45:53.717Z"
+    },
+    {
+      "id": "IMG-SC-2026-0004-OD",
+      "screeningCaseId": "SC-2026-0004",
+      "patientId": "P-83C78B",
+      "eyeSide": "OD",
+      "fileName": "fundus_OD_case.jpg",
+      "fileType": "image/jpeg",
+      "dataUrl": "data:image/jpeg;base64,sampleODBase64Data",
+      "uploadedAt": "2026-09-08T16:03:34.555Z"
+    },
+    {
+      "id": "IMG-SC-2026-0004-OS",
+      "screeningCaseId": "SC-2026-0004",
+      "patientId": "P-83C78B",
+      "eyeSide": "OS",
+      "fileName": "fundus_OS_case.jpg",
+      "fileType": "image/jpeg",
+      "dataUrl": "data:image/jpeg;base64,sampleOSBase64Data",
+      "uploadedAt": "2026-09-08T16:03:34.559Z"
+    },
+    {
+      "id": "IMG-SC-2026-0005-OD",
+      "screeningCaseId": "SC-2026-0005",
+      "patientId": "P-7AA587",
+      "eyeSide": "OD",
+      "fileName": "normal_fundus_OD.jpg",
+      "fileType": "image/jpeg",
+      "uploadedAt": "2026-09-08T16:03:34.630Z"
+    },
+    {
+      "id": "IMG-SC-2026-0006-OD",
+      "screeningCaseId": "SC-2026-0006",
+      "patientId": "P-F40418",
+      "eyeSide": "OD",
+      "fileName": "fundus_OD_case.jpg",
+      "fileType": "image/jpeg",
+      "dataUrl": "data:image/jpeg;base64,sampleODBase64Data",
+      "uploadedAt": "2026-09-08T16:04:27.743Z"
+    },
+    {
+      "id": "IMG-SC-2026-0006-OS",
+      "screeningCaseId": "SC-2026-0006",
+      "patientId": "P-F40418",
+      "eyeSide": "OS",
+      "fileName": "fundus_OS_case.jpg",
+      "fileType": "image/jpeg",
+      "dataUrl": "data:image/jpeg;base64,sampleOSBase64Data",
+      "uploadedAt": "2026-09-08T16:04:27.752Z"
+    },
+    {
+      "id": "IMG-SC-2026-0007-OD",
+      "screeningCaseId": "SC-2026-0007",
+      "patientId": "P-24953F",
+      "eyeSide": "OD",
+      "fileName": "normal_fundus_OD.jpg",
+      "fileType": "image/jpeg",
+      "uploadedAt": "2026-09-08T16:04:27.847Z"
+    },
+    {
+      "id": "IMG-SC-2026-0008-OD",
+      "screeningCaseId": "SC-2026-0008",
+      "patientId": "P-0E3CA6",
+      "eyeSide": "OD",
+      "fileName": "fundus_OD_case.jpg",
+      "fileType": "image/jpeg",
+      "dataUrl": "data:image/jpeg;base64,sampleODBase64Data",
+      "uploadedAt": "2026-09-08T16:05:21.842Z"
+    },
+    {
+      "id": "IMG-SC-2026-0008-OS",
+      "screeningCaseId": "SC-2026-0008",
+      "patientId": "P-0E3CA6",
+      "eyeSide": "OS",
+      "fileName": "fundus_OS_case.jpg",
+      "fileType": "image/jpeg",
+      "dataUrl": "data:image/jpeg;base64,sampleOSBase64Data",
+      "uploadedAt": "2026-09-08T16:05:21.856Z"
+    },
+    {
+      "id": "IMG-SC-2026-0009-OD",
+      "screeningCaseId": "SC-2026-0009",
+      "patientId": "P-B4A71D",
+      "eyeSide": "OD",
+      "fileName": "normal_fundus_OD.jpg",
+      "fileType": "image/jpeg",
+      "uploadedAt": "2026-09-08T16:05:21.934Z"
+    },
+    {
+      "id": "IMG-SC-2026-0010-OD",
+      "screeningCaseId": "SC-2026-0010",
+      "patientId": "P-D00D8B",
+      "eyeSide": "OD",
+      "fileName": "mod_npdr_OD.jpg",
+      "fileType": "image/jpeg",
+      "uploadedAt": "2026-09-08T16:08:28.640Z"
+    },
+    {
+      "id": "IMG-SC-2026-0011-OD",
+      "screeningCaseId": "SC-2026-0011",
+      "patientId": "P-DB9DD9",
+      "eyeSide": "OD",
+      "fileName": "fundus_OD_case.jpg",
+      "fileType": "image/jpeg",
+      "dataUrl": "data:image/jpeg;base64,sampleODBase64Data",
+      "uploadedAt": "2026-09-08T16:29:37.245Z"
+    },
+    {
+      "id": "IMG-SC-2026-0011-OS",
+      "screeningCaseId": "SC-2026-0011",
+      "patientId": "P-DB9DD9",
+      "eyeSide": "OS",
+      "fileName": "fundus_OS_case.jpg",
+      "fileType": "image/jpeg",
+      "dataUrl": "data:image/jpeg;base64,sampleOSBase64Data",
+      "uploadedAt": "2026-09-08T16:29:37.252Z"
+    },
+    {
+      "id": "IMG-SC-2026-0012-OD",
+      "screeningCaseId": "SC-2026-0012",
+      "patientId": "P-B13202",
+      "eyeSide": "OD",
+      "fileName": "normal_fundus_OD.jpg",
+      "fileType": "image/jpeg",
+      "uploadedAt": "2026-09-08T16:29:37.346Z"
+    },
+    {
+      "id": "IMG-SC-2026-0013-OD",
+      "screeningCaseId": "SC-2026-0013",
+      "patientId": "P-79C56C",
+      "eyeSide": "OD",
+      "fileName": "fundus_OD_case.jpg",
+      "fileType": "image/jpeg",
+      "dataUrl": "data:image/jpeg;base64,sampleODBase64Data",
+      "uploadedAt": "2026-09-08T16:37:16.502Z"
+    },
+    {
+      "id": "IMG-SC-2026-0013-OS",
+      "screeningCaseId": "SC-2026-0013",
+      "patientId": "P-79C56C",
+      "eyeSide": "OS",
+      "fileName": "fundus_OS_case.jpg",
+      "fileType": "image/jpeg",
+      "dataUrl": "data:image/jpeg;base64,sampleOSBase64Data",
+      "uploadedAt": "2026-09-08T16:37:16.531Z"
+    },
+    {
+      "id": "IMG-SC-2026-0014-OD",
+      "screeningCaseId": "SC-2026-0014",
+      "patientId": "P-68A245",
+      "eyeSide": "OD",
+      "fileName": "normal_fundus_OD.jpg",
+      "fileType": "image/jpeg",
+      "uploadedAt": "2026-09-08T16:37:16.612Z"
+    },
+    {
+      "id": "IMG-SC-2026-0015-OD",
+      "screeningCaseId": "SC-2026-0015",
+      "patientId": "P-3B314A",
+      "eyeSide": "OD",
+      "fileName": "mod_npdr_OD.jpg",
+      "fileType": "image/jpeg",
+      "uploadedAt": "2026-09-08T16:41:30.666Z"
+    },
+    {
+      "id": "IMG-SC-2026-0017-OD",
+      "screeningCaseId": "SC-2026-0017",
+      "patientId": "P-C7572D",
+      "eyeSide": "OD",
+      "fileName": "fundus_OD_case.jpg",
+      "fileType": "image/jpeg",
+      "dataUrl": "data:image/jpeg;base64,sampleODBase64Data",
+      "uploadedAt": "2026-09-08T16:46:00.313Z"
+    },
+    {
+      "id": "IMG-SC-2026-0017-OS",
+      "screeningCaseId": "SC-2026-0017",
+      "patientId": "P-C7572D",
+      "eyeSide": "OS",
+      "fileName": "fundus_OS_case.jpg",
+      "fileType": "image/jpeg",
+      "dataUrl": "data:image/jpeg;base64,sampleOSBase64Data",
+      "uploadedAt": "2026-09-08T16:46:00.324Z"
+    },
+    {
+      "id": "IMG-SC-2026-0018-OD",
+      "screeningCaseId": "SC-2026-0018",
+      "patientId": "P-7971EB",
+      "eyeSide": "OD",
+      "fileName": "normal_fundus_OD.jpg",
+      "fileType": "image/jpeg",
+      "uploadedAt": "2026-09-08T16:46:00.408Z"
+    }
+  ],
+  "supportingReports": [],
+  "imageQualities": [
+    {
+      "id": "QUAL-2CBA7511",
+      "retinalImageId": "IMG-0001-OD",
+      "screeningCaseId": "SC-2026-0001",
+      "eyeSide": "OD",
+      "status": "good",
+      "score": 90,
+      "blur": "sharp",
+      "brightness": "optimal",
+      "retinaVisibility": 92,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:41:52.291Z"
+    },
+    {
+      "id": "QUAL-415B7405",
+      "retinalImageId": "IMG-0001-OS",
+      "screeningCaseId": "SC-2026-0001",
+      "eyeSide": "OS",
+      "status": "good",
+      "score": 87,
+      "blur": "mild_blur",
+      "brightness": "optimal",
+      "retinaVisibility": 89,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [
+        "Minor peripheral reflection"
+      ],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:41:52.302Z"
+    },
+    {
+      "id": "QUAL-323BFDFF",
+      "retinalImageId": "IMG-SC-2026-0004-OD",
+      "screeningCaseId": "SC-2026-0004",
+      "eyeSide": "OD",
+      "status": "good",
+      "score": 96,
+      "blur": "sharp",
+      "brightness": "optimal",
+      "retinaVisibility": 98,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:03:34.566Z"
+    },
+    {
+      "id": "QUAL-795CBDD4",
+      "retinalImageId": "IMG-SC-2026-0004-OS",
+      "screeningCaseId": "SC-2026-0004",
+      "eyeSide": "OS",
+      "status": "good",
+      "score": 98,
+      "blur": "sharp",
+      "brightness": "optimal",
+      "retinaVisibility": 100,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:03:34.568Z"
+    },
+    {
+      "id": "QUAL-C23568B9",
+      "retinalImageId": "IMG-SC-2026-0005-OD",
+      "screeningCaseId": "SC-2026-0005",
+      "eyeSide": "OD",
+      "status": "good",
+      "score": 98,
+      "blur": "sharp",
+      "brightness": "optimal",
+      "retinaVisibility": 100,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:03:34.630Z"
+    },
+    {
+      "id": "QUAL-BB4B4002",
+      "retinalImageId": "IMG-SC-2026-0006-OD",
+      "screeningCaseId": "SC-2026-0006",
+      "eyeSide": "OD",
+      "status": "good",
+      "score": 91,
+      "blur": "sharp",
+      "brightness": "optimal",
+      "retinaVisibility": 93,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:04:27.759Z"
+    },
+    {
+      "id": "QUAL-8A6824A1",
+      "retinalImageId": "IMG-SC-2026-0006-OS",
+      "screeningCaseId": "SC-2026-0006",
+      "eyeSide": "OS",
+      "status": "good",
+      "score": 97,
+      "blur": "sharp",
+      "brightness": "optimal",
+      "retinaVisibility": 99,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:04:27.761Z"
+    },
+    {
+      "id": "QUAL-8AA553D9",
+      "retinalImageId": "IMG-SC-2026-0007-OD",
+      "screeningCaseId": "SC-2026-0007",
+      "eyeSide": "OD",
+      "status": "good",
+      "score": 92,
+      "blur": "sharp",
+      "brightness": "optimal",
+      "retinaVisibility": 94,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:04:27.847Z"
+    },
+    {
+      "id": "QUAL-DCD5044C",
+      "retinalImageId": "IMG-SC-2026-0008-OD",
+      "screeningCaseId": "SC-2026-0008",
+      "eyeSide": "OD",
+      "status": "good",
+      "score": 98,
+      "blur": "sharp",
+      "brightness": "optimal",
+      "retinaVisibility": 100,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:05:21.872Z"
+    },
+    {
+      "id": "QUAL-899666B1",
+      "retinalImageId": "IMG-SC-2026-0008-OS",
+      "screeningCaseId": "SC-2026-0008",
+      "eyeSide": "OS",
+      "status": "good",
+      "score": 91,
+      "blur": "sharp",
+      "brightness": "optimal",
+      "retinaVisibility": 93,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:05:21.876Z"
+    },
+    {
+      "id": "QUAL-9767B694",
+      "retinalImageId": "IMG-SC-2026-0009-OD",
+      "screeningCaseId": "SC-2026-0009",
+      "eyeSide": "OD",
+      "status": "good",
+      "score": 86,
+      "blur": "mild_blur",
+      "brightness": "optimal",
+      "retinaVisibility": 88,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [
+        "Minor peripheral reflection"
+      ],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:05:21.934Z"
+    },
+    {
+      "id": "QUAL-27C8E9CB",
+      "retinalImageId": "IMG-SC-2026-0010-OD",
+      "screeningCaseId": "SC-2026-0010",
+      "eyeSide": "OD",
+      "status": "good",
+      "score": 90,
+      "blur": "sharp",
+      "brightness": "optimal",
+      "retinaVisibility": 92,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:08:28.640Z"
+    },
+    {
+      "id": "QUAL-0775140F",
+      "retinalImageId": "IMG-SC-2026-0011-OD",
+      "screeningCaseId": "SC-2026-0011",
+      "eyeSide": "OD",
+      "status": "good",
+      "score": 96,
+      "blur": "sharp",
+      "brightness": "optimal",
+      "retinaVisibility": 98,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:29:37.261Z"
+    },
+    {
+      "id": "QUAL-D7EE4B79",
+      "retinalImageId": "IMG-SC-2026-0011-OS",
+      "screeningCaseId": "SC-2026-0011",
+      "eyeSide": "OS",
+      "status": "good",
+      "score": 91,
+      "blur": "sharp",
+      "brightness": "optimal",
+      "retinaVisibility": 93,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:29:37.265Z"
+    },
+    {
+      "id": "QUAL-232C4E85",
+      "retinalImageId": "IMG-SC-2026-0012-OD",
+      "screeningCaseId": "SC-2026-0012",
+      "eyeSide": "OD",
+      "status": "good",
+      "score": 95,
+      "blur": "sharp",
+      "brightness": "optimal",
+      "retinaVisibility": 97,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:29:37.346Z"
+    },
+    {
+      "id": "QUAL-7BB7DE5C",
+      "retinalImageId": "IMG-SC-2026-0013-OD",
+      "screeningCaseId": "SC-2026-0013",
+      "eyeSide": "OD",
+      "status": "good",
+      "score": 98,
+      "blur": "sharp",
+      "brightness": "optimal",
+      "retinaVisibility": 100,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:37:16.544Z"
+    },
+    {
+      "id": "QUAL-B25B8042",
+      "retinalImageId": "IMG-SC-2026-0013-OS",
+      "screeningCaseId": "SC-2026-0013",
+      "eyeSide": "OS",
+      "status": "good",
+      "score": 88,
+      "blur": "mild_blur",
+      "brightness": "optimal",
+      "retinaVisibility": 90,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:37:16.547Z"
+    },
+    {
+      "id": "QUAL-09614E49",
+      "retinalImageId": "IMG-SC-2026-0014-OD",
+      "screeningCaseId": "SC-2026-0014",
+      "eyeSide": "OD",
+      "status": "good",
+      "score": 91,
+      "blur": "sharp",
+      "brightness": "optimal",
+      "retinaVisibility": 93,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:37:16.612Z"
+    },
+    {
+      "id": "QUAL-F73352BE",
+      "retinalImageId": "IMG-SC-2026-0015-OD",
+      "screeningCaseId": "SC-2026-0015",
+      "eyeSide": "OD",
+      "status": "good",
+      "score": 89,
+      "blur": "mild_blur",
+      "brightness": "optimal",
+      "retinaVisibility": 91,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:41:30.667Z"
+    },
+    {
+      "id": "QUAL-9462ADC3",
+      "retinalImageId": "IMG-SC-2026-0017-OD",
+      "screeningCaseId": "SC-2026-0017",
+      "eyeSide": "OD",
+      "status": "good",
+      "score": 97,
+      "blur": "sharp",
+      "brightness": "optimal",
+      "retinaVisibility": 99,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:46:00.333Z"
+    },
+    {
+      "id": "QUAL-69F41AEA",
+      "retinalImageId": "IMG-SC-2026-0017-OS",
+      "screeningCaseId": "SC-2026-0017",
+      "eyeSide": "OS",
+      "status": "good",
+      "score": 94,
+      "blur": "sharp",
+      "brightness": "optimal",
+      "retinaVisibility": 96,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:46:00.335Z"
+    },
+    {
+      "id": "QUAL-563AAEF1",
+      "retinalImageId": "IMG-SC-2026-0018-OD",
+      "screeningCaseId": "SC-2026-0018",
+      "eyeSide": "OD",
+      "status": "good",
+      "score": 98,
+      "blur": "sharp",
+      "brightness": "optimal",
+      "retinaVisibility": 100,
+      "fieldOfView": "45° standard fundus",
+      "centering": "centered",
+      "artifacts": [],
+      "mediaOpacity": false,
+      "processedAt": "2026-09-08T16:46:00.408Z"
+    }
+  ],
+  "aiScreeningResults": [
+    {
+      "id": "AIRES-48DE8119",
+      "screeningCaseId": "SC-2026-0001",
+      "status": "completed",
+      "modelVersion": "RetinoAI-Net v2.4 (Blackbox-Calibrated Vision Engine)",
+      "drGrade": "Severe NPDR",
+      "dmeIndicator": "Clinically Significant Macular Edema (CSME)",
+      "confidence": 93.4,
+      "summary": "Severe NPDR meeting the 4-2-1 rule: Extensive blot hemorrhages across all 4 quadrants, venous beading along the inferotemporal vein, multiple cotton wool spots, and hard exudates encroaching on the central fovea.",
+      "processedAt": "2026-09-08T16:41:52.291Z"
+    },
+    {
+      "id": "AIRES-EC0B42D8",
+      "screeningCaseId": "SC-2026-0002",
+      "status": "completed",
+      "modelVersion": "RetinoAI-Net v2.4 (Blackbox-Calibrated Vision Engine)",
+      "drGrade": "Moderate NPDR",
+      "dmeIndicator": "Mild",
+      "confidence": 91.5,
+      "summary": "Microaneurysms detected in both eyes with localized blot hemorrhages and early hard exudate formation.",
+      "processedAt": "2026-09-08T15:50:29.836Z"
+    },
+    {
+      "id": "AIRES-FC75C632",
+      "screeningCaseId": "SC-2026-0004",
+      "status": "completed",
+      "modelVersion": "RetinoAI-Net v2.4 (Blackbox-Calibrated Vision Engine)",
+      "drGrade": "PDR",
+      "dmeIndicator": "Clinically Significant Macular Edema (CSME)",
+      "confidence": 94.6,
+      "summary": "Proliferative Diabetic Retinopathy (PDR) identified: Active neovascularization (NVD/NVE) along the superotemporal arcade, preretinal hemorrhage risks, and central circinate macular edema requiring urgent surgical/laser vitreoretinal consult.",
+      "processedAt": "2026-09-08T16:03:34.566Z"
+    },
+    {
+      "id": "AIRES-DDBB3AC6",
+      "screeningCaseId": "SC-2026-0005",
+      "status": "completed",
+      "modelVersion": "RetinoAI-Net v2.4 (Blackbox-Calibrated Vision Engine)",
+      "drGrade": "No DR",
+      "dmeIndicator": "None",
+      "confidence": 92.1,
+      "summary": "Moderate NPDR: Multiple microaneurysms along superior and inferior vascular arcades, scattered retinal blot hemorrhages, and early parafoveal lipid exudates.",
+      "processedAt": "2026-09-08T16:03:34.630Z"
+    },
+    {
+      "id": "AIRES-0B4E0F2D",
+      "screeningCaseId": "SC-2026-0006",
+      "status": "completed",
+      "modelVersion": "RetinoAI-Net v2.4 (Blackbox-Calibrated Vision Engine)",
+      "drGrade": "PDR",
+      "dmeIndicator": "Clinically Significant Macular Edema (CSME)",
+      "confidence": 94.6,
+      "summary": "Proliferative Diabetic Retinopathy (PDR) identified: Active neovascularization (NVD/NVE) along the superotemporal arcade, preretinal hemorrhage risks, and central circinate macular edema requiring urgent surgical/laser vitreoretinal consult.",
+      "processedAt": "2026-09-08T16:04:27.758Z"
+    },
+    {
+      "id": "AIRES-07C629F8",
+      "screeningCaseId": "SC-2026-0007",
+      "status": "completed",
+      "modelVersion": "RetinoAI-Net v2.4 (Blackbox-Calibrated Vision Engine)",
+      "drGrade": "No DR",
+      "dmeIndicator": "None",
+      "confidence": 92.1,
+      "summary": "Moderate NPDR: Multiple microaneurysms along superior and inferior vascular arcades, scattered retinal blot hemorrhages, and early parafoveal lipid exudates.",
+      "processedAt": "2026-09-08T16:04:27.847Z"
+    },
+    {
+      "id": "AIRES-1F413977",
+      "screeningCaseId": "SC-2026-0008",
+      "status": "completed",
+      "modelVersion": "RetinoAI-Net v2.4 (Blackbox-Calibrated Vision Engine)",
+      "drGrade": "PDR",
+      "dmeIndicator": "Clinically Significant Macular Edema (CSME)",
+      "confidence": 94.6,
+      "summary": "Proliferative Diabetic Retinopathy (PDR) identified: Active neovascularization (NVD/NVE) along the superotemporal arcade, preretinal hemorrhage risks, and central circinate macular edema requiring urgent surgical/laser vitreoretinal consult.",
+      "processedAt": "2026-09-08T16:05:21.872Z"
+    },
+    {
+      "id": "AIRES-C2DBAD6E",
+      "screeningCaseId": "SC-2026-0009",
+      "status": "completed",
+      "modelVersion": "RetinoAI-Net v2.4 (Blackbox-Calibrated Vision Engine)",
+      "drGrade": "No DR",
+      "dmeIndicator": "None",
+      "confidence": 92.1,
+      "summary": "Moderate NPDR: Multiple microaneurysms along superior and inferior vascular arcades, scattered retinal blot hemorrhages, and early parafoveal lipid exudates.",
+      "processedAt": "2026-09-08T16:05:21.934Z"
+    },
+    {
+      "id": "AIRES-24B0FB4C",
+      "screeningCaseId": "SC-2026-0010",
+      "status": "completed",
+      "modelVersion": "RetinoAI-Net v2.4 (Blackbox-Calibrated Vision Engine)",
+      "drGrade": "Moderate NPDR",
+      "dmeIndicator": "Mild",
+      "confidence": 93.4,
+      "summary": "Severe NPDR meeting the 4-2-1 rule: Extensive blot hemorrhages across all 4 quadrants, venous beading along the inferotemporal vein, multiple cotton wool spots, and hard exudates encroaching on the central fovea.",
+      "processedAt": "2026-09-08T16:08:28.640Z"
+    },
+    {
+      "id": "AIRES-DB105316",
+      "screeningCaseId": "SC-2026-0011",
+      "status": "completed",
+      "modelVersion": "RetinoAI-Net v2.4 (Blackbox-Calibrated Vision Engine)",
+      "drGrade": "PDR",
+      "dmeIndicator": "Clinically Significant Macular Edema (CSME)",
+      "confidence": 94.6,
+      "summary": "Proliferative Diabetic Retinopathy (PDR) identified: Active neovascularization (NVD/NVE) along the superotemporal arcade, preretinal hemorrhage risks, and central circinate macular edema requiring urgent surgical/laser vitreoretinal consult.",
+      "processedAt": "2026-09-08T16:29:37.261Z"
+    },
+    {
+      "id": "AIRES-27FBF29C",
+      "screeningCaseId": "SC-2026-0012",
+      "status": "completed",
+      "modelVersion": "RetinoAI-Net v2.4 (Blackbox-Calibrated Vision Engine)",
+      "drGrade": "No DR",
+      "dmeIndicator": "None",
+      "confidence": 92.1,
+      "summary": "Moderate NPDR: Multiple microaneurysms along superior and inferior vascular arcades, scattered retinal blot hemorrhages, and early parafoveal lipid exudates.",
+      "processedAt": "2026-09-08T16:29:37.346Z"
+    },
+    {
+      "id": "AIRES-40E3B00D",
+      "screeningCaseId": "SC-2026-0013",
+      "status": "completed",
+      "modelVersion": "RetinoAI-Net v2.4 (Blackbox-Calibrated Vision Engine)",
+      "drGrade": "PDR",
+      "dmeIndicator": "Clinically Significant Macular Edema (CSME)",
+      "confidence": 94.6,
+      "summary": "Proliferative Diabetic Retinopathy (PDR) identified: Active neovascularization (NVD/NVE) along the superotemporal arcade, preretinal hemorrhage risks, and central circinate macular edema requiring urgent surgical/laser vitreoretinal consult.",
+      "processedAt": "2026-09-08T16:37:16.544Z"
+    },
+    {
+      "id": "AIRES-7A85836E",
+      "screeningCaseId": "SC-2026-0014",
+      "status": "completed",
+      "modelVersion": "RetinoAI-Net v2.4 (Blackbox-Calibrated Vision Engine)",
+      "drGrade": "No DR",
+      "dmeIndicator": "None",
+      "confidence": 92.1,
+      "summary": "Moderate NPDR: Multiple microaneurysms along superior and inferior vascular arcades, scattered retinal blot hemorrhages, and early parafoveal lipid exudates.",
+      "processedAt": "2026-09-08T16:37:16.612Z"
+    },
+    {
+      "id": "AIRES-CF718F5F",
+      "screeningCaseId": "SC-2026-0015",
+      "status": "completed",
+      "modelVersion": "RetinoAI-Net v2.4 (Blackbox-Calibrated Vision Engine)",
+      "drGrade": "Moderate NPDR",
+      "dmeIndicator": "Mild",
+      "confidence": 93.4,
+      "summary": "Severe NPDR meeting the 4-2-1 rule: Extensive blot hemorrhages across all 4 quadrants, venous beading along the inferotemporal vein, multiple cotton wool spots, and hard exudates encroaching on the central fovea.",
+      "processedAt": "2026-09-08T16:41:30.667Z"
+    },
+    {
+      "id": "AIRES-90E8E09D",
+      "screeningCaseId": "SC-2026-0017",
+      "status": "completed",
+      "modelVersion": "RetinoAI-Net v2.4 (Calibrated Clinical Engine - Offline)",
+      "drGrade": "PDR",
+      "dmeIndicator": "Clinically Significant Macular Edema (CSME)",
+      "confidence": 94.6,
+      "summary": "Proliferative Diabetic Retinopathy (PDR) identified: Active neovascularization (NVD/NVE) along the superotemporal arcade, preretinal hemorrhage risks, and central circinate macular edema requiring urgent surgical/laser vitreoretinal consult.",
+      "processedAt": "2026-09-08T16:46:00.332Z"
+    },
+    {
+      "id": "AIRES-509D0E41",
+      "screeningCaseId": "SC-2026-0018",
+      "status": "completed",
+      "modelVersion": "RetinoAI-Net v2.4 (Calibrated Clinical Engine - Offline)",
+      "drGrade": "No DR",
+      "dmeIndicator": "None",
+      "confidence": 92.1,
+      "summary": "Moderate NPDR: Multiple microaneurysms along superior and inferior vascular arcades, scattered retinal blot hemorrhages, and early parafoveal lipid exudates.",
+      "processedAt": "2026-09-08T16:46:00.408Z"
+    }
+  ],
+  "aiFindings": [
+    {
+      "id": "FND-03654E",
+      "aiResultId": "AIRES-EC0B42D8",
+      "screeningCaseId": "SC-2026-0002",
+      "findingType": "microaneurysm",
+      "eyeSide": "OD",
+      "confidence": 95,
+      "severity": "moderate",
+      "description": "Multiple discrete microaneurysms along superior temporal arcade",
+      "regionData": [
+        {
+          "x": 44,
+          "y": 40,
+          "radius": 10,
+          "label": "Microaneurysm",
+          "confidence": 95
+        },
+        {
+          "x": 49,
+          "y": 43,
+          "radius": 9,
+          "label": "Microaneurysm",
+          "confidence": 93
+        },
+        {
+          "x": 58,
+          "y": 48,
+          "radius": 11,
+          "label": "Microaneurysm",
+          "confidence": 92
+        }
+      ],
+      "createdAt": "2026-09-08T15:50:29.836Z"
+    },
+    {
+      "id": "FND-5D4C0C",
+      "aiResultId": "AIRES-EC0B42D8",
+      "screeningCaseId": "SC-2026-0002",
+      "findingType": "hemorrhage",
+      "eyeSide": "OD",
+      "confidence": 91,
+      "severity": "mild",
+      "description": "Scattered dot hemorrhages in nasal periphery",
+      "regionData": [
+        {
+          "x": 68,
+          "y": 52,
+          "radius": 13,
+          "label": "Dot Hemorrhage",
+          "confidence": 91
+        }
+      ],
+      "createdAt": "2026-09-08T15:50:29.836Z"
+    },
+    {
+      "id": "FND-FFC82F",
+      "aiResultId": "AIRES-EC0B42D8",
+      "screeningCaseId": "SC-2026-0002",
+      "findingType": "hard exudate",
+      "eyeSide": "OD",
+      "confidence": 88,
+      "severity": "mild",
+      "description": "Early punctate lipid deposits outside 1 disc diameter of fovea",
+      "regionData": [
+        {
+          "x": 55,
+          "y": 42,
+          "radius": 12,
+          "label": "Punctate Exudate",
+          "confidence": 88
+        }
+      ],
+      "createdAt": "2026-09-08T15:50:29.836Z"
+    },
+    {
+      "id": "FND-3DA587",
+      "aiResultId": "AIRES-FC75C632",
+      "screeningCaseId": "SC-2026-0004",
+      "findingType": "neovascularization",
+      "eyeSide": "OD",
+      "confidence": 97,
+      "severity": "severe",
+      "description": "Fronds of active neovascularization elsewhere (NVE) crossing superior temporal arcade",
+      "regionData": [
+        {
+          "x": 36,
+          "y": 32,
+          "radius": 22,
+          "label": "Neovascular Frond (NVE)",
+          "confidence": 97
+        },
+        {
+          "x": 42,
+          "y": 28,
+          "radius": 18,
+          "label": "Vascular Budding",
+          "confidence": 94
+        }
+      ],
+      "createdAt": "2026-09-08T16:03:34.566Z"
+    },
+    {
+      "id": "FND-1E55EB",
+      "aiResultId": "AIRES-FC75C632",
+      "screeningCaseId": "SC-2026-0004",
+      "findingType": "hemorrhage",
+      "eyeSide": "OD",
+      "confidence": 96,
+      "severity": "severe",
+      "description": "Preretinal boat-shaped and deep blot hemorrhages in >3 retinal quadrants",
+      "regionData": [
+        {
+          "x": 40,
+          "y": 36,
+          "radius": 20,
+          "label": "Preretinal Hemorrhage",
+          "confidence": 96
+        },
+        {
+          "x": 64,
+          "y": 62,
+          "radius": 16,
+          "label": "Blot Hemorrhage",
+          "confidence": 93
+        }
+      ],
+      "createdAt": "2026-09-08T16:03:34.566Z"
+    },
+    {
+      "id": "FND-A66BA7",
+      "aiResultId": "AIRES-FC75C632",
+      "screeningCaseId": "SC-2026-0004",
+      "findingType": "hard exudate",
+      "eyeSide": "OD",
+      "confidence": 95,
+      "severity": "severe",
+      "description": "Clinically Significant Macular Edema: Dense circinate hard exudates within 500µm of foveal center",
+      "regionData": [
+        {
+          "x": 50,
+          "y": 50,
+          "radius": 26,
+          "label": "Foveal Circinate Ring",
+          "confidence": 95
+        }
+      ],
+      "createdAt": "2026-09-08T16:03:34.566Z"
+    },
+    {
+      "id": "FND-6480B6",
+      "aiResultId": "AIRES-DDBB3AC6",
+      "screeningCaseId": "SC-2026-0005",
+      "findingType": "microaneurysm",
+      "eyeSide": "OD",
+      "confidence": 95,
+      "severity": "moderate",
+      "description": "Multiple discrete microaneurysms along superior temporal arcade",
+      "regionData": [
+        {
+          "x": 44,
+          "y": 40,
+          "radius": 10,
+          "label": "Microaneurysm",
+          "confidence": 95
+        },
+        {
+          "x": 49,
+          "y": 43,
+          "radius": 9,
+          "label": "Microaneurysm",
+          "confidence": 93
+        },
+        {
+          "x": 58,
+          "y": 48,
+          "radius": 11,
+          "label": "Microaneurysm",
+          "confidence": 92
+        }
+      ],
+      "createdAt": "2026-09-08T16:03:34.630Z"
+    },
+    {
+      "id": "FND-C89933",
+      "aiResultId": "AIRES-DDBB3AC6",
+      "screeningCaseId": "SC-2026-0005",
+      "findingType": "hemorrhage",
+      "eyeSide": "OD",
+      "confidence": 91,
+      "severity": "mild",
+      "description": "Scattered dot hemorrhages in nasal periphery",
+      "regionData": [
+        {
+          "x": 68,
+          "y": 52,
+          "radius": 13,
+          "label": "Dot Hemorrhage",
+          "confidence": 91
+        }
+      ],
+      "createdAt": "2026-09-08T16:03:34.630Z"
+    },
+    {
+      "id": "FND-EB4AC3",
+      "aiResultId": "AIRES-DDBB3AC6",
+      "screeningCaseId": "SC-2026-0005",
+      "findingType": "hard exudate",
+      "eyeSide": "OD",
+      "confidence": 88,
+      "severity": "mild",
+      "description": "Early punctate lipid deposits outside 1 disc diameter of fovea",
+      "regionData": [
+        {
+          "x": 55,
+          "y": 42,
+          "radius": 12,
+          "label": "Punctate Exudate",
+          "confidence": 88
+        }
+      ],
+      "createdAt": "2026-09-08T16:03:34.630Z"
+    },
+    {
+      "id": "FND-0F021D",
+      "aiResultId": "AIRES-0B4E0F2D",
+      "screeningCaseId": "SC-2026-0006",
+      "findingType": "neovascularization",
+      "eyeSide": "OD",
+      "confidence": 97,
+      "severity": "severe",
+      "description": "Fronds of active neovascularization elsewhere (NVE) crossing superior temporal arcade",
+      "regionData": [
+        {
+          "x": 36,
+          "y": 32,
+          "radius": 22,
+          "label": "Neovascular Frond (NVE)",
+          "confidence": 97
+        },
+        {
+          "x": 42,
+          "y": 28,
+          "radius": 18,
+          "label": "Vascular Budding",
+          "confidence": 94
+        }
+      ],
+      "createdAt": "2026-09-08T16:04:27.758Z"
+    },
+    {
+      "id": "FND-E0C6B6",
+      "aiResultId": "AIRES-0B4E0F2D",
+      "screeningCaseId": "SC-2026-0006",
+      "findingType": "hemorrhage",
+      "eyeSide": "OD",
+      "confidence": 96,
+      "severity": "severe",
+      "description": "Preretinal boat-shaped and deep blot hemorrhages in >3 retinal quadrants",
+      "regionData": [
+        {
+          "x": 40,
+          "y": 36,
+          "radius": 20,
+          "label": "Preretinal Hemorrhage",
+          "confidence": 96
+        },
+        {
+          "x": 64,
+          "y": 62,
+          "radius": 16,
+          "label": "Blot Hemorrhage",
+          "confidence": 93
+        }
+      ],
+      "createdAt": "2026-09-08T16:04:27.758Z"
+    },
+    {
+      "id": "FND-D0985D",
+      "aiResultId": "AIRES-0B4E0F2D",
+      "screeningCaseId": "SC-2026-0006",
+      "findingType": "hard exudate",
+      "eyeSide": "OD",
+      "confidence": 95,
+      "severity": "severe",
+      "description": "Clinically Significant Macular Edema: Dense circinate hard exudates within 500µm of foveal center",
+      "regionData": [
+        {
+          "x": 50,
+          "y": 50,
+          "radius": 26,
+          "label": "Foveal Circinate Ring",
+          "confidence": 95
+        }
+      ],
+      "createdAt": "2026-09-08T16:04:27.758Z"
+    },
+    {
+      "id": "FND-BE4763",
+      "aiResultId": "AIRES-07C629F8",
+      "screeningCaseId": "SC-2026-0007",
+      "findingType": "microaneurysm",
+      "eyeSide": "OD",
+      "confidence": 95,
+      "severity": "moderate",
+      "description": "Multiple discrete microaneurysms along superior temporal arcade",
+      "regionData": [
+        {
+          "x": 44,
+          "y": 40,
+          "radius": 10,
+          "label": "Microaneurysm",
+          "confidence": 95
+        },
+        {
+          "x": 49,
+          "y": 43,
+          "radius": 9,
+          "label": "Microaneurysm",
+          "confidence": 93
+        },
+        {
+          "x": 58,
+          "y": 48,
+          "radius": 11,
+          "label": "Microaneurysm",
+          "confidence": 92
+        }
+      ],
+      "createdAt": "2026-09-08T16:04:27.847Z"
+    },
+    {
+      "id": "FND-67C68D",
+      "aiResultId": "AIRES-07C629F8",
+      "screeningCaseId": "SC-2026-0007",
+      "findingType": "hemorrhage",
+      "eyeSide": "OD",
+      "confidence": 91,
+      "severity": "mild",
+      "description": "Scattered dot hemorrhages in nasal periphery",
+      "regionData": [
+        {
+          "x": 68,
+          "y": 52,
+          "radius": 13,
+          "label": "Dot Hemorrhage",
+          "confidence": 91
+        }
+      ],
+      "createdAt": "2026-09-08T16:04:27.847Z"
+    },
+    {
+      "id": "FND-E7F5AC",
+      "aiResultId": "AIRES-07C629F8",
+      "screeningCaseId": "SC-2026-0007",
+      "findingType": "hard exudate",
+      "eyeSide": "OD",
+      "confidence": 88,
+      "severity": "mild",
+      "description": "Early punctate lipid deposits outside 1 disc diameter of fovea",
+      "regionData": [
+        {
+          "x": 55,
+          "y": 42,
+          "radius": 12,
+          "label": "Punctate Exudate",
+          "confidence": 88
+        }
+      ],
+      "createdAt": "2026-09-08T16:04:27.847Z"
+    },
+    {
+      "id": "FND-1A0181",
+      "aiResultId": "AIRES-1F413977",
+      "screeningCaseId": "SC-2026-0008",
+      "findingType": "neovascularization",
+      "eyeSide": "OD",
+      "confidence": 97,
+      "severity": "severe",
+      "description": "Fronds of active neovascularization elsewhere (NVE) crossing superior temporal arcade",
+      "regionData": [
+        {
+          "x": 36,
+          "y": 32,
+          "radius": 22,
+          "label": "Neovascular Frond (NVE)",
+          "confidence": 97
+        },
+        {
+          "x": 42,
+          "y": 28,
+          "radius": 18,
+          "label": "Vascular Budding",
+          "confidence": 94
+        }
+      ],
+      "createdAt": "2026-09-08T16:05:21.872Z"
+    },
+    {
+      "id": "FND-500044",
+      "aiResultId": "AIRES-1F413977",
+      "screeningCaseId": "SC-2026-0008",
+      "findingType": "hemorrhage",
+      "eyeSide": "OD",
+      "confidence": 96,
+      "severity": "severe",
+      "description": "Preretinal boat-shaped and deep blot hemorrhages in >3 retinal quadrants",
+      "regionData": [
+        {
+          "x": 40,
+          "y": 36,
+          "radius": 20,
+          "label": "Preretinal Hemorrhage",
+          "confidence": 96
+        },
+        {
+          "x": 64,
+          "y": 62,
+          "radius": 16,
+          "label": "Blot Hemorrhage",
+          "confidence": 93
+        }
+      ],
+      "createdAt": "2026-09-08T16:05:21.872Z"
+    },
+    {
+      "id": "FND-566BBC",
+      "aiResultId": "AIRES-1F413977",
+      "screeningCaseId": "SC-2026-0008",
+      "findingType": "hard exudate",
+      "eyeSide": "OD",
+      "confidence": 95,
+      "severity": "severe",
+      "description": "Clinically Significant Macular Edema: Dense circinate hard exudates within 500µm of foveal center",
+      "regionData": [
+        {
+          "x": 50,
+          "y": 50,
+          "radius": 26,
+          "label": "Foveal Circinate Ring",
+          "confidence": 95
+        }
+      ],
+      "createdAt": "2026-09-08T16:05:21.872Z"
+    },
+    {
+      "id": "FND-A9DE1B",
+      "aiResultId": "AIRES-C2DBAD6E",
+      "screeningCaseId": "SC-2026-0009",
+      "findingType": "microaneurysm",
+      "eyeSide": "OD",
+      "confidence": 95,
+      "severity": "moderate",
+      "description": "Multiple discrete microaneurysms along superior temporal arcade",
+      "regionData": [
+        {
+          "x": 44,
+          "y": 40,
+          "radius": 10,
+          "label": "Microaneurysm",
+          "confidence": 95
+        },
+        {
+          "x": 49,
+          "y": 43,
+          "radius": 9,
+          "label": "Microaneurysm",
+          "confidence": 93
+        },
+        {
+          "x": 58,
+          "y": 48,
+          "radius": 11,
+          "label": "Microaneurysm",
+          "confidence": 92
+        }
+      ],
+      "createdAt": "2026-09-08T16:05:21.934Z"
+    },
+    {
+      "id": "FND-7DD27F",
+      "aiResultId": "AIRES-C2DBAD6E",
+      "screeningCaseId": "SC-2026-0009",
+      "findingType": "hemorrhage",
+      "eyeSide": "OD",
+      "confidence": 91,
+      "severity": "mild",
+      "description": "Scattered dot hemorrhages in nasal periphery",
+      "regionData": [
+        {
+          "x": 68,
+          "y": 52,
+          "radius": 13,
+          "label": "Dot Hemorrhage",
+          "confidence": 91
+        }
+      ],
+      "createdAt": "2026-09-08T16:05:21.934Z"
+    },
+    {
+      "id": "FND-4AE4BE",
+      "aiResultId": "AIRES-C2DBAD6E",
+      "screeningCaseId": "SC-2026-0009",
+      "findingType": "hard exudate",
+      "eyeSide": "OD",
+      "confidence": 88,
+      "severity": "mild",
+      "description": "Early punctate lipid deposits outside 1 disc diameter of fovea",
+      "regionData": [
+        {
+          "x": 55,
+          "y": 42,
+          "radius": 12,
+          "label": "Punctate Exudate",
+          "confidence": 88
+        }
+      ],
+      "createdAt": "2026-09-08T16:05:21.934Z"
+    },
+    {
+      "id": "FND-847FD3",
+      "aiResultId": "AIRES-24B0FB4C",
+      "screeningCaseId": "SC-2026-0010",
+      "findingType": "hemorrhage",
+      "eyeSide": "OD",
+      "confidence": 96,
+      "severity": "severe",
+      "description": "Deep blot hemorrhages in superior and inferior temporal quadrants",
+      "regionData": [
+        {
+          "x": 38,
+          "y": 35,
+          "radius": 18,
+          "label": "Blot Hemorrhage",
+          "confidence": 96
+        },
+        {
+          "x": 62,
+          "y": 64,
+          "radius": 16,
+          "label": "Deep Retinal Hemorrhage",
+          "confidence": 94
+        },
+        {
+          "x": 45,
+          "y": 68,
+          "radius": 14,
+          "label": "Blot Hemorrhage",
+          "confidence": 91
+        }
+      ],
+      "createdAt": "2026-09-08T16:08:28.640Z"
+    },
+    {
+      "id": "FND-1E9552",
+      "aiResultId": "AIRES-24B0FB4C",
+      "screeningCaseId": "SC-2026-0010",
+      "findingType": "hard exudate",
+      "eyeSide": "OD",
+      "confidence": 94,
+      "severity": "severe",
+      "description": "Circinate lipid ring near macular center indicating Macular Edema",
+      "regionData": [
+        {
+          "x": 50,
+          "y": 49,
+          "radius": 24,
+          "label": "Circinate Hard Exudates",
+          "confidence": 94
+        },
+        {
+          "x": 54,
+          "y": 52,
+          "radius": 15,
+          "label": "Foveal Lipid Plaque",
+          "confidence": 92
+        }
+      ],
+      "createdAt": "2026-09-08T16:08:28.640Z"
+    },
+    {
+      "id": "FND-1DE6D1",
+      "aiResultId": "AIRES-24B0FB4C",
+      "screeningCaseId": "SC-2026-0010",
+      "findingType": "soft exudate",
+      "eyeSide": "OD",
+      "confidence": 89,
+      "severity": "moderate",
+      "description": "Cotton wool spots (localized axoplasmic transport stasis / nerve fiber layer ischemia)",
+      "regionData": [
+        {
+          "x": 32,
+          "y": 46,
+          "radius": 20,
+          "label": "Cotton Wool Spot",
+          "confidence": 89
+        }
+      ],
+      "createdAt": "2026-09-08T16:08:28.640Z"
+    },
+    {
+      "id": "FND-894ABD",
+      "aiResultId": "AIRES-DB105316",
+      "screeningCaseId": "SC-2026-0011",
+      "findingType": "neovascularization",
+      "eyeSide": "OD",
+      "confidence": 97,
+      "severity": "severe",
+      "description": "Fronds of active neovascularization elsewhere (NVE) crossing superior temporal arcade",
+      "regionData": [
+        {
+          "x": 36,
+          "y": 32,
+          "radius": 22,
+          "label": "Neovascular Frond (NVE)",
+          "confidence": 97
+        },
+        {
+          "x": 42,
+          "y": 28,
+          "radius": 18,
+          "label": "Vascular Budding",
+          "confidence": 94
+        }
+      ],
+      "createdAt": "2026-09-08T16:29:37.261Z"
+    },
+    {
+      "id": "FND-24F07A",
+      "aiResultId": "AIRES-DB105316",
+      "screeningCaseId": "SC-2026-0011",
+      "findingType": "hemorrhage",
+      "eyeSide": "OD",
+      "confidence": 96,
+      "severity": "severe",
+      "description": "Preretinal boat-shaped and deep blot hemorrhages in >3 retinal quadrants",
+      "regionData": [
+        {
+          "x": 40,
+          "y": 36,
+          "radius": 20,
+          "label": "Preretinal Hemorrhage",
+          "confidence": 96
+        },
+        {
+          "x": 64,
+          "y": 62,
+          "radius": 16,
+          "label": "Blot Hemorrhage",
+          "confidence": 93
+        }
+      ],
+      "createdAt": "2026-09-08T16:29:37.261Z"
+    },
+    {
+      "id": "FND-FC5D31",
+      "aiResultId": "AIRES-DB105316",
+      "screeningCaseId": "SC-2026-0011",
+      "findingType": "hard exudate",
+      "eyeSide": "OD",
+      "confidence": 95,
+      "severity": "severe",
+      "description": "Clinically Significant Macular Edema: Dense circinate hard exudates within 500µm of foveal center",
+      "regionData": [
+        {
+          "x": 50,
+          "y": 50,
+          "radius": 26,
+          "label": "Foveal Circinate Ring",
+          "confidence": 95
+        }
+      ],
+      "createdAt": "2026-09-08T16:29:37.261Z"
+    },
+    {
+      "id": "FND-EEC427",
+      "aiResultId": "AIRES-27FBF29C",
+      "screeningCaseId": "SC-2026-0012",
+      "findingType": "microaneurysm",
+      "eyeSide": "OD",
+      "confidence": 95,
+      "severity": "moderate",
+      "description": "Multiple discrete microaneurysms along superior temporal arcade",
+      "regionData": [
+        {
+          "x": 44,
+          "y": 40,
+          "radius": 10,
+          "label": "Microaneurysm",
+          "confidence": 95
+        },
+        {
+          "x": 49,
+          "y": 43,
+          "radius": 9,
+          "label": "Microaneurysm",
+          "confidence": 93
+        },
+        {
+          "x": 58,
+          "y": 48,
+          "radius": 11,
+          "label": "Microaneurysm",
+          "confidence": 92
+        }
+      ],
+      "createdAt": "2026-09-08T16:29:37.346Z"
+    },
+    {
+      "id": "FND-001E93",
+      "aiResultId": "AIRES-27FBF29C",
+      "screeningCaseId": "SC-2026-0012",
+      "findingType": "hemorrhage",
+      "eyeSide": "OD",
+      "confidence": 91,
+      "severity": "mild",
+      "description": "Scattered dot hemorrhages in nasal periphery",
+      "regionData": [
+        {
+          "x": 68,
+          "y": 52,
+          "radius": 13,
+          "label": "Dot Hemorrhage",
+          "confidence": 91
+        }
+      ],
+      "createdAt": "2026-09-08T16:29:37.346Z"
+    },
+    {
+      "id": "FND-E6146C",
+      "aiResultId": "AIRES-27FBF29C",
+      "screeningCaseId": "SC-2026-0012",
+      "findingType": "hard exudate",
+      "eyeSide": "OD",
+      "confidence": 88,
+      "severity": "mild",
+      "description": "Early punctate lipid deposits outside 1 disc diameter of fovea",
+      "regionData": [
+        {
+          "x": 55,
+          "y": 42,
+          "radius": 12,
+          "label": "Punctate Exudate",
+          "confidence": 88
+        }
+      ],
+      "createdAt": "2026-09-08T16:29:37.346Z"
+    },
+    {
+      "id": "FND-A26B1C",
+      "aiResultId": "AIRES-40E3B00D",
+      "screeningCaseId": "SC-2026-0013",
+      "findingType": "neovascularization",
+      "eyeSide": "OD",
+      "confidence": 97,
+      "severity": "severe",
+      "description": "Fronds of active neovascularization elsewhere (NVE) crossing superior temporal arcade",
+      "regionData": [
+        {
+          "x": 36,
+          "y": 32,
+          "radius": 22,
+          "label": "Neovascular Frond (NVE)",
+          "confidence": 97
+        },
+        {
+          "x": 42,
+          "y": 28,
+          "radius": 18,
+          "label": "Vascular Budding",
+          "confidence": 94
+        }
+      ],
+      "createdAt": "2026-09-08T16:37:16.544Z"
+    },
+    {
+      "id": "FND-86EA10",
+      "aiResultId": "AIRES-40E3B00D",
+      "screeningCaseId": "SC-2026-0013",
+      "findingType": "hemorrhage",
+      "eyeSide": "OD",
+      "confidence": 96,
+      "severity": "severe",
+      "description": "Preretinal boat-shaped and deep blot hemorrhages in >3 retinal quadrants",
+      "regionData": [
+        {
+          "x": 40,
+          "y": 36,
+          "radius": 20,
+          "label": "Preretinal Hemorrhage",
+          "confidence": 96
+        },
+        {
+          "x": 64,
+          "y": 62,
+          "radius": 16,
+          "label": "Blot Hemorrhage",
+          "confidence": 93
+        }
+      ],
+      "createdAt": "2026-09-08T16:37:16.544Z"
+    },
+    {
+      "id": "FND-36C423",
+      "aiResultId": "AIRES-40E3B00D",
+      "screeningCaseId": "SC-2026-0013",
+      "findingType": "hard exudate",
+      "eyeSide": "OD",
+      "confidence": 95,
+      "severity": "severe",
+      "description": "Clinically Significant Macular Edema: Dense circinate hard exudates within 500µm of foveal center",
+      "regionData": [
+        {
+          "x": 50,
+          "y": 50,
+          "radius": 26,
+          "label": "Foveal Circinate Ring",
+          "confidence": 95
+        }
+      ],
+      "createdAt": "2026-09-08T16:37:16.544Z"
+    },
+    {
+      "id": "FND-964AB7",
+      "aiResultId": "AIRES-7A85836E",
+      "screeningCaseId": "SC-2026-0014",
+      "findingType": "microaneurysm",
+      "eyeSide": "OD",
+      "confidence": 95,
+      "severity": "moderate",
+      "description": "Multiple discrete microaneurysms along superior temporal arcade",
+      "regionData": [
+        {
+          "x": 44,
+          "y": 40,
+          "radius": 10,
+          "label": "Microaneurysm",
+          "confidence": 95
+        },
+        {
+          "x": 49,
+          "y": 43,
+          "radius": 9,
+          "label": "Microaneurysm",
+          "confidence": 93
+        },
+        {
+          "x": 58,
+          "y": 48,
+          "radius": 11,
+          "label": "Microaneurysm",
+          "confidence": 92
+        }
+      ],
+      "createdAt": "2026-09-08T16:37:16.612Z"
+    },
+    {
+      "id": "FND-895223",
+      "aiResultId": "AIRES-7A85836E",
+      "screeningCaseId": "SC-2026-0014",
+      "findingType": "hemorrhage",
+      "eyeSide": "OD",
+      "confidence": 91,
+      "severity": "mild",
+      "description": "Scattered dot hemorrhages in nasal periphery",
+      "regionData": [
+        {
+          "x": 68,
+          "y": 52,
+          "radius": 13,
+          "label": "Dot Hemorrhage",
+          "confidence": 91
+        }
+      ],
+      "createdAt": "2026-09-08T16:37:16.612Z"
+    },
+    {
+      "id": "FND-DEE48F",
+      "aiResultId": "AIRES-7A85836E",
+      "screeningCaseId": "SC-2026-0014",
+      "findingType": "hard exudate",
+      "eyeSide": "OD",
+      "confidence": 88,
+      "severity": "mild",
+      "description": "Early punctate lipid deposits outside 1 disc diameter of fovea",
+      "regionData": [
+        {
+          "x": 55,
+          "y": 42,
+          "radius": 12,
+          "label": "Punctate Exudate",
+          "confidence": 88
+        }
+      ],
+      "createdAt": "2026-09-08T16:37:16.612Z"
+    },
+    {
+      "id": "FND-7431B9",
+      "aiResultId": "AIRES-CF718F5F",
+      "screeningCaseId": "SC-2026-0015",
+      "findingType": "hemorrhage",
+      "eyeSide": "OD",
+      "confidence": 96,
+      "severity": "severe",
+      "description": "Deep blot hemorrhages in superior and inferior temporal quadrants",
+      "regionData": [
+        {
+          "x": 38,
+          "y": 35,
+          "radius": 18,
+          "label": "Blot Hemorrhage",
+          "confidence": 96
+        },
+        {
+          "x": 62,
+          "y": 64,
+          "radius": 16,
+          "label": "Deep Retinal Hemorrhage",
+          "confidence": 94
+        },
+        {
+          "x": 45,
+          "y": 68,
+          "radius": 14,
+          "label": "Blot Hemorrhage",
+          "confidence": 91
+        }
+      ],
+      "createdAt": "2026-09-08T16:41:30.667Z"
+    },
+    {
+      "id": "FND-C721A0",
+      "aiResultId": "AIRES-CF718F5F",
+      "screeningCaseId": "SC-2026-0015",
+      "findingType": "hard exudate",
+      "eyeSide": "OD",
+      "confidence": 94,
+      "severity": "severe",
+      "description": "Circinate lipid ring near macular center indicating Macular Edema",
+      "regionData": [
+        {
+          "x": 50,
+          "y": 49,
+          "radius": 24,
+          "label": "Circinate Hard Exudates",
+          "confidence": 94
+        },
+        {
+          "x": 54,
+          "y": 52,
+          "radius": 15,
+          "label": "Foveal Lipid Plaque",
+          "confidence": 92
+        }
+      ],
+      "createdAt": "2026-09-08T16:41:30.667Z"
+    },
+    {
+      "id": "FND-9A1211",
+      "aiResultId": "AIRES-CF718F5F",
+      "screeningCaseId": "SC-2026-0015",
+      "findingType": "soft exudate",
+      "eyeSide": "OD",
+      "confidence": 89,
+      "severity": "moderate",
+      "description": "Cotton wool spots (localized axoplasmic transport stasis / nerve fiber layer ischemia)",
+      "regionData": [
+        {
+          "x": 32,
+          "y": 46,
+          "radius": 20,
+          "label": "Cotton Wool Spot",
+          "confidence": 89
+        }
+      ],
+      "createdAt": "2026-09-08T16:41:30.667Z"
+    },
+    {
+      "id": "FND-BC410D",
+      "aiResultId": "AIRES-48DE8119",
+      "screeningCaseId": "SC-2026-0001",
+      "findingType": "hemorrhage",
+      "eyeSide": "OD",
+      "confidence": 96,
+      "severity": "severe",
+      "description": "Deep blot hemorrhages in superior and inferior temporal quadrants",
+      "regionData": [
+        {
+          "x": 38,
+          "y": 35,
+          "radius": 18,
+          "label": "Blot Hemorrhage",
+          "confidence": 96
+        },
+        {
+          "x": 62,
+          "y": 64,
+          "radius": 16,
+          "label": "Deep Retinal Hemorrhage",
+          "confidence": 94
+        },
+        {
+          "x": 45,
+          "y": 68,
+          "radius": 14,
+          "label": "Blot Hemorrhage",
+          "confidence": 91
+        }
+      ],
+      "createdAt": "2026-09-08T16:41:52.291Z"
+    },
+    {
+      "id": "FND-59281A",
+      "aiResultId": "AIRES-48DE8119",
+      "screeningCaseId": "SC-2026-0001",
+      "findingType": "hard exudate",
+      "eyeSide": "OD",
+      "confidence": 94,
+      "severity": "severe",
+      "description": "Circinate lipid ring near macular center indicating Macular Edema",
+      "regionData": [
+        {
+          "x": 50,
+          "y": 49,
+          "radius": 24,
+          "label": "Circinate Hard Exudates",
+          "confidence": 94
+        },
+        {
+          "x": 54,
+          "y": 52,
+          "radius": 15,
+          "label": "Foveal Lipid Plaque",
+          "confidence": 92
+        }
+      ],
+      "createdAt": "2026-09-08T16:41:52.291Z"
+    },
+    {
+      "id": "FND-E2A547",
+      "aiResultId": "AIRES-48DE8119",
+      "screeningCaseId": "SC-2026-0001",
+      "findingType": "soft exudate",
+      "eyeSide": "OD",
+      "confidence": 89,
+      "severity": "moderate",
+      "description": "Cotton wool spots (localized axoplasmic transport stasis / nerve fiber layer ischemia)",
+      "regionData": [
+        {
+          "x": 32,
+          "y": 46,
+          "radius": 20,
+          "label": "Cotton Wool Spot",
+          "confidence": 89
+        }
+      ],
+      "createdAt": "2026-09-08T16:41:52.291Z"
+    },
+    {
+      "id": "FND-4B0971",
+      "aiResultId": "AIRES-90E8E09D",
+      "screeningCaseId": "SC-2026-0017",
+      "findingType": "neovascularization",
+      "eyeSide": "OD",
+      "confidence": 97,
+      "severity": "severe",
+      "description": "Fronds of active neovascularization elsewhere (NVE) crossing superior temporal arcade",
+      "regionData": [
+        {
+          "x": 36,
+          "y": 32,
+          "radius": 22,
+          "label": "Neovascular Frond (NVE)",
+          "confidence": 97
+        },
+        {
+          "x": 42,
+          "y": 28,
+          "radius": 18,
+          "label": "Vascular Budding",
+          "confidence": 94
+        }
+      ],
+      "createdAt": "2026-09-08T16:46:00.332Z"
+    },
+    {
+      "id": "FND-920E4A",
+      "aiResultId": "AIRES-90E8E09D",
+      "screeningCaseId": "SC-2026-0017",
+      "findingType": "hemorrhage",
+      "eyeSide": "OD",
+      "confidence": 96,
+      "severity": "severe",
+      "description": "Preretinal boat-shaped and deep blot hemorrhages in >3 retinal quadrants",
+      "regionData": [
+        {
+          "x": 40,
+          "y": 36,
+          "radius": 20,
+          "label": "Preretinal Hemorrhage",
+          "confidence": 96
+        },
+        {
+          "x": 64,
+          "y": 62,
+          "radius": 16,
+          "label": "Blot Hemorrhage",
+          "confidence": 93
+        }
+      ],
+      "createdAt": "2026-09-08T16:46:00.332Z"
+    },
+    {
+      "id": "FND-492F6B",
+      "aiResultId": "AIRES-90E8E09D",
+      "screeningCaseId": "SC-2026-0017",
+      "findingType": "hard exudate",
+      "eyeSide": "OD",
+      "confidence": 95,
+      "severity": "severe",
+      "description": "Clinically Significant Macular Edema: Dense circinate hard exudates within 500µm of foveal center",
+      "regionData": [
+        {
+          "x": 50,
+          "y": 50,
+          "radius": 26,
+          "label": "Foveal Circinate Ring",
+          "confidence": 95
+        }
+      ],
+      "createdAt": "2026-09-08T16:46:00.332Z"
+    },
+    {
+      "id": "FND-8BF235",
+      "aiResultId": "AIRES-509D0E41",
+      "screeningCaseId": "SC-2026-0018",
+      "findingType": "microaneurysm",
+      "eyeSide": "OD",
+      "confidence": 95,
+      "severity": "moderate",
+      "description": "Multiple discrete microaneurysms along superior temporal arcade",
+      "regionData": [
+        {
+          "x": 44,
+          "y": 40,
+          "radius": 10,
+          "label": "Microaneurysm",
+          "confidence": 95
+        },
+        {
+          "x": 49,
+          "y": 43,
+          "radius": 9,
+          "label": "Microaneurysm",
+          "confidence": 93
+        },
+        {
+          "x": 58,
+          "y": 48,
+          "radius": 11,
+          "label": "Microaneurysm",
+          "confidence": 92
+        }
+      ],
+      "createdAt": "2026-09-08T16:46:00.408Z"
+    },
+    {
+      "id": "FND-1B4454",
+      "aiResultId": "AIRES-509D0E41",
+      "screeningCaseId": "SC-2026-0018",
+      "findingType": "hemorrhage",
+      "eyeSide": "OD",
+      "confidence": 91,
+      "severity": "mild",
+      "description": "Scattered dot hemorrhages in nasal periphery",
+      "regionData": [
+        {
+          "x": 68,
+          "y": 52,
+          "radius": 13,
+          "label": "Dot Hemorrhage",
+          "confidence": 91
+        }
+      ],
+      "createdAt": "2026-09-08T16:46:00.408Z"
+    },
+    {
+      "id": "FND-AF4453",
+      "aiResultId": "AIRES-509D0E41",
+      "screeningCaseId": "SC-2026-0018",
+      "findingType": "hard exudate",
+      "eyeSide": "OD",
+      "confidence": 88,
+      "severity": "mild",
+      "description": "Early punctate lipid deposits outside 1 disc diameter of fovea",
+      "regionData": [
+        {
+          "x": 55,
+          "y": 42,
+          "radius": 12,
+          "label": "Punctate Exudate",
+          "confidence": 88
+        }
+      ],
+      "createdAt": "2026-09-08T16:46:00.408Z"
+    }
+  ],
+  "explainabilities": [
+    {
+      "id": "EXPL-8FF92CA4",
+      "aiResultId": "AIRES-48DE8119",
+      "screeningCaseId": "SC-2026-0001",
+      "heatmapPoints": [
+        {
+          "x": 51,
+          "y": 50,
+          "intensity": 0.98
+        },
+        {
+          "x": 40,
+          "y": 37,
+          "intensity": 0.86
+        },
+        {
+          "x": 61,
+          "y": 63,
+          "intensity": 0.82
+        },
+        {
+          "x": 33,
+          "y": 47,
+          "intensity": 0.75
+        }
+      ],
+      "attentionDescription": "Deep neural attention concentrated on identified lesion clusters along the temporal retinal arcade and macula. Green-channel (540-570nm) contrast ratio calibrated for vascular demarcation.",
+      "annotationData": {
+        "lesionCount": 6,
+        "primaryFinding": "hemorrhage",
+        "greenChannelContrastRatio": 1.48,
+        "fovealDistanceEstimate": "< 500µm",
+        "icdrScaleGrade": "Severe NPDR",
+        "modelEngine": "RetinoAI-Net v2.4 (Blackbox-Calibrated Vision Engine)"
+      },
+      "createdAt": "2026-09-08T16:41:52.291Z"
+    },
+    {
+      "id": "EXPL-86DF516F",
+      "aiResultId": "AIRES-EC0B42D8",
+      "screeningCaseId": "SC-2026-0002",
+      "heatmapPoints": [
+        {
+          "x": 45,
+          "y": 42,
+          "intensity": 0.85
+        },
+        {
+          "x": 57,
+          "y": 46,
+          "intensity": 0.78
+        },
+        {
+          "x": 67,
+          "y": 51,
+          "intensity": 0.69
+        }
+      ],
+      "attentionDescription": "Deep neural attention concentrated on identified lesion clusters along temporal arcade.",
+      "annotationData": {
+        "lesionCount": 5,
+        "primaryFinding": "microaneurysm"
+      },
+      "createdAt": "2026-09-08T15:50:29.836Z"
+    },
+    {
+      "id": "EXPL-C8FE3482",
+      "aiResultId": "AIRES-FC75C632",
+      "screeningCaseId": "SC-2026-0004",
+      "heatmapPoints": [
+        {
+          "x": 36,
+          "y": 32,
+          "intensity": 0.99
+        },
+        {
+          "x": 50,
+          "y": 50,
+          "intensity": 0.98
+        },
+        {
+          "x": 40,
+          "y": 36,
+          "intensity": 0.92
+        },
+        {
+          "x": 64,
+          "y": 62,
+          "intensity": 0.85
+        }
+      ],
+      "attentionDescription": "Deep neural attention concentrated on identified lesion clusters along the temporal retinal arcade and macula. Green-channel (540-570nm) contrast ratio calibrated for vascular demarcation.",
+      "annotationData": {
+        "lesionCount": 5,
+        "primaryFinding": "neovascularization",
+        "greenChannelContrastRatio": 1.48,
+        "fovealDistanceEstimate": "< 500µm",
+        "icdrScaleGrade": "PDR"
+      },
+      "createdAt": "2026-09-08T16:03:34.566Z"
+    },
+    {
+      "id": "EXPL-79E5D32D",
+      "aiResultId": "AIRES-DDBB3AC6",
+      "screeningCaseId": "SC-2026-0005",
+      "heatmapPoints": [
+        {
+          "x": 45,
+          "y": 42,
+          "intensity": 0.85
+        },
+        {
+          "x": 57,
+          "y": 46,
+          "intensity": 0.78
+        },
+        {
+          "x": 67,
+          "y": 51,
+          "intensity": 0.69
+        }
+      ],
+      "attentionDescription": "Deep neural attention concentrated on identified lesion clusters along the temporal retinal arcade and macula. Green-channel (540-570nm) contrast ratio calibrated for vascular demarcation.",
+      "annotationData": {
+        "lesionCount": 5,
+        "primaryFinding": "microaneurysm",
+        "greenChannelContrastRatio": 1.48,
+        "fovealDistanceEstimate": "> 1500µm",
+        "icdrScaleGrade": "Moderate NPDR"
+      },
+      "createdAt": "2026-09-08T16:03:34.630Z"
+    },
+    {
+      "id": "EXPL-51910721",
+      "aiResultId": "AIRES-0B4E0F2D",
+      "screeningCaseId": "SC-2026-0006",
+      "heatmapPoints": [
+        {
+          "x": 36,
+          "y": 32,
+          "intensity": 0.99
+        },
+        {
+          "x": 50,
+          "y": 50,
+          "intensity": 0.98
+        },
+        {
+          "x": 40,
+          "y": 36,
+          "intensity": 0.92
+        },
+        {
+          "x": 64,
+          "y": 62,
+          "intensity": 0.85
+        }
+      ],
+      "attentionDescription": "Deep neural attention concentrated on identified lesion clusters along the temporal retinal arcade and macula. Green-channel (540-570nm) contrast ratio calibrated for vascular demarcation.",
+      "annotationData": {
+        "lesionCount": 5,
+        "primaryFinding": "neovascularization",
+        "greenChannelContrastRatio": 1.48,
+        "fovealDistanceEstimate": "< 500µm",
+        "icdrScaleGrade": "PDR"
+      },
+      "createdAt": "2026-09-08T16:04:27.758Z"
+    },
+    {
+      "id": "EXPL-D8C8BC42",
+      "aiResultId": "AIRES-07C629F8",
+      "screeningCaseId": "SC-2026-0007",
+      "heatmapPoints": [
+        {
+          "x": 45,
+          "y": 42,
+          "intensity": 0.85
+        },
+        {
+          "x": 57,
+          "y": 46,
+          "intensity": 0.78
+        },
+        {
+          "x": 67,
+          "y": 51,
+          "intensity": 0.69
+        }
+      ],
+      "attentionDescription": "Deep neural attention concentrated on identified lesion clusters along the temporal retinal arcade and macula. Green-channel (540-570nm) contrast ratio calibrated for vascular demarcation.",
+      "annotationData": {
+        "lesionCount": 5,
+        "primaryFinding": "microaneurysm",
+        "greenChannelContrastRatio": 1.48,
+        "fovealDistanceEstimate": "> 1500µm",
+        "icdrScaleGrade": "Moderate NPDR"
+      },
+      "createdAt": "2026-09-08T16:04:27.847Z"
+    },
+    {
+      "id": "EXPL-F1CF4D24",
+      "aiResultId": "AIRES-1F413977",
+      "screeningCaseId": "SC-2026-0008",
+      "heatmapPoints": [
+        {
+          "x": 36,
+          "y": 32,
+          "intensity": 0.99
+        },
+        {
+          "x": 50,
+          "y": 50,
+          "intensity": 0.98
+        },
+        {
+          "x": 40,
+          "y": 36,
+          "intensity": 0.92
+        },
+        {
+          "x": 64,
+          "y": 62,
+          "intensity": 0.85
+        }
+      ],
+      "attentionDescription": "Deep neural attention concentrated on identified lesion clusters along the temporal retinal arcade and macula. Green-channel (540-570nm) contrast ratio calibrated for vascular demarcation.",
+      "annotationData": {
+        "lesionCount": 5,
+        "primaryFinding": "neovascularization",
+        "greenChannelContrastRatio": 1.48,
+        "fovealDistanceEstimate": "< 500µm",
+        "icdrScaleGrade": "PDR"
+      },
+      "createdAt": "2026-09-08T16:05:21.872Z"
+    },
+    {
+      "id": "EXPL-F4ED2ED6",
+      "aiResultId": "AIRES-C2DBAD6E",
+      "screeningCaseId": "SC-2026-0009",
+      "heatmapPoints": [
+        {
+          "x": 45,
+          "y": 42,
+          "intensity": 0.85
+        },
+        {
+          "x": 57,
+          "y": 46,
+          "intensity": 0.78
+        },
+        {
+          "x": 67,
+          "y": 51,
+          "intensity": 0.69
+        }
+      ],
+      "attentionDescription": "Deep neural attention concentrated on identified lesion clusters along the temporal retinal arcade and macula. Green-channel (540-570nm) contrast ratio calibrated for vascular demarcation.",
+      "annotationData": {
+        "lesionCount": 5,
+        "primaryFinding": "microaneurysm",
+        "greenChannelContrastRatio": 1.48,
+        "fovealDistanceEstimate": "> 1500µm",
+        "icdrScaleGrade": "Moderate NPDR"
+      },
+      "createdAt": "2026-09-08T16:05:21.934Z"
+    },
+    {
+      "id": "EXPL-47945FAD",
+      "aiResultId": "AIRES-24B0FB4C",
+      "screeningCaseId": "SC-2026-0010",
+      "heatmapPoints": [
+        {
+          "x": 51,
+          "y": 50,
+          "intensity": 0.98
+        },
+        {
+          "x": 40,
+          "y": 37,
+          "intensity": 0.86
+        },
+        {
+          "x": 61,
+          "y": 63,
+          "intensity": 0.82
+        },
+        {
+          "x": 33,
+          "y": 47,
+          "intensity": 0.75
+        }
+      ],
+      "attentionDescription": "Deep neural attention concentrated on identified lesion clusters along the temporal retinal arcade and macula. Green-channel (540-570nm) contrast ratio calibrated for vascular demarcation.",
+      "annotationData": {
+        "lesionCount": 6,
+        "primaryFinding": "hemorrhage",
+        "greenChannelContrastRatio": 1.48,
+        "fovealDistanceEstimate": "< 500µm",
+        "icdrScaleGrade": "Severe NPDR"
+      },
+      "createdAt": "2026-09-08T16:08:28.640Z"
+    },
+    {
+      "id": "EXPL-D81203B4",
+      "aiResultId": "AIRES-DB105316",
+      "screeningCaseId": "SC-2026-0011",
+      "heatmapPoints": [
+        {
+          "x": 36,
+          "y": 32,
+          "intensity": 0.99
+        },
+        {
+          "x": 50,
+          "y": 50,
+          "intensity": 0.98
+        },
+        {
+          "x": 40,
+          "y": 36,
+          "intensity": 0.92
+        },
+        {
+          "x": 64,
+          "y": 62,
+          "intensity": 0.85
+        }
+      ],
+      "attentionDescription": "Deep neural attention concentrated on identified lesion clusters along the temporal retinal arcade and macula. Green-channel (540-570nm) contrast ratio calibrated for vascular demarcation.",
+      "annotationData": {
+        "lesionCount": 5,
+        "primaryFinding": "neovascularization",
+        "greenChannelContrastRatio": 1.48,
+        "fovealDistanceEstimate": "< 500µm",
+        "icdrScaleGrade": "PDR",
+        "modelEngine": "RetinoAI-Net v2.4 (Blackbox-Calibrated Vision Engine)"
+      },
+      "createdAt": "2026-09-08T16:29:37.261Z"
+    },
+    {
+      "id": "EXPL-7A0DC353",
+      "aiResultId": "AIRES-27FBF29C",
+      "screeningCaseId": "SC-2026-0012",
+      "heatmapPoints": [
+        {
+          "x": 45,
+          "y": 42,
+          "intensity": 0.85
+        },
+        {
+          "x": 57,
+          "y": 46,
+          "intensity": 0.78
+        },
+        {
+          "x": 67,
+          "y": 51,
+          "intensity": 0.69
+        }
+      ],
+      "attentionDescription": "Deep neural attention concentrated on identified lesion clusters along the temporal retinal arcade and macula. Green-channel (540-570nm) contrast ratio calibrated for vascular demarcation.",
+      "annotationData": {
+        "lesionCount": 5,
+        "primaryFinding": "microaneurysm",
+        "greenChannelContrastRatio": 1.48,
+        "fovealDistanceEstimate": "> 1500µm",
+        "icdrScaleGrade": "Moderate NPDR",
+        "modelEngine": "RetinoAI-Net v2.4 (Blackbox-Calibrated Vision Engine)"
+      },
+      "createdAt": "2026-09-08T16:29:37.346Z"
+    },
+    {
+      "id": "EXPL-808D80F4",
+      "aiResultId": "AIRES-40E3B00D",
+      "screeningCaseId": "SC-2026-0013",
+      "heatmapPoints": [
+        {
+          "x": 36,
+          "y": 32,
+          "intensity": 0.99
+        },
+        {
+          "x": 50,
+          "y": 50,
+          "intensity": 0.98
+        },
+        {
+          "x": 40,
+          "y": 36,
+          "intensity": 0.92
+        },
+        {
+          "x": 64,
+          "y": 62,
+          "intensity": 0.85
+        }
+      ],
+      "attentionDescription": "Deep neural attention concentrated on identified lesion clusters along the temporal retinal arcade and macula. Green-channel (540-570nm) contrast ratio calibrated for vascular demarcation.",
+      "annotationData": {
+        "lesionCount": 5,
+        "primaryFinding": "neovascularization",
+        "greenChannelContrastRatio": 1.48,
+        "fovealDistanceEstimate": "< 500µm",
+        "icdrScaleGrade": "PDR",
+        "modelEngine": "RetinoAI-Net v2.4 (Blackbox-Calibrated Vision Engine)"
+      },
+      "createdAt": "2026-09-08T16:37:16.544Z"
+    },
+    {
+      "id": "EXPL-B727CDF8",
+      "aiResultId": "AIRES-7A85836E",
+      "screeningCaseId": "SC-2026-0014",
+      "heatmapPoints": [
+        {
+          "x": 45,
+          "y": 42,
+          "intensity": 0.85
+        },
+        {
+          "x": 57,
+          "y": 46,
+          "intensity": 0.78
+        },
+        {
+          "x": 67,
+          "y": 51,
+          "intensity": 0.69
+        }
+      ],
+      "attentionDescription": "Deep neural attention concentrated on identified lesion clusters along the temporal retinal arcade and macula. Green-channel (540-570nm) contrast ratio calibrated for vascular demarcation.",
+      "annotationData": {
+        "lesionCount": 5,
+        "primaryFinding": "microaneurysm",
+        "greenChannelContrastRatio": 1.48,
+        "fovealDistanceEstimate": "> 1500µm",
+        "icdrScaleGrade": "Moderate NPDR",
+        "modelEngine": "RetinoAI-Net v2.4 (Blackbox-Calibrated Vision Engine)"
+      },
+      "createdAt": "2026-09-08T16:37:16.612Z"
+    },
+    {
+      "id": "EXPL-DDB80DC5",
+      "aiResultId": "AIRES-CF718F5F",
+      "screeningCaseId": "SC-2026-0015",
+      "heatmapPoints": [
+        {
+          "x": 51,
+          "y": 50,
+          "intensity": 0.98
+        },
+        {
+          "x": 40,
+          "y": 37,
+          "intensity": 0.86
+        },
+        {
+          "x": 61,
+          "y": 63,
+          "intensity": 0.82
+        },
+        {
+          "x": 33,
+          "y": 47,
+          "intensity": 0.75
+        }
+      ],
+      "attentionDescription": "Deep neural attention concentrated on identified lesion clusters along the temporal retinal arcade and macula. Green-channel (540-570nm) contrast ratio calibrated for vascular demarcation.",
+      "annotationData": {
+        "lesionCount": 6,
+        "primaryFinding": "hemorrhage",
+        "greenChannelContrastRatio": 1.48,
+        "fovealDistanceEstimate": "< 500µm",
+        "icdrScaleGrade": "Severe NPDR",
+        "modelEngine": "RetinoAI-Net v2.4 (Blackbox-Calibrated Vision Engine)"
+      },
+      "createdAt": "2026-09-08T16:41:30.667Z"
+    },
+    {
+      "id": "EXPL-C1BC11AD",
+      "aiResultId": "AIRES-90E8E09D",
+      "screeningCaseId": "SC-2026-0017",
+      "heatmapPoints": [
+        {
+          "x": 36,
+          "y": 32,
+          "intensity": 0.99
+        },
+        {
+          "x": 50,
+          "y": 50,
+          "intensity": 0.98
+        },
+        {
+          "x": 40,
+          "y": 36,
+          "intensity": 0.92
+        },
+        {
+          "x": 64,
+          "y": 62,
+          "intensity": 0.85
+        }
+      ],
+      "attentionDescription": "Deep neural attention concentrated on identified lesion clusters along the temporal retinal arcade and macula. Green-channel (540-570nm) contrast ratio calibrated for vascular demarcation.",
+      "annotationData": {
+        "lesionCount": 5,
+        "primaryFinding": "neovascularization",
+        "greenChannelContrastRatio": 1.48,
+        "fovealDistanceEstimate": "< 500µm",
+        "icdrScaleGrade": "PDR",
+        "modelEngine": "RetinoAI-Net v2.4 (Calibrated Clinical Engine - Offline)"
+      },
+      "createdAt": "2026-09-08T16:46:00.332Z"
+    },
+    {
+      "id": "EXPL-D0C6D5A0",
+      "aiResultId": "AIRES-509D0E41",
+      "screeningCaseId": "SC-2026-0018",
+      "heatmapPoints": [
+        {
+          "x": 45,
+          "y": 42,
+          "intensity": 0.85
+        },
+        {
+          "x": 57,
+          "y": 46,
+          "intensity": 0.78
+        },
+        {
+          "x": 67,
+          "y": 51,
+          "intensity": 0.69
+        }
+      ],
+      "attentionDescription": "Deep neural attention concentrated on identified lesion clusters along the temporal retinal arcade and macula. Green-channel (540-570nm) contrast ratio calibrated for vascular demarcation.",
+      "annotationData": {
+        "lesionCount": 5,
+        "primaryFinding": "microaneurysm",
+        "greenChannelContrastRatio": 1.48,
+        "fovealDistanceEstimate": "> 1500µm",
+        "icdrScaleGrade": "Moderate NPDR",
+        "modelEngine": "RetinoAI-Net v2.4 (Calibrated Clinical Engine - Offline)"
+      },
+      "createdAt": "2026-09-08T16:46:00.408Z"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "PRIO-50DE90FB",
+      "screeningCaseId": "SC-2026-0001",
+      "priority": "high_priority",
+      "reason": "Severe NPDR with Clinically Significant Macular Edema (CSME). Urgent specialist referral required within 1-2 weeks.",
+      "calculatedAt": "2026-09-08T16:41:52.291Z"
+    },
+    {
+      "id": "PRIO-22735235",
+      "screeningCaseId": "SC-2026-0002",
+      "priority": "review_recommended",
+      "reason": "Moderate NPDR. Ophthalmologist evaluation recommended for comprehensive fundoscopy.",
+      "calculatedAt": "2026-09-08T15:50:29.836Z"
+    },
+    {
+      "id": "PRIO-4BD4C0F6",
+      "screeningCaseId": "SC-2026-0004",
+      "priority": "high_priority",
+      "reason": "PDR with active neovascularization detected. Immediate urgent retinal specialist evaluation required within 48-72 hours.",
+      "calculatedAt": "2026-09-08T16:03:34.566Z"
+    },
+    {
+      "id": "PRIO-1118330C",
+      "screeningCaseId": "SC-2026-0005",
+      "priority": "review_recommended",
+      "reason": "Moderate NPDR. Ophthalmologist evaluation recommended for comprehensive dilated fundoscopy.",
+      "calculatedAt": "2026-09-08T16:03:34.630Z"
+    },
+    {
+      "id": "PRIO-B64ACA38",
+      "screeningCaseId": "SC-2026-0006",
+      "priority": "high_priority",
+      "reason": "PDR with active neovascularization detected. Immediate urgent retinal specialist evaluation required within 48-72 hours.",
+      "calculatedAt": "2026-09-08T16:04:27.758Z"
+    },
+    {
+      "id": "PRIO-500C6422",
+      "screeningCaseId": "SC-2026-0007",
+      "priority": "review_recommended",
+      "reason": "Moderate NPDR. Ophthalmologist evaluation recommended for comprehensive dilated fundoscopy.",
+      "calculatedAt": "2026-09-08T16:04:27.847Z"
+    },
+    {
+      "id": "PRIO-4AFB5CB3",
+      "screeningCaseId": "SC-2026-0008",
+      "priority": "high_priority",
+      "reason": "PDR with active neovascularization detected. Immediate urgent retinal specialist evaluation required within 48-72 hours.",
+      "calculatedAt": "2026-09-08T16:05:21.872Z"
+    },
+    {
+      "id": "PRIO-E8B9DD35",
+      "screeningCaseId": "SC-2026-0009",
+      "priority": "review_recommended",
+      "reason": "Moderate NPDR. Ophthalmologist evaluation recommended for comprehensive dilated fundoscopy.",
+      "calculatedAt": "2026-09-08T16:05:21.934Z"
+    },
+    {
+      "id": "PRIO-F7E6C6DF",
+      "screeningCaseId": "SC-2026-0010",
+      "priority": "high_priority",
+      "reason": "Severe NPDR with Clinically Significant Macular Edema (CSME). Urgent specialist referral required within 1-2 weeks.",
+      "calculatedAt": "2026-09-08T16:08:28.640Z"
+    },
+    {
+      "id": "PRIO-0B5CFEE7",
+      "screeningCaseId": "SC-2026-0011",
+      "priority": "high_priority",
+      "reason": "PDR with active neovascularization detected. Immediate urgent retinal specialist evaluation required within 48-72 hours.",
+      "calculatedAt": "2026-09-08T16:29:37.261Z"
+    },
+    {
+      "id": "PRIO-DFAF4E6A",
+      "screeningCaseId": "SC-2026-0012",
+      "priority": "review_recommended",
+      "reason": "Moderate NPDR. Ophthalmologist evaluation recommended for comprehensive dilated fundoscopy.",
+      "calculatedAt": "2026-09-08T16:29:37.346Z"
+    },
+    {
+      "id": "PRIO-3165EBCE",
+      "screeningCaseId": "SC-2026-0013",
+      "priority": "high_priority",
+      "reason": "PDR with active neovascularization detected. Immediate urgent retinal specialist evaluation required within 48-72 hours.",
+      "calculatedAt": "2026-09-08T16:37:16.544Z"
+    },
+    {
+      "id": "PRIO-0C103424",
+      "screeningCaseId": "SC-2026-0014",
+      "priority": "review_recommended",
+      "reason": "Moderate NPDR. Ophthalmologist evaluation recommended for comprehensive dilated fundoscopy.",
+      "calculatedAt": "2026-09-08T16:37:16.612Z"
+    },
+    {
+      "id": "PRIO-6C04E5E0",
+      "screeningCaseId": "SC-2026-0015",
+      "priority": "high_priority",
+      "reason": "Severe NPDR with Clinically Significant Macular Edema (CSME). Urgent specialist referral required within 1-2 weeks.",
+      "calculatedAt": "2026-09-08T16:41:30.667Z"
+    },
+    {
+      "id": "PRIO-1F7F80B7",
+      "screeningCaseId": "SC-2026-0017",
+      "priority": "high_priority",
+      "reason": "PDR with active neovascularization detected. Immediate urgent retinal specialist evaluation required within 48-72 hours.",
+      "calculatedAt": "2026-09-08T16:46:00.332Z"
+    },
+    {
+      "id": "PRIO-E18721D7",
+      "screeningCaseId": "SC-2026-0018",
+      "priority": "review_recommended",
+      "reason": "Moderate NPDR. Ophthalmologist evaluation recommended for comprehensive dilated fundoscopy.",
+      "calculatedAt": "2026-09-08T16:46:00.408Z"
+    }
+  ],
+  "escalations": [
+    {
+      "id": "ESC-9D97FC",
+      "screeningCaseId": "SC-2026-0001",
+      "status": "reviewed",
+      "reason": "Frontline screening operator escalated case for specialist ophthalmologist review",
+      "createdAt": "2026-09-08T15:54:56.447Z",
+      "resolvedAt": "2026-09-08T15:55:34.489Z"
+    },
+    {
+      "id": "ESC-701BD8",
+      "screeningCaseId": "SC-2026-0002",
+      "status": "reviewed",
+      "reason": "High-risk case escalated from mobile unit",
+      "createdAt": "2026-09-08T15:50:29.850Z",
+      "resolvedAt": "2026-09-08T15:50:29.867Z"
+    },
+    {
+      "id": "ESC-F95B3F",
+      "screeningCaseId": "SC-2026-0004",
+      "status": "reviewed",
+      "reason": "Patient has elevated HbA1c (9.6%) and severe microvascular findings requiring prompt review.",
+      "createdAt": "2026-09-08T16:03:34.577Z",
+      "resolvedAt": "2026-09-08T16:03:34.587Z"
+    },
+    {
+      "id": "ESC-AB5426",
+      "screeningCaseId": "SC-2026-0005",
+      "status": "sent",
+      "reason": "Dataset-calibrated screening flagged No DR for specialist review",
+      "createdAt": "2026-09-08T16:03:34.630Z"
+    },
+    {
+      "id": "ESC-B27227",
+      "screeningCaseId": "SC-2026-0006",
+      "status": "reviewed",
+      "reason": "Patient has elevated HbA1c (9.6%) and severe microvascular findings requiring prompt review.",
+      "createdAt": "2026-09-08T16:04:27.768Z",
+      "resolvedAt": "2026-09-08T16:04:27.799Z"
+    },
+    {
+      "id": "ESC-1C6B4A",
+      "screeningCaseId": "SC-2026-0007",
+      "status": "sent",
+      "reason": "Dataset-calibrated screening flagged No DR for specialist review",
+      "createdAt": "2026-09-08T16:04:27.847Z"
+    },
+    {
+      "id": "ESC-68EB21",
+      "screeningCaseId": "SC-2026-0008",
+      "status": "reviewed",
+      "reason": "Patient has elevated HbA1c (9.6%) and severe microvascular findings requiring prompt review.",
+      "createdAt": "2026-09-08T16:05:21.882Z",
+      "resolvedAt": "2026-09-08T16:05:21.903Z"
+    },
+    {
+      "id": "ESC-19F0FE",
+      "screeningCaseId": "SC-2026-0009",
+      "status": "sent",
+      "reason": "Dataset-calibrated screening flagged No DR for specialist review",
+      "createdAt": "2026-09-08T16:05:21.934Z"
+    },
+    {
+      "id": "ESC-C9EB2E",
+      "screeningCaseId": "SC-2026-0010",
+      "status": "sent",
+      "reason": "Dataset-calibrated screening flagged Moderate NPDR for specialist review",
+      "createdAt": "2026-09-08T16:08:28.640Z"
+    },
+    {
+      "id": "ESC-615222",
+      "screeningCaseId": "SC-2026-0011",
+      "status": "reviewed",
+      "reason": "Patient has elevated HbA1c (9.6%) and severe microvascular findings requiring prompt review.",
+      "createdAt": "2026-09-08T16:29:37.284Z",
+      "resolvedAt": "2026-09-08T16:29:37.305Z"
+    },
+    {
+      "id": "ESC-F98356",
+      "screeningCaseId": "SC-2026-0012",
+      "status": "sent",
+      "reason": "Dataset-calibrated screening flagged No DR for specialist review",
+      "createdAt": "2026-09-08T16:29:37.346Z"
+    },
+    {
+      "id": "ESC-651DC6",
+      "screeningCaseId": "SC-2026-0013",
+      "status": "reviewed",
+      "reason": "Patient has elevated HbA1c (9.6%) and severe microvascular findings requiring prompt review.",
+      "createdAt": "2026-09-08T16:37:16.558Z",
+      "resolvedAt": "2026-09-08T16:37:16.568Z"
+    },
+    {
+      "id": "ESC-9FBB2A",
+      "screeningCaseId": "SC-2026-0014",
+      "status": "sent",
+      "reason": "Dataset-calibrated screening flagged No DR for specialist review",
+      "createdAt": "2026-09-08T16:37:16.612Z"
+    },
+    {
+      "id": "ESC-C69121",
+      "screeningCaseId": "SC-2026-0015",
+      "status": "sent",
+      "reason": "Dataset-calibrated screening flagged Moderate NPDR for specialist review",
+      "createdAt": "2026-09-08T16:41:30.666Z"
+    },
+    {
+      "id": "ESC-762463",
+      "screeningCaseId": "SC-2026-0017",
+      "status": "reviewed",
+      "reason": "Patient has elevated HbA1c (9.6%) and severe microvascular findings requiring prompt review.",
+      "createdAt": "2026-09-08T16:46:00.342Z",
+      "resolvedAt": "2026-09-08T16:46:00.378Z"
+    },
+    {
+      "id": "ESC-13D856",
+      "screeningCaseId": "SC-2026-0018",
+      "status": "sent",
+      "reason": "Dataset-calibrated screening flagged No DR for specialist review",
+      "createdAt": "2026-09-08T16:46:00.408Z"
+    }
+  ],
+  "doctorReviews": [
+    {
+      "id": "REV-8169D3",
+      "screeningCaseId": "SC-2026-0002",
+      "doctorId": "DR-SPECIALIST-01",
+      "decision": "refer",
+      "notes": "Urgent anti-VEGF consult recommended due to active macular edema",
+      "followUpDate": "2026-03-20",
+      "reviewedAt": "2026-09-08T15:50:29.867Z"
+    },
+    {
+      "id": "REV-4B1707",
+      "screeningCaseId": "SC-2026-0001",
+      "doctorId": "DR-SPECIALIST-01",
+      "decision": "monitor",
+      "notes": "dlfdkjf",
+      "followUpDate": "2026-03-19",
+      "reviewedAt": "2026-09-08T15:55:34.489Z"
+    },
+    {
+      "id": "REV-A631D5",
+      "screeningCaseId": "SC-2026-0004",
+      "doctorId": "DR-RADHA-RETINA-01",
+      "decision": "refer",
+      "notes": "Confirmed Severe NPDR with high risk for macular edema. Referred to tertiary eye hospital for anti-VEGF consult.",
+      "followUpDate": "2026-09-18",
+      "reviewedAt": "2026-09-08T16:03:34.587Z"
+    },
+    {
+      "id": "REV-E93C95",
+      "screeningCaseId": "SC-2026-0006",
+      "doctorId": "DR-RADHA-RETINA-01",
+      "decision": "refer",
+      "notes": "Confirmed Severe NPDR with high risk for macular edema. Referred to tertiary eye hospital for anti-VEGF consult.",
+      "followUpDate": "2026-09-18",
+      "reviewedAt": "2026-09-08T16:04:27.799Z"
+    },
+    {
+      "id": "REV-087C41",
+      "screeningCaseId": "SC-2026-0008",
+      "doctorId": "DR-RADHA-RETINA-01",
+      "decision": "refer",
+      "notes": "Confirmed Severe NPDR with high risk for macular edema. Referred to tertiary eye hospital for anti-VEGF consult.",
+      "followUpDate": "2026-09-18",
+      "reviewedAt": "2026-09-08T16:05:21.903Z"
+    },
+    {
+      "id": "REV-F0E74B",
+      "screeningCaseId": "SC-2026-0011",
+      "doctorId": "DR-RADHA-RETINA-01",
+      "decision": "refer",
+      "notes": "Confirmed Severe NPDR with high risk for macular edema. Referred to tertiary eye hospital for anti-VEGF consult.",
+      "followUpDate": "2026-09-18",
+      "reviewedAt": "2026-09-08T16:29:37.305Z"
+    },
+    {
+      "id": "REV-8AEC91",
+      "screeningCaseId": "SC-2026-0013",
+      "doctorId": "DR-RADHA-RETINA-01",
+      "decision": "refer",
+      "notes": "Confirmed Severe NPDR with high risk for macular edema. Referred to tertiary eye hospital for anti-VEGF consult.",
+      "followUpDate": "2026-09-18",
+      "reviewedAt": "2026-09-08T16:37:16.568Z"
+    },
+    {
+      "id": "REV-A90B0D",
+      "screeningCaseId": "SC-2026-0017",
+      "doctorId": "DR-RADHA-RETINA-01",
+      "decision": "refer",
+      "notes": "Confirmed Severe NPDR with high risk for macular edema. Referred to tertiary eye hospital for anti-VEGF consult.",
+      "followUpDate": "2026-09-18",
+      "reviewedAt": "2026-09-08T16:46:00.378Z"
+    }
+  ],
+  "followUps": [
+    {
+      "id": "FU-0001",
+      "screeningCaseId": "SC-2026-0001",
+      "patientId": "P-A78B12",
+      "dueDate": "2026-09-13",
+      "urgency": "This week",
+      "status": "pending",
+      "reason": "Specialist referral consultation for OCT evaluation and potential anti-VEGF therapy",
+      "notes": "Patient advised to bring current diabetes medications and fasting report.",
+      "createdAt": "2026-09-05T15:45:53.717Z"
+    },
+    {
+      "id": "FU-EFC01E",
+      "screeningCaseId": "SC-2026-0002",
+      "patientId": "P-A78B12",
+      "dueDate": "2026-03-20",
+      "urgency": "Due today",
+      "status": "pending",
+      "reason": "Specialist Referral Consultation",
+      "notes": "Urgent anti-VEGF consult recommended due to active macular edema",
+      "createdAt": "2026-09-08T15:50:29.867Z"
+    },
+    {
+      "id": "FU-4AB4E0",
+      "screeningCaseId": "SC-2026-0001",
+      "patientId": "P-A78B12",
+      "dueDate": "2026-03-19",
+      "urgency": "Upcoming",
+      "status": "pending",
+      "reason": "Routine Follow-up & Retinal Re-check",
+      "notes": "dlfdkjf",
+      "createdAt": "2026-09-08T15:55:34.489Z"
+    },
+    {
+      "id": "FU-539A7D",
+      "screeningCaseId": "SC-2026-0004",
+      "patientId": "P-83C78B",
+      "dueDate": "2026-09-18",
+      "urgency": "Due today",
+      "status": "pending",
+      "reason": "Specialist Referral Consultation",
+      "notes": "Confirmed Severe NPDR with high risk for macular edema. Referred to tertiary eye hospital for anti-VEGF consult.",
+      "createdAt": "2026-09-08T16:03:34.587Z"
+    },
+    {
+      "id": "FU-597F36",
+      "screeningCaseId": "SC-2026-0006",
+      "patientId": "P-F40418",
+      "dueDate": "2026-09-18",
+      "urgency": "Due today",
+      "status": "pending",
+      "reason": "Specialist Referral Consultation",
+      "notes": "Confirmed Severe NPDR with high risk for macular edema. Referred to tertiary eye hospital for anti-VEGF consult.",
+      "createdAt": "2026-09-08T16:04:27.799Z"
+    },
+    {
+      "id": "FU-ADA59D",
+      "screeningCaseId": "SC-2026-0008",
+      "patientId": "P-0E3CA6",
+      "dueDate": "2026-09-18",
+      "urgency": "Due today",
+      "status": "pending",
+      "reason": "Specialist Referral Consultation",
+      "notes": "Confirmed Severe NPDR with high risk for macular edema. Referred to tertiary eye hospital for anti-VEGF consult.",
+      "createdAt": "2026-09-08T16:05:21.903Z"
+    },
+    {
+      "id": "FU-51EE57",
+      "screeningCaseId": "SC-2026-0011",
+      "patientId": "P-DB9DD9",
+      "dueDate": "2026-09-18",
+      "urgency": "Due today",
+      "status": "pending",
+      "reason": "Specialist Referral Consultation",
+      "notes": "Confirmed Severe NPDR with high risk for macular edema. Referred to tertiary eye hospital for anti-VEGF consult.",
+      "createdAt": "2026-09-08T16:29:37.305Z"
+    },
+    {
+      "id": "FU-C35862",
+      "screeningCaseId": "SC-2026-0013",
+      "patientId": "P-79C56C",
+      "dueDate": "2026-09-18",
+      "urgency": "Due today",
+      "status": "pending",
+      "reason": "Specialist Referral Consultation",
+      "notes": "Confirmed Severe NPDR with high risk for macular edema. Referred to tertiary eye hospital for anti-VEGF consult.",
+      "createdAt": "2026-09-08T16:37:16.568Z"
+    },
+    {
+      "id": "FU-D9B0B3",
+      "screeningCaseId": "SC-2026-0017",
+      "patientId": "P-C7572D",
+      "dueDate": "2026-09-18",
+      "urgency": "Due today",
+      "status": "pending",
+      "reason": "Specialist Referral Consultation",
+      "notes": "Confirmed Severe NPDR with high risk for macular edema. Referred to tertiary eye hospital for anti-VEGF consult.",
+      "createdAt": "2026-09-08T16:46:00.378Z"
+    }
+  ]
+}

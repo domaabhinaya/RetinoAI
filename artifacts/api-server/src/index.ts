@@ -1,19 +1,15 @@
+try {
+  // Automatically loads .env in Node 20+
+  // @ts-ignore
+  process.loadEnvFile?.();
+} catch {}
+
 import app from "./app";
 import { logger } from "./lib/logger";
 
-const rawPort = process.env["PORT"];
-
-if (!rawPort) {
-  throw new Error(
-    "PORT environment variable is required but was not provided.",
-  );
-}
-
+const rawPort = process.env["PORT"] || "5000";
 const port = Number(rawPort);
 
-if (Number.isNaN(port) || port <= 0) {
-  throw new Error(`Invalid PORT value: "${rawPort}"`);
-}
 
 app.listen(port, (err) => {
   if (err) {
