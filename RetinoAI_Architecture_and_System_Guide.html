@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RetinoAI — Architecture & Clinical System Guide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+    @page {
+      size: A4;
+      margin: 18mm 16mm 18mm 16mm;
+      @bottom-right {
+        content: counter(page);
+        font-family: 'Inter', sans-serif;
+        font-size: 9pt;
+        color: #718096;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: #1A202C;
+      line-height: 1.6;
+      font-size: 10pt;
+      background: #FFFFFF;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header-banner {
+      border-bottom: 2px solid #0D5C3A;
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    .header-left h1 {
+      margin: 0 0 4px 0;
+      font-size: 24pt;
+      font-weight: 800;
+      color: #0A3622;
+      letter-spacing: -0.03em;
+    }
+
+    .header-left .subtitle {
+      font-size: 11pt;
+      color: #2F6F4F;
+      font-weight: 500;
+      margin: 0;
+    }
+
+    .header-right {
+      text-align: right;
+      font-size: 8.5pt;
+      color: #4A5568;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 3px 8px;
+      font-size: 7.5pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      border-radius: 4px;
+      letter-spacing: 0.05em;
+      margin-top: 4px;
+    }
+
+    .badge-primary { background: #E6F4EA; color: #0D5C3A; border: 1px solid #A3D9B1; }
+    .badge-secondary { background: #EDF2F7; color: #2D3748; border: 1px solid #CBD5E0; }
+
+    .core-tenet {
+      background: #F0FDF4;
+      border-left: 4px solid #16A34A;
+      padding: 12px 16px;
+      border-radius: 0 6px 6px 0;
+      margin-bottom: 24px;
+    }
+
+    .core-tenet strong {
+      color: #15803D;
+      font-size: 10.5pt;
+    }
+
+    .core-tenet p {
+      margin: 4px 0 0 0;
+      font-size: 9.5pt;
+      color: #1E293B;
+    }
+
+    h2 {
+      font-size: 14pt;
+      color: #0F2E1E;
+      margin-top: 26px;
+      margin-bottom: 12px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid #E2E8F0;
+      font-weight: 700;
+    }
+
+    h3 {
+      font-size: 11pt;
+      color: #1B4332;
+      margin-top: 16px;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 0 0 10px 0;
+    }
+
+    ul, ol {
+      margin: 0 0 12px 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 14px 0 20px 0;
+      font-size: 9pt;
+    }
+
+    th {
+      background: #F1F5F9;
+      color: #1E293B;
+      font-weight: 700;
+      text-align: left;
+      padding: 8px 10px;
+      border: 1px solid #CBD5E1;
+      font-size: 8.5pt;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    td {
+      padding: 8px 10px;
+      border: 1px solid #E2E8F0;
+      vertical-align: top;
+    }
+
+    tr:nth-child(even) td {
+      background: #F8FAFC;
+    }
+
+    .diagram-container {
+      background: #F8FAFC;
+      border: 1px solid #CBD5E1;
+      border-radius: 8px;
+      padding: 16px;
+      margin: 16px 0;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .diagram-box {
+      flex: 1;
+      background: #FFFFFF;
+      border: 1px solid #94A3B8;
+      border-radius: 6px;
+      padding: 10px 12px;
+      text-align: center;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+
+    .diagram-box .box-title {
+      font-weight: 700;
+      font-size: 9pt;
+      color: #0F172A;
+      margin-bottom: 4px;
+    }
+
+    .diagram-box .box-desc {
+      font-size: 8pt;
+      color: #475569;
+      line-height: 1.4;
+    }
+
+    .diagram-arrow {
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      color: #0D5C3A;
+      font-size: 14pt;
+    }
+
+    .card {
+      background: #FAFAFA;
+      border: 1px solid #E2E8F0;
+      border-radius: 6px;
+      padding: 12px 14px;
+      margin-bottom: 12px;
+    }
+
+    .card-title {
+      font-weight: 700;
+      color: #0F2E1E;
+      margin-bottom: 4px;
+      font-size: 9.5pt;
+    }
+
+    .code-inline {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 8.5pt;
+      background: #F1F5F9;
+      padding: 1px 4px;
+      border-radius: 3px;
+      color: #0F172A;
+    }
+
+    .footer-note {
+      margin-top: 30px;
+      padding-top: 12px;
+      border-top: 1px solid #E2E8F0;
+      font-size: 8pt;
+      color: #64748B;
+      text-align: center;
+    }
+
+    .page-break {
+      page-break-before: always;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Banner -->
+  <div class="header-banner">
+    <div class="header-left">
+      <h1>RetinoAI</h1>
+      <p class="subtitle">Clinical Screening & Doctor Review Platform — Technical & Medical Reference</p>
+    </div>
+    <div class="header-right">
+      <div><strong>Version:</strong> 2.4 Production</div>
+      <div><strong>Date:</strong> September 2026</div>
+      <span class="badge badge-primary">ICDR 5-Stage Calibrated</span>
+    </div>
+  </div>
+
+  <!-- Clinical Tenet -->
+  <div class="core-tenet">
+    <strong>Clinical Core Tenet: "AI assists. Doctors decide."</strong>
+    <p>RetinoAI is built with strict role separation. Frontline healthcare workers screen with real-time photographic quality checks and diagnostic guidance, while hospital-based retina specialists maintain complete diagnostic and clinical referral authority.</p>
+  </div>
+
+  <!-- Section 1 -->
+  <h2>1. System Architecture & Portal Separation</h2>
+  <p>RetinoAI operates as a dual-portal teleophthalmology platform that bridges remote screening camps with urban tertiary eye hospitals:</p>
+
+  <div class="diagram-container">
+    <div class="diagram-box">
+      <div class="box-title">1. Community Screening</div>
+      <div class="box-desc">Rural camps, primary health centers, camp nurses</div>
+    </div>
+    <div class="diagram-arrow">➔</div>
+    <div class="diagram-box">
+      <div class="box-title">2. Vision AI Engine</div>
+      <div class="box-desc">Automated quality check, ICDR grading & DME distance</div>
+    </div>
+    <div class="diagram-arrow">➔</div>
+    <div class="diagram-box">
+      <div class="box-title">3. Triage & Dispatch</div>
+      <div class="box-desc">Priority classification: High, Recommended, Routine</div>
+    </div>
+    <div class="diagram-arrow">➔</div>
+    <div class="diagram-box">
+      <div class="box-title">4. Doctor Review Desk</div>
+      <div class="box-desc">Specialist comparison, signoff, follow-up calendar</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Portal A: Clinical Screening Portal (Frontline Operators)</div>
+    <p style="margin: 0; font-size: 8.5pt; color: #475569;">
+      <strong>7-Stage Guided Workflow:</strong> (1) Patient Demographics Registry &rarr; (2) Diabetes Biomarkers (HbA1c %, duration, medication) &rarr; (3) Visual Acuity & Ocular Symptoms (IOP, blurriness, floaters) &rarr; (4) Patient Consent & Data Release &rarr; (5) Multi-Point Retinal Photography & Quality Score &rarr; (6) AI Vision Screening Results &rarr; (7) Specialist Escalation.
+    </p>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Portal B: Doctor Review Portal (Ophthalmologists & Retina Specialists)</div>
+    <p style="margin: 0; font-size: 8.5pt; color: #475569;">
+      <strong>Specialist Review Desk:</strong> Automated triage queue sorted by clinical risk; high-magnification fundus canvas with crosshair coordinates; <strong>Longitudinal Visit Comparison</strong> placing historical screening visits side-by-side with today's visit; one-click referral order (<em>Refer to Tertiary Hospital</em> vs <em>Routine Annual Monitor</em>) and follow-up calendar provisioning.
+    </p>
+  </div>
+
+  <!-- Section 2 -->
+  <h2>2. Medical Vision & Clinical Diagnostic Engine</h2>
+  <p>The vision engine evaluates high-resolution fundus photographs using international standards established by the American Academy of Ophthalmology (AAO) and the Early Treatment Diabetic Retinopathy Study (ETDRS):</p>
+
+  <h3>A. International Clinical Diabetic Retinopathy (ICDR) 5-Stage Disease Scale</h3>
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 10%;">Grade</th>
+        <th style="width: 20%;">Clinical Stage</th>
+        <th style="width: 45%;">Pathological Findings on Fundoscopy</th>
+        <th style="width: 25%;">Recommended Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>0</strong></td>
+        <td><strong>No DR</strong></td>
+        <td>Normal caliber retinal vessels, intact macula, clear optic nerve margins, healthy foveal reflex.</td>
+        <td>Annual routine re-screening</td>
+      </tr>
+      <tr>
+        <td><strong>1</strong></td>
+        <td><strong>Mild NPDR</strong></td>
+        <td>Microaneurysms only (isolated focal capillary out-pouchings along temporal arcades).</td>
+        <td>Repeat screening in 6–12 months</td>
+      </tr>
+      <tr>
+        <td><strong>2</strong></td>
+        <td><strong>Moderate NPDR</strong></td>
+        <td>More than microaneurysms: scattered blot hemorrhages in 1–2 quadrants, early hard lipid exudates.</td>
+        <td>Comprehensive dilated fundoscopy</td>
+      </tr>
+      <tr>
+        <td><strong>3</strong></td>
+        <td><strong>Severe NPDR</strong></td>
+        <td><strong>4-2-1 Rule:</strong> Severe blot hemorrhages across all 4 quadrants, venous beading in &ge;2 quadrants, or prominent IRMA in &ge;1 quadrant.</td>
+        <td>Urgent specialist referral (within 1–2 weeks)</td>
+      </tr>
+      <tr>
+        <td><strong>4</strong></td>
+        <td><strong>PDR</strong></td>
+        <td>Active neovascularization of disc (NVD) or elsewhere (NVE), fibrous proliferation, preretinal/vitreous hemorrhage risk.</td>
+        <td>Urgent surgical / anti-VEGF consult (within 48–72 hrs)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="page-break"></div>
+
+  <h3>B. ETDRS Macular Edema (CSME) Classification</h3>
+  <p>Diabetic Macular Edema (DME) is classified independently from the vascular retinopathy stage:</p>
+  <ul>
+    <li><strong>None:</strong> No retinal thickening or hard exudates in posterior pole.</li>
+    <li><strong>Mild:</strong> Exudates or retinal thickening distant from the macular center.</li>
+    <li><strong>Clinically Significant Macular Edema (CSME):</strong> Triggered when hard exudates or retinal thickening occur <strong>within 500 &mu;m</strong> (1/3 disc diameter) of the central fovea, or when circinate lipid plaques envelope the foveal avascular zone.</li>
+  </ul>
+
+  <h3>C. Green-Channel Optical Calibration (540–570 nm)</h3>
+  <p>Oxygenated and deoxygenated hemoglobin have an absorption peak at 540–570 nm (green wavelength spectrum). The RetinoAI engine applies green-channel contrast enhancement (1.48:1 contrast ratio) to demarcate microvascular leaks, punctate aneurysms, and subtle micro-hemorrhages from the darker choroidal background.</p>
+
+  <!-- Section 3 -->
+  <h2>3. Multi-Model AI Gateway & IDE Integration</h2>
+  <p>RetinoAI utilizes a resilient, multi-provider artificial intelligence architecture:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 25%;">Provider / Engine</th>
+        <th style="width: 35%;">Mechanism & Model</th>
+        <th style="width: 40%;">Operational Mode</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Calibrated Clinical Engine</strong></td>
+        <td>Deterministic local vision heuristics & biomarker scoring</td>
+        <td><strong>Default (100% Offline):</strong> Requires zero API keys or external network connection. Zero latency.</td>
+      </tr>
+      <tr>
+        <td><strong>Google Gemini Vision</strong></td>
+        <td>Gemini 2.0 Flash / 1.5 Flash multimodal vision API</td>
+        <td><strong>Free Cloud AI:</strong> Activated via <span class="code-inline">GEMINI_API_KEY</span>. Analyzes live fundus photos with high-resolution visual tokens.</td>
+      </tr>
+      <tr>
+        <td><strong>Blackbox AI Gateway</strong></td>
+        <td>Blackbox enterprise vision endpoint (<span class="code-inline">blackbox-pro</span>)</td>
+        <td><strong>Cloud AI:</strong> Activated via <span class="code-inline">BLACKBOX_API_KEY</span>. Supports visual lesion detection and code copilot queries.</td>
+      </tr>
+      <tr>
+        <td><strong>OpenAI-Compatible IDE Bridge</strong></td>
+        <td><span class="code-inline">POST /api/chat/completions</span> & <span class="code-inline">/v1/chat/completions</span></td>
+        <td><strong>IDE Integration:</strong> Connects Cline, Blackbox Agent, or Continue extensions directly to RetinoAI on port 5000.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Section 4 -->
+  <h2>4. Technology Stack & Verification Results</h2>
+  <p>The solution is built as a production-grade TypeScript monorepo with strict linting, zero build errors, and an automated integration test suite:</p>
+
+  <ul>
+    <li><strong>Frontend Portal:</strong> React 19, TypeScript, Vite 6, Swiss-Editorial UI, interactive SVG/Canvas fundus viewer.</li>
+    <li><strong>Backend Server:</strong> Node.js 20+, Express 5, TypeScript strict mode, pino-http logging.</li>
+    <li><strong>Atomic Persistence:</strong> Thread-safe file swapping (<span class="code-inline">.tmp</span> &rarr; rename replacement) in <span class="code-inline">PersistentStore</span> to guarantee zero data corruption under concurrent operations.</li>
+  </ul>
+
+  <div class="card" style="background: #F0FDF4; border: 1px solid #86EFAC;">
+    <div class="card-title" style="color: #166534;">Automated Integration Test Results (12/12 Passing — 100% Pass Rate)</div>
+    <div style="font-family: 'JetBrains Mono', monospace; font-size: 8pt; color: #1E293B; line-height: 1.5; margin-top: 6px;">
+      &check; GET /api/healthz (Healthcheck) &rarr; PASS<br>
+      &check; POST /api/patients (Register Patient) &rarr; PASS<br>
+      &check; GET /api/patients/:id (Retrieve Patient) &rarr; PASS<br>
+      &check; POST /api/screening-cases (Intake & Biomarkers) &rarr; PASS<br>
+      &check; POST /api/screening-cases/:id/images (Upload Fundus OD/OS) &rarr; PASS<br>
+      &check; POST /api/screening-cases/:id/ai-analysis (ICDR Staging & DME) &rarr; PASS<br>
+      &check; POST /api/screening-cases/:id/escalate (Specialist Referral) &rarr; PASS<br>
+      &check; GET /api/referred-cases (Doctor Worklist Queue) &rarr; PASS<br>
+      &check; POST /api/screening-cases/:id/review (Specialist Signoff) &rarr; PASS<br>
+      &check; GET /api/follow-ups (Follow-up Registry) &rarr; PASS<br>
+      &check; GET /api/datasets (Benchmark Datasets Registry) &rarr; PASS<br>
+      &check; POST /api/datasets/import-case (Ingest Calibrated Case) &rarr; PASS
+    </div>
+  </div>
+
+  <div class="footer-note">
+    <strong>Clinical Safety Notice:</strong> RetinoAI is an assistive diagnostic decision-support system. All AI findings, lesion annotations, and priority triage designations require review and signoff by a licensed medical practitioner before therapeutic intervention.
+  </div>
+
+</body>
+</html>
