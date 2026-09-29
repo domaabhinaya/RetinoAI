@@ -98,15 +98,23 @@ export interface ImageQuality {
   screeningCaseId: string;
   eyeSide: "OD" | "OS";
   status: "pending" | "good" | "needs_recapture" | "failed";
-  score: number;
+  /**
+   * Real quality score from the AI engine, or null when the engine reports
+   * NOT_CONFIGURED (no quality model exists). Never invented.
+   */
+  score: number | null;
   blur: "sharp" | "mild_blur" | "severe_blur";
   brightness: "optimal" | "underexposed" | "overexposed";
-  retinaVisibility: number; // percentage 0-100
-  fieldOfView: string; // e.g. "45° standard"
+  retinaVisibility: number; // percentage 0-100 (0 when not assessed)
+  fieldOfView: string; // e.g. "45° standard" or "not assessed"
   centering: "centered" | "off_center";
   artifacts: string[];
   mediaOpacity: boolean;
   processedAt: string;
+  /** Verbatim engine status, e.g. "GOOD" | "NOT_CONFIGURED". */
+  qualityStatus?: string;
+  /** Why the engine could not assess quality. */
+  qualityReason?: string;
 }
 
 export interface LesionRegion {
@@ -139,6 +147,9 @@ export interface AIFinding {
   description: string;
   regionData: LesionRegion[];
   createdAt: string;
+  /** Original RFMiD multi-label name, preserved verbatim (e.g. "TSLN"). */
+  rfmIdLabel?: string;
+  source?: string;
 }
 
 export interface Explainability {
@@ -157,10 +168,22 @@ export interface AIScreeningResult {
   status: "pending" | "processing" | "completed" | "failed" | "low_confidence";
   modelVersion: string;
   drGrade: "No DR" | "Mild NPDR" | "Moderate NPDR" | "Severe NPDR" | "PDR";
-  dmeIndicator: "None" | "Mild" | "Clinically Significant Macular Edema (CSME)";
-  confidence: number; // 0 - 100
+  /**
+   * DME indicator, or null when the AI engine does not provide one.
+   * The verified engine has no DME head, so this is never asserted.
+   */
+  dmeIndicator: "None" | "Mild" | "Clinically Significant Macular Edema (CSME)" | null;
+  confidence: number | null; // 0-1, straight from the engine
   summary: string;
   processedAt: string;
+  /** Verbatim engine DR label, e.g. "Severe DR". */
+  drLabel?: string | null;
+  /** All 5 DR probabilities [No DR, Mild, Moderate, Severe, Proliferative]. */
+  drProbabilities?: number[] | null;
+  /** Normalized entropy uncertainty, or null when unavailable. */
+  uncertainty?: number | null;
+  needsHumanReview?: boolean;
+  eyeSide?: string;
 }
 
 export interface Priority {

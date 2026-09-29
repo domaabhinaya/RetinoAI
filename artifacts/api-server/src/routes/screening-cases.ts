@@ -9,8 +9,9 @@ import {
   type Escalation,
   type Priority,
 } from "../lib/store";
-import { aiService } from "../lib/ai-service";
+import { aiService, FlaskAiError } from "../lib/ai-service";
 import { saveBase64File } from "../lib/storage";
+import { logger } from "../lib/logger";
 
 const router = Router();
 
@@ -301,7 +302,20 @@ router.post("/:id/ai-analysis", async (req: Request, res: Response): Promise<voi
     res.json(analysis);
     return;
   } catch (err) {
-    console.error("AI analysis error:", err);
+    if (err instanceof FlaskAiError) {
+      // Never fall back to fabricated AI output: surface the real failure.
+      logger.error(
+        { code: err.code, status: err.status, caseId },
+        "AI engine rejected or could not serve the analysis",
+      );
+      res.status(err.status).json({
+        error: err.message,
+        error_code: err.code,
+        aiEngineAvailable: err.status !== 503,
+      });
+      return;
+    }
+    logger.error({ err, caseId }, "AI analysis pipeline failed");
     res.status(500).json({ error: "AI analysis pipeline failed" });
     return;
   }

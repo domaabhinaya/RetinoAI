@@ -20,7 +20,7 @@ REPO_ROOT = AI_ROOT
 # Dataset locations (override with environment variables when needed).
 # PRIMARY_DR may live extracted as a folder or still be a zip; the dataset
 # module auto-detects the internal layout.
-PRIMARY_DR_DIR = Path(os.environ.get("RETINOAI_PRIMARY_DR_DIR", Path.home() / "OneDrive" / "Desktop" / "primarydataset"))
+PRIMARY_DR_DIR = Path(os.environ.get("RETINOAI_PRIMARY_DR_DIR", r"C:\RetinoAI-Datasets\primarydataset"))
 RFMID_DIR = Path(os.environ.get("RETINOAI_RFMID_DIR", Path.home() / "OneDrive" / "Desktop" / "secondarydataset"))
 
 CHECKPOINT_DIR = AI_ROOT / "checkpoints"

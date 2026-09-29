@@ -2,7 +2,8 @@ import { Router, type Request, type Response } from "express";
 import crypto from "node:crypto";
 import { datasetLoader } from "../lib/dataset-loader";
 import { store, type Patient, type ScreeningCase, type RetinalImage } from "../lib/store";
-import { aiService } from "../lib/ai-service";
+import { aiService, FlaskAiError } from "../lib/ai-service";
+import { logger } from "../lib/logger";
 
 const router = Router();
 
@@ -107,9 +108,21 @@ router.post("/import-case", async (req: Request, res: Response): Promise<void> =
 
   store.db.retinalImages.push(img);
 
-  // Run AI screening
+  // Run AI screening through the verified Flask engine.
+  // The dataset route attaches no image bytes (it seeds a case from a dataset
+  // record), so a failure here is expected and is reported honestly instead of
+  // being replaced with fabricated AI output.
   const diabetes = store.db.diabetesHistories.find((d) => d.screeningCaseId === caseId);
-  const analysis = await aiService.analyzeScreeningCase(sc, [img], diabetes);
+  let analysis: Awaited<ReturnType<typeof aiService.analyzeScreeningCase>> | null = null;
+  let aiEngineError: { code: string; message: string } | null = null;
+  try {
+    analysis = await aiService.analyzeScreeningCase(sc, [img], diabetes);
+  } catch (err) {
+    const code = err instanceof FlaskAiError ? err.code : "AI_ANALYSIS_FAILED";
+    const message = err instanceof Error ? err.message : String(err);
+    aiEngineError = { code, message };
+    logger.warn({ code, message, caseId }, "Dataset seeding: AI analysis skipped");
+  }
 
   // Overwrite DR grade with dataset calibrated ground-truth if specific
   if (targetRecord.drGrade) {
@@ -136,6 +149,7 @@ router.post("/import-case", async (req: Request, res: Response): Promise<void> =
     patient,
     case: sc,
     analysis,
+    aiEngineError,
   });
   return;
 });

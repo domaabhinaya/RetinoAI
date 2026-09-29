@@ -56,3 +56,19 @@ Thumbs.db
 __pycache__/
 *.pyc
 
+# Python virtual environments
+.venv/
+venv/
+
+# AI datasets — extracted locally, never committed (tens of thousands of images)
+ai/**/primarydataset/
+ai/**/secondarydataset/
+datasets/
+
+# AI training outputs written by ai/config.py (AI_ROOT = repo root)
+/checkpoints/
+/reports/
+/history/
+/config/
+*.pt
+

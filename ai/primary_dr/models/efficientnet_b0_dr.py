@@ -34,10 +34,17 @@ def build_model(num_classes: int = config.NUM_DR_CLASSES, pretrained: bool = Tru
 
 
 def load_checkpoint(checkpoint_path: Path, device: str = "cpu") -> tuple[nn.Module, dict]:
-    """Load best checkpoint; returns (model, metadata)."""
+    """Load best checkpoint; returns (model, metadata).
+
+    The model is moved to ``device`` so it matches the device the caller sends
+    input tensors to (otherwise CUDA inference raises
+    "Input type (torch.cuda.FloatTensor) and weight type (torch.FloatTensor)
+    should be the same").
+    """
     model, _ = build_model(pretrained=False)
     payload = torch.load(checkpoint_path, map_location=device)
     state = payload.get("model_state", payload)
     model.load_state_dict(state)
+    model.to(device)
     model.eval()
     return model, payload.get("meta", {})

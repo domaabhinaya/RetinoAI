@@ -34,12 +34,18 @@ def build_model(num_labels: int, pretrained: bool = True, dropout: float = 0.3) 
 
 
 def load_checkpoint(checkpoint_path: Path, device: str = "cpu") -> tuple[nn.Module, dict]:
+    """Load a saved multi-label checkpoint onto ``device``.
+
+    The model is moved to ``device`` so it matches the device of the input
+    tensors used by the callers (training report step and inference).
+    """
     payload = torch.load(checkpoint_path, map_location=device)
     meta = payload.get("meta", {})
     num_labels = int(meta.get("num_labels", 46))
     model, _ = build_model(num_labels=num_labels, pretrained=False)
     state = payload.get("model_state", payload)
     model.load_state_dict(state)
+    model.to(device)
     model.eval()
     return model, meta
 

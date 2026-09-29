@@ -52,7 +52,13 @@ def _overlay(pil_image, cam_resized: np.ndarray) -> str:
     import matplotlib.cm as cm
 
     base = pil_image.convert("RGB").resize((cam_resized.shape[1], cam_resized.shape[0]))
-    heat = cm.get_cmap("jet")(cam_resized)[..., :3]  # HxWx3 in 0..1
+    # matplotlib >= 3.9 removed cm.get_cmap; use the registered colormap API,
+    # falling back to the legacy call for older versions.
+    try:
+        jet = matplotlib.colormaps["jet"]
+    except (AttributeError, KeyError):  # older matplotlib
+        jet = cm.get_cmap("jet")
+    heat = jet(cam_resized)[..., :3]  # HxWx3 in 0..1
     blended = (np.asarray(base, dtype=np.float32) / 255.0) * 0.6 + heat * 0.4
     blended = np.clip(blended * 255, 0, 255).astype(np.uint8)
     out = Image.fromarray(blended)
